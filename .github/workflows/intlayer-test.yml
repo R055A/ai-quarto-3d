@@ -1,0 +1,25 @@
+name: Intlayer Test
+# Fail the pull request when required locales are missing translations.
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: intlayer-test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+      - name: 🥟 Setup Bun
+        uses: oven-sh/setup-bun@v2
+      - name: 📦 Install dependencies
+        run: bun install --frozen-lockfile
+      - name: ⚙️ Build dictionaries
+        run: bunx intlayer build
+      - name: 🧪 Test for missing translations
+        run: bunx intlayer test

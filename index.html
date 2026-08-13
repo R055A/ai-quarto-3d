@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
+          id="meta-description"
           name="description"
           content="Interactive 3D Quarto board game UI using Three.js and the Negamax version of the Minimax artificial
           intelligence algorithm with alpha-beta pruning. Play user vs user, user vs AI, and AI vs AI, with easy,
@@ -49,77 +50,102 @@
       "url": "https://r055a.github.io/ai-quarto-3d/"
     }
   </script>
-  <title data-i18n="app.title">AI-Quarto 3D</title>
+  <title>AI-Quarto 3D</title>
 </head>
 <body>
 <div id="app">
   <header class="topbar">
     <div>
-      <p class="eyebrow" data-i18n="app.eyebrow">A ported enhancement of Uni-Git-Projects/UU-Game (game engine)</p>
-      <h1 data-i18n="app.title">AI-Quarto 3D</h1>
+      <p id="eyebrow" class="eyebrow">A ported enhancement of Uni-Git-Projects/UU-Game (game engine)</p>
+      <h1 id="app-title">AI-Quarto 3D</h1>
     </div>
 
     <div class="controls">
       <label id="diff-wrap">
-        <span data-i18n="controls.diffAI">AI difficulty</span>
+        <span id="diff-label">AI difficulty</span>
         <select id="diff">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" selected data-i18n="diff.medium">Medium</option>
-          <option value="hard" data-i18n="diff.hard">Hard</option>
+          <option value="easy" id="diff-easy">Easy</option>
+          <option value="medium" id="diff-medium" selected>Medium</option>
+          <option value="hard" id="diff-hard">Hard</option>
         </select>
       </label>
       <label id="diff-p-one-wrap" hidden>
-        <span data-i18n="controls.diffPlayerOneAI">AI-P1 difficulty</span>
+        <span id="diff-p-one-label">AI-P1 difficulty</span>
         <select id="diff-p-one">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" data-i18n="diff.medium">Medium</option>
-          <option value="hard" selected data-i18n="diff.hard">Hard</option>
+          <option value="easy" id="diff-p-one-easy">Easy</option>
+          <option value="medium" id="diff-p-one-medium">Medium</option>
+          <option value="hard" id="diff-p-one-hard" selected>Hard</option>
         </select>
       </label>
       <label id="diff-p-two-wrap" hidden>
-        <span data-i18n="controls.diffPlayerTwoAI">AI-P2 difficulty</span>
+        <span id="diff-p-two-label">AI-P2 difficulty</span>
         <select id="diff-p-two">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" data-i18n="diff.medium">Medium</option>
-          <option value="hard" selected data-i18n="diff.hard">Hard</option>
+          <option value="easy" id="diff-p-two-easy">Easy</option>
+          <option value="medium" id="diff-p-two-medium">Medium</option>
+          <option value="hard" id="diff-p-two-hard" selected>Hard</option>
         </select>
       </label>
       <label>
-        <span data-i18n="controls.startingPlayer">Starting player</span>
+        <span id="starter-label">Starting player</span>
         <select id="starter">
-          <option value="random" selected data-i18n="player.playerRandom">Random</option>
-          <option value="p-one" data-i18n="player.playerOne">Player 1</option>
-          <option value="p-two" data-i18n="player.playerTwo">Player 2</option>
+          <option value="random" id="starter-random" selected>Random</option>
+          <option value="player1" id="starter-player-one">Player 1</option>
+          <option value="player2" id="starter-player-two">Player 2</option>
         </select>
       </label>
       <label>
-        <span data-i18n="controls.gameMode">Mode</span>
+        <span id="game-mode-label">Game mode</span>
         <select id="game-mode">
-          <option value="human-human" data-i18n="mode.userVsUser">User vs user</option>
-          <option value="human-ai" selected data-i18n="mode.userVsAI">User vs AI</option>
-          <option value="ai-ai" data-i18n="mode.onlyAI">AI vs AI</option>
+          <option value="human-human" id="game-mode-user-vs-user">User vs user</option>
+          <option value="human-ai" id="game-mode-user-vs-ai" selected>User vs AI</option>
+          <option value="ai-ai" id="game-mode-only-ai">AI vs AI</option>
         </select>
       </label>
-      <button id="new-game" class="primary" type="button" data-i18n="app.newGame">New game</button>
+      <button id="new-game" class="primary" type="button">New game</button>
       <div class="util-controls">
-        <label class="control-lang">
-          <svg
-                  class="control-lang-icon"
-                  viewBox="0 0 24 24"
-                  width="18"
-                  height="18"
-                  aria-hidden="true"
+        <div class="control-lang">
+          <button
+                  id="language-toggle"
+                  class="lang-toggle"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  aria-label="Language"
+                  title="Language"
           >
-            <circle cx="12" cy="12" r="9"></circle>
-            <path d="M3 12h18"></path>
-            <path d="M12 3c2.5 2.5 3.8 5.5 3.8 9S14.5 18.5 12 21"></path>
-            <path d="M12 3c-2.5 2.5-3.8 5.5-3.8 9s1.3 6.5 3.8 9"></path>
-          </svg>
-          <select id="language" aria-label="Language">
-            <option value="en" title="English">EN</option>
-          </select>
-        </label>
+            <svg
+                    class="control-lang-icon"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M3 12h18"></path>
+              <path d="M12 3c2.5 2.5 3.8 5.5 3.8 9S14.5 18.5 12 21"></path>
+              <path d="M12 3c-2.5 2.5-3.8 5.5-3.8 9s1.3 6.5 3.8 9"></path>
+            </svg>
+            <span id="language-current">EN</span>
+          </button>
+
+          <div id="language-panel" class="lang-panel" hidden>
+            <div class="lang-search">
+              <input
+                      id="language-search"
+                      class="lang-search-input"
+                      type="search"
+                      aria-label="Search a locale"
+                      placeholder="Search a locale"
+                      autocomplete="off"
+                      spellcheck="false"
+              />
+            </div>
+            <ul id="language-list" class="lang-list" aria-label="Language list"></ul>
+            <p id="language-empty" class="lang-empty" hidden>No language found</p>
+          </div>
+        </div>
         <a
+                id="source-link"
                 class="github-link"
                 href="https://github.com/r055a/ai-quarto-3d"
                 target="_blank"
@@ -168,7 +194,7 @@
       <canvas id="game-canvas"></canvas>
       <div id="thinking" class="thinking" hidden>
         <span></span><span></span><span></span>
-        <strong id="thinking-label" data-i18n="status.thinkingAI">AI is playing</strong>
+        <strong id="thinking-label">AI is playing</strong>
         <button
                 id="ai-pause-toggle"
                 class="thinking-toggle"
@@ -189,26 +215,26 @@
     <aside class="side-panel" aria-live="polite">
       <div>
         <p id="turn-badge" class="turn-badge"></p>
-        <h2 id="status" data-i18n="status.statusInitial">Gameplay status</h2>
+        <h2 id="status">Gameplay status</h2>
         <p id="detail" class="detail"></p>
       </div>
 
       <div class="received-card">
-        <span data-i18n="piece.inPlay">Piece in play</span>
-        <strong id="piece-name" data-i18n="piece.none">None selected</strong>
+        <span id="piece-in-play">Piece in play</span>
+        <strong id="piece-name">None selected</strong>
         <code id="piece-str">----</code>
       </div>
 
       <div class="legend">
-        <h3 data-i18n="piece.traits">Piece traits</h3>
-        <div><code>1</code><span data-i18n="piece.black">Black</span><span data-i18n="piece.big">Big</span><span data-i18n="piece.round">Round</span><span data-i18n="piece.solid">Solid</span></div>
-        <div><code>0</code><span data-i18n="piece.red">Red</span><span data-i18n="piece.small">Small</span><span data-i18n="piece.square">Square</span><span data-i18n="piece.hollow">Hollow</span></div>
+        <h3 id="piece-traits">Piece traits</h3>
+        <div><code>1</code><span id="trait-black">black</span><span id="trait-big">big</span><span id="trait-round">round</span><span id="trait-solid">solid</span></div>
+        <div><code>0</code><span id="trait-red">red</span><span id="trait-small">small</span><span id="trait-square">square</span><span id="trait-hollow">hollow</span></div>
       </div>
 
       <div class="bin-board-card">
         <div class="bin-board-heading">
-          <h3 data-i18n="board.binary">Binary board</h3>
-          <span data-i18n="board.piecesPlaced">Placed pieces</span>
+          <h3 id="bin-board-title">Binary board</h3>
+          <span id="bin-board-subtitle">Placed pieces</span>
         </div>
         <div class="bin-board-wrap">
           <div id="bin-board" class="bin-board">

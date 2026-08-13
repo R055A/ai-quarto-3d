@@ -126,15 +126,6 @@ h1 {
     align-self: end;
     width: 88px;
     min-width: 88px;
-
-    select {
-      width: 100%;
-      padding-left: 37px;
-      padding-right: 28px;
-      color: var(--text);
-      font-weight: 800;
-      letter-spacing: 0.05em;
-    }
   }
 
   .util-controls {
@@ -142,6 +133,120 @@ h1 {
     align-items: end;
     flex: 0 0 auto;
     gap: 10px;
+  }
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 12px 0 37px;
+  color: var(--text);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.lang-panel {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 8px);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 248px;
+  max-height: 60vh;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--panel);
+  box-shadow: var(--shadow-panel);
+  backdrop-filter: blur(12px);
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.lang-search {
+  padding: 10px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.lang-search-input {
+  width: 100%;
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--text);
+  background: rgba(8, 20, 20, 0.75);
+  font: inherit;
+  font-size: 0.85rem;
+
+  &:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.lang-list {
+  overflow-y: auto;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  text-align: start;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: rgba(212, 175, 88, 0.12);
+  }
+
+  &[aria-current] {
+    background: rgba(212, 175, 88, 0.08);
+    color: var(--gold);
+  }
+}
+
+.lang-names {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.lang-translated {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.lang-code {
+  color: var(--muted);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.lang-empty {
+  margin: 0;
+  padding: 14px 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: center;
+
+  &[hidden] {
+    display: none;
   }
 }
 
@@ -707,10 +812,6 @@ footer {
       flex: 0 0 88px;
       width: 88px;
       min-width: 88px;
-
-      select {
-        width: 88px;
-      }
     }
   }
 

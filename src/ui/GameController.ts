@@ -1,5 +1,12 @@
+import { useIntlayer, useLocale } from "vanilla-intlayer";
 import { getRandVal, selectStartCell, selectStartPiece } from "../ai/search";
-import { GAME_PIECES, pieceStr, TRAIT_MASK } from "../game/pieces";
+import {
+  GAME_PIECES,
+  getPieceTraits,
+  type PieceTraits,
+  pieceStr,
+  TRAIT_MASK,
+} from "../game/pieces";
 import {
   CELL_COUNT,
   getTraitMask,
@@ -8,7 +15,12 @@ import {
   isBoardEmpty,
   isBoardFull,
 } from "../game/rules";
-import { getRedoTarget, getUndoTarget, type HistEvent, type HistEventType } from "../game/state";
+import {
+  getRedoTarget,
+  getUndoTarget,
+  type HistEvent,
+  type HistEventType,
+} from "../game/state";
 import type {
   Cell,
   Difficulty,
@@ -22,10 +34,12 @@ import type {
   Turn,
   WinLine,
 } from "../game/types";
-import { diffLabel, onLangChange, translate, translateTraits } from "../i18n";
 import type { GameScene } from "../render/GameScene";
 
 type StepAI = "select-open" | HistEventType | null;
+
+/** Discriminant of the `status.badgeVictory` / `status.statusWin` select nodes. */
+type VictoryKind = "you" | "ai" | "player";
 
 interface Elements {
   binCells: HTMLElement[];
@@ -41,6 +55,9 @@ interface Elements {
   pieceStr: HTMLElement;
   redo: HTMLButtonElement;
   starter: HTMLSelectElement;
+  starterPlayerOne: HTMLOptionElement;
+  starterPlayerTwo: HTMLOptionElement;
+  starterRandom: HTMLOptionElement;
   status: HTMLElement;
   thinking: HTMLElement;
   thinkingLabel: HTMLElement;
@@ -103,7 +120,7 @@ class GameController {
     private readonly scene: GameScene,
     private readonly elements: Elements,
   ) {
-    onLangChange((): void => {
+    useLocale().subscribe((): void => {
       this.updateStartOptions();
       this.updateUI();
     });
@@ -178,7 +195,7 @@ class GameController {
       this.renderPendingPiece();
       return;
     }
-    this.elements.pieceName.textContent = translateTraits(piece);
+    this.elements.pieceName.textContent = this.traitsLabel(piece);
     this.elements.pieceStr.textContent = pieceStr(piece);
   }
 
@@ -195,7 +212,9 @@ class GameController {
     this.remaining = [...GAME_PIECES];
     this.pendingPiece = null;
     this.winner = null;
-    this.activeTurn = this.getRandomStarter(this.elements.starter.value as Starter);
+    this.activeTurn = this.getRandomStarter(
+      this.elements.starter.value as Starter,
+    );
     this.phase = "select";
     this.stepAI = null;
     this.nxtPieceAI = null;
@@ -209,12 +228,15 @@ class GameController {
     this.updateHistControl();
   };
 
+  /**
+   * The starter options name the two seats, so they follow the game mode and
+   * the difficulty of whichever seat an AI holds.
+   */
   private updateStartOptions(): void {
-    for (const turn of ["player1", "player2"] as const) {
-      const option: HTMLOptionElement | null =
-        this.elements.starter.querySelector<HTMLOptionElement>(`option[value="${turn}"]`);
-      if (option !== null) option.textContent = this.turnLabel(turn);
-    }
+    const content = useIntlayer("player");
+    this.elements.starterRandom.textContent = content.playerRandom;
+    this.elements.starterPlayerOne.textContent = this.turnLabel("player1");
+    this.elements.starterPlayerTwo.textContent = this.turnLabel("player2");
   }
 
   private configModeControls(): void {
@@ -259,7 +281,9 @@ class GameController {
   private turnSelectAI(piece: PieceId | null, turnID: number): void {
     if (!this.isCurTurnAI(turnID) || this.stepAI !== "select") return;
     const selectedPiece: PieceId | null =
-      piece !== null && this.remaining.includes(piece) ? piece : (this.remaining[0] ?? null);
+      piece !== null && this.remaining.includes(piece)
+        ? piece
+        : (this.remaining[0] ?? null);
     if (selectedPiece === null) {
       this.gameFinn("draw");
       return;
@@ -290,7 +314,11 @@ class GameController {
   }
 
   private selectStartPieceAI(turnID: number): void {
-    if (!this.isCurTurnAI(turnID) || this.pendingPiece !== null || this.remaining.length === 0) {
+    if (
+      !this.isCurTurnAI(turnID) ||
+      this.pendingPiece !== null ||
+      this.remaining.length === 0
+    ) {
       return;
     }
     this.passPiece(selectStartPiece(this.remaining, this.random));
@@ -300,7 +328,9 @@ class GameController {
     const curPlayer: Turn = this.activeTurn;
     const turnId: number = this.turnId;
 
-    this.remaining = this.remaining.filter((bitVal: number): boolean => bitVal !== piece);
+    this.remaining = this.remaining.filter(
+      (bitVal: number): boolean => bitVal !== piece,
+    );
     this.pendingPiece = piece;
     this.activeTurn = this.toggleTurn(this.activeTurn);
     this.turnId += 1;
@@ -391,7 +421,8 @@ class GameController {
       this.histEvents,
       this.histIdx,
       this.isReview,
-      (action: HistEvent): boolean => this.getTurnPlayer(action.curPlayer) === "ai",
+      (action: HistEvent): boolean =>
+        this.getTurnPlayer(action.curPlayer) === "ai",
     );
     this.restoreHistory(target);
   };
@@ -402,7 +433,8 @@ class GameController {
       this.histEvents,
       this.histIdx,
       this.isReview,
-      (action: HistEvent): boolean => this.getTurnPlayer(action.curPlayer) === "ai",
+      (action: HistEvent): boolean =>
+        this.getTurnPlayer(action.curPlayer) === "ai",
     );
     this.restoreHistory(target);
   };
@@ -447,7 +479,11 @@ class GameController {
     nxtPiece: PieceId | null,
     moveRequestId: number = this.requestId,
   ): Promise<void> {
-    if (moveRequestId !== this.requestId || !this.isCurTurnAI() || this.pendingPiece === null) {
+    if (
+      moveRequestId !== this.requestId ||
+      !this.isCurTurnAI() ||
+      this.pendingPiece === null
+    ) {
       return;
     }
 
@@ -493,7 +529,10 @@ class GameController {
 
   private isValidCell(cell: number): boolean {
     return (
-      Number.isInteger(cell) && cell >= 0 && cell < this.board.length && this.board[cell] === null
+      Number.isInteger(cell) &&
+      cell >= 0 &&
+      cell < this.board.length &&
+      this.board[cell] === null
     );
   }
 
@@ -559,7 +598,11 @@ class GameController {
     };
   }
 
-  private saveGameState(curPlayer: Turn, turnId: number, eventType: HistEventType): void {
+  private saveGameState(
+    curPlayer: Turn,
+    turnId: number,
+    eventType: HistEventType,
+  ): void {
     if (this.histIdx < this.histEvents.length) {
       this.histEvents.splice(this.histIdx);
       this.histStates.splice(this.histIdx + 1);
@@ -594,13 +637,19 @@ class GameController {
     this.histIdx = target;
 
     const isAIState: boolean =
-      !this.isReview && this.phase === "thinking" && this.getTurnPlayer(this.activeTurn) === "ai";
+      !this.isReview &&
+      this.phase === "thinking" &&
+      this.getTurnPlayer(this.activeTurn) === "ai";
     this.isPauseAI = isAIState;
     this.updateUI();
 
     if (isAIState) {
       const delayMS: number =
-        this.stepAI === "select-open" ? 400 : this.stepAI === "select" ? 520 : 650;
+        this.stepAI === "select-open"
+          ? 400
+          : this.stepAI === "select"
+            ? 520
+            : 650;
       this.turnScheduleAI(delayMS);
     }
   }
@@ -615,109 +664,115 @@ class GameController {
   }
 
   private updateHistControl(): void {
+    const content = useIntlayer("controls");
     const canNavigate: boolean = this.isHistNav();
+
     this.elements.undo.disabled = !canNavigate || this.histIdx <= 0;
-    this.elements.redo.disabled = !canNavigate || this.histIdx >= this.histEvents.length;
+    this.elements.redo.disabled =
+      !canNavigate || this.histIdx >= this.histEvents.length;
 
-    const undoLbl: string = translate("controls.undo");
-    this.elements.undo.setAttribute("aria-label", undoLbl);
-    this.elements.undo.title = undoLbl;
-
-    const redoLbl: string = translate("controls.redo");
-    this.elements.redo.setAttribute("aria-label", redoLbl);
-    this.elements.redo.title = redoLbl;
+    this.elements.undo.setAttribute("aria-label", content.undo);
+    this.elements.undo.title = content.undo;
+    this.elements.redo.setAttribute("aria-label", content.redo);
+    this.elements.redo.title = content.redo;
   }
 
   private updateUI(): void {
+    const status = useIntlayer("status");
+    const controls = useIntlayer("controls");
+
     this.syncScene();
     this.elements.thinking.hidden = this.isReview || this.phase !== "thinking";
     this.elements.thinking.classList.toggle("is-paused", this.isPauseAI);
-    this.elements.thinkingLabel.textContent = translate(
-      this.isPauseAI ? "status.thinkingAIPaused" : "status.thinkingAI",
-    );
+    this.elements.thinkingLabel.textContent = status.thinkingAI(this.isPauseAI);
 
-    const pauseControlLabel: string = translate(
-      this.isPauseAI ? "controls.resumeAI" : "controls.pauseAI",
-    );
+    const pauseControlLabel: string = controls.toggleAI(this.isPauseAI);
     this.elements.pauseToggleAI.setAttribute("aria-label", pauseControlLabel);
-    this.elements.pauseToggleAI.setAttribute("aria-pressed", String(this.isPauseAI));
+    this.elements.pauseToggleAI.setAttribute(
+      "aria-pressed",
+      String(this.isPauseAI),
+    );
     this.elements.pauseToggleAI.title = pauseControlLabel;
     this.updateHistControl();
 
     if (this.phase === "finished") {
       if (this.winner === "draw") {
-        this.elements.turnBadge.textContent = translate("status.badgeDraw");
-        this.elements.status.textContent = translate("status.statusDraw");
-        this.elements.detail.textContent = translate("status.detailDraw");
+        this.elements.turnBadge.textContent = status.badgeDraw;
+        this.elements.status.textContent = status.statusDraw;
+        this.elements.detail.textContent = status.detailDraw;
       } else if (this.winner !== null) {
-        const winnerName: string = this.turnLabel(this.winner);
-        const gameMode: GameMode = this.gameMode();
-        const isWonUser: boolean = gameMode === "human-ai" && this.winner === "player1";
-        const isWonAI: boolean = gameMode === "human-ai" && this.winner === "player2";
+        const player: string = this.turnLabel(this.winner);
+        const victory: VictoryKind = this.victoryKind(this.winner);
 
-        this.elements.turnBadge.textContent = isWonUser
-          ? translate("status.badgeVictory")
-          : isWonAI
-            ? translate("status.badgeVictoryAI")
-            : translate("status.badgeVictoryPlayer", { player: winnerName });
-        this.elements.status.textContent = isWonUser
-          ? translate("status.statusWinYou")
-          : isWonAI
-            ? translate("status.statusWinAI")
-            : translate("status.statusWinPlayer", { player: winnerName });
-        this.elements.detail.textContent = translate("status.detailWin");
+        this.elements.turnBadge.textContent = status.badgeVictory(victory)({
+          player,
+        });
+        this.elements.status.textContent = status.statusWin(victory)({
+          player,
+        });
+        this.elements.detail.textContent = status.detailWin;
       }
       this.renderPendingPiece();
       return;
     }
 
-    const actor: string = this.turnLabel(this.activeTurn);
+    const player: string = this.turnLabel(this.activeTurn);
     const opponent: string = this.turnLabel(this.toggleTurn(this.activeTurn));
-    const isUserTurn: boolean = this.gameMode() === "human-ai" && this.activeTurn === "player1";
+    const isUserTurn: boolean =
+      this.gameMode() === "human-ai" && this.activeTurn === "player1";
 
     if (this.phase === "thinking") {
-      this.elements.turnBadge.textContent = translate("status.badgeTurnAI", { player: actor });
-      this.elements.status.textContent =
-        this.pendingPiece === null
-          ? translate("status.statusTurnOpponentStart", { player: actor })
-          : translate("status.statusTurnOpponent", { player: actor });
-      this.elements.detail.textContent =
-        this.pendingPiece === null
-          ? translate("status.detailTurnStartAI", { opponent })
-          : translate("status.detailTurnAI", { player: actor, opponent });
+      const isOpeningTurn: boolean = this.pendingPiece === null;
+
+      this.elements.turnBadge.textContent = status.badgeTurnAI({ player });
+      this.elements.status.textContent = status.statusTurnOpponent(
+        isOpeningTurn,
+      )({ player });
+      this.elements.detail.textContent = status.detailTurnAI(isOpeningTurn)({
+        player,
+        opponent,
+      });
       this.renderPendingPiece();
       return;
     }
 
     if (this.phase === "place") {
-      this.elements.turnBadge.textContent = isUserTurn
-        ? translate("status.badgeTurnPlaceYou")
-        : translate("status.badgeTurnPlacePlayer", { player: actor });
-      this.elements.status.textContent = isUserTurn
-        ? translate("status.statusTurnPlayerPlaceVsAI", { opponent })
-        : translate("status.statusTurnPlayerPlace", { player: actor });
-      this.elements.detail.textContent = translate("status.detailTurnPlace");
+      this.elements.turnBadge.textContent = status.badgeTurnPlace(isUserTurn)({
+        player,
+      });
+      this.elements.status.textContent = status.statusTurnPlayerPlace(
+        isUserTurn,
+      )({
+        player,
+        opponent,
+      });
+      this.elements.detail.textContent = status.detailTurnPlace;
       this.renderPendingPiece();
       return;
     }
 
-    this.elements.turnBadge.textContent = isUserTurn
-      ? translate("status.badgeTurnSelectYou")
-      : translate("status.badgeTurnSelectPlayer", { player: actor });
-    this.elements.status.textContent = isUserTurn
-      ? translate("status.statusTurnPlayerSelect", { opponent })
-      : translate("status.statusTurnPlayerSelectVsAI", { player: actor, opponent });
-    this.elements.detail.textContent = translate("status.detailTurnSelect");
+    this.elements.turnBadge.textContent = status.badgeTurnSelect(isUserTurn)({
+      player,
+    });
+    this.elements.status.textContent = status.statusTurnPlayerSelect(
+      isUserTurn,
+    )({
+      player,
+      opponent,
+    });
+    this.elements.detail.textContent = status.detailTurnSelect;
     this.renderPendingPiece();
   }
 
   private renderPendingPiece(): void {
+    const { piece: content } = useIntlayer("panel");
+
     if (this.pendingPiece === null) {
-      this.elements.pieceName.textContent = translate("piece.none");
+      this.elements.pieceName.textContent = content.none;
       this.elements.pieceStr.textContent = "----";
       return;
     }
-    this.elements.pieceName.textContent = translateTraits(this.pendingPiece);
+    this.elements.pieceName.textContent = this.traitsLabel(this.pendingPiece);
     this.elements.pieceStr.textContent = pieceStr(this.pendingPiece);
   }
 
@@ -731,7 +786,11 @@ class GameController {
     this.renderBinBoard();
   }
 
-  private renderWinBinBits(element: HTMLElement, piece: PieceId, winTraits = 0): void {
+  private renderWinBinBits(
+    element: HTMLElement,
+    piece: PieceId,
+    winTraits = 0,
+  ): void {
     const pieceBinStr: string = pieceStr(piece);
 
     const bits: HTMLSpanElement[] = [...pieceBinStr].map(
@@ -751,9 +810,12 @@ class GameController {
   }
 
   private renderBinBoard(): void {
-    const winLines: WinLine[] = this.phase === "finished" ? getWinLines(this.board) : [];
+    const { board: boardContent } = useIntlayer("panel");
+    const winLines: WinLine[] =
+      this.phase === "finished" ? getWinLines(this.board) : [];
     const showWinLine: boolean = winLines.length > 0;
     const winTraitsByCell = new Map<number, number>();
+
     for (const winLine of winLines) {
       const winTraits: number = getTraitMask(this.board, winLine);
       for (const cell of winLine) {
@@ -770,14 +832,23 @@ class GameController {
       if (piece === null || piece === undefined) {
         element.textContent = "----";
         element.classList.remove("occupied");
-        element.setAttribute("aria-label", `Cell ${cell + 1}: empty`);
+        element.setAttribute(
+          "aria-label",
+          boardContent.cellEmpty({ cell: String(cell + 1) }),
+        );
         continue;
       }
 
       const pieceBinStr: string = pieceStr(piece);
       this.renderWinBinBits(element, piece, winTraits);
       element.classList.add("occupied");
-      element.setAttribute("aria-label", `Cell ${cell + 1}: ${pieceBinStr}`);
+      element.setAttribute(
+        "aria-label",
+        boardContent.cellPiece({
+          cell: String(cell + 1),
+          piece: pieceBinStr,
+        }),
+      );
     }
     this.elements.binWinOverlay.toggleAttribute("hidden", !showWinLine);
   }
@@ -802,24 +873,40 @@ class GameController {
       return this.elements.diffAI.value as Difficulty;
     }
     return (
-      turn === "player1" ? this.elements.diffPlayerOneAI.value : this.elements.diffPlayerTwoAI.value
+      turn === "player1"
+        ? this.elements.diffPlayerOneAI.value
+        : this.elements.diffPlayerTwoAI.value
     ) as Difficulty;
   }
 
+  private diffLabel(diff: Difficulty): string {
+    const content = useIntlayer("controls");
+    return content.difficulty(diff);
+  }
+
+  private traitsLabel(piece: PieceId): string {
+    const traits: PieceTraits = getPieceTraits(piece);
+    const { piece: content } = useIntlayer("panel");
+    return [
+      content.color(traits.isDark ? "black" : "red"),
+      content.size(traits.isBig ? "big" : "small"),
+      content.shape(traits.isRound ? "round" : "square"),
+      content.fill(traits.isSolid ? "solid" : "hollow"),
+    ].join(", ");
+  }
+
   private turnLabel(turn: Turn): string {
-    const mode: GameMode = this.gameMode();
-    if (mode === "human-human") {
-      return translate(turn === "player1" ? "player.playerOne" : "player.playerTwo");
-    }
-    if (mode === "human-ai") {
-      return turn === "player1"
-        ? translate("player.playerYou")
-        : translate("player.playerAI", { difficulty: diffLabel(this.turnDiff(turn)) });
-    }
-    return translate("player.playerDiffAI", {
-      number: turn === "player1" ? "1" : "2",
-      difficulty: diffLabel(this.turnDiff(turn)),
+    const content = useIntlayer("player");
+
+    return content.playerName(this.gameMode())(turn)({
+      difficulty: this.diffLabel(this.turnDiff(turn)),
     });
+  }
+
+  /** Which vocabulary the victory messages use: the human seat, the AI seat, or a named seat. */
+  private victoryKind(winner: Turn): VictoryKind {
+    if (this.gameMode() !== "human-ai") return "player";
+    return winner === "player1" ? "you" : "ai";
   }
 
   private getRandomStarter(starter: Starter): Turn {
@@ -850,7 +937,8 @@ class GameController {
 
   private timerResumeAI(): void {
     const timer: TimerAI | null = this.timerAI;
-    if (timer === null || timer.id !== null || this.isPauseAI || this.isReview) return;
+    if (timer === null || timer.id !== null || this.isPauseAI || this.isReview)
+      return;
     timer.startedAt = performance.now();
     timer.id = window.setTimeout((): void => {
       if (this.timerAI !== timer) return;
@@ -865,7 +953,10 @@ class GameController {
     if (timer === null || timer.id === null) return;
     window.clearTimeout(timer.id);
     timer.id = null;
-    timer.remainingMS = Math.max(0, timer.remainingMS - (performance.now() - timer.startedAt));
+    timer.remainingMS = Math.max(
+      0,
+      timer.remainingMS - (performance.now() - timer.startedAt),
+    );
   }
 
   private timerClearAI(runCallback = false): void {

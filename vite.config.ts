@@ -1,7 +1,9 @@
 import { defineConfig } from "vite";
+import { intlayer } from "vite-intlayer";
 
 export default defineConfig({
   base: "./",
+
   build: {
     target: "es2022",
     sourcemap: true,
@@ -24,4 +26,6 @@ export default defineConfig({
       },
     },
   },
+
+  plugins: [intlayer()],
 });

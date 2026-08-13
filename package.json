@@ -17,11 +17,15 @@
     "verify": "npm run lint && npm run format:check && npm run quality",
     "verify:fix": "npm run lint:fix && npm run format && npm run quality:fix",
     "verify:all": " npm run verify && npm test && npm run build",
-    "verify:all:fix": " npm run verify:fix && npm run verify:all"
+    "verify:all:fix": " npm run verify:fix && npm run verify:all",
+    "i18n:fill": "npx intlayer fill"
   },
   "dependencies": {
     "clean": "^4.0.2",
-    "three": "^0.185.1"
+    "intlayer": "9.3.1",
+    "three": "^0.185.1",
+    "vanilla-intlayer": "9.3.1",
+    "vite-intlayer": "9.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.5",
