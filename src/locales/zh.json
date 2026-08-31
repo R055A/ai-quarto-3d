@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "移植增强自",
+    "newGame": "新游戏"
+  },
+  "common": {
+    "on": "开",
+    "off": "关"
+  },
+  "a11y": {
+    "utilityActions": "应用链接和语言",
+    "viewSource": "在 GitHub 上查看源代码",
+    "gameControls": "游戏控制",
+    "gameBoard": "3D 游戏棋盘",
+    "gameInfo": "游戏信息"
+  },
+  "controls": {
+    "diffAI": "AI 难度",
+    "diffPlayerOneAI": "玩家1难度",
+    "diffPlayerTwoAI": "玩家2难度",
+    "startingPlayer": "先手玩家",
+    "gameMode": "游戏模式",
+    "pauseAI": "暂停 AI",
+    "resumeAI": "继续 AI",
+    "undo": "撤销",
+    "redo": "重做"
+  },
+  "diff": {
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  },
+  "mode": {
+    "userVsUser": "用户对用户",
+    "userVsAI": "用户对 AI",
+    "onlyAI": "AI 对 AI"
+  },
+  "player": {
+    "playerYou": "你",
+    "playerOne": "玩家一",
+    "playerTwo": "玩家二",
+    "playerAI": "AI（{{difficulty}}）",
+    "playerNumberedAI": "AI（玩家{{number}}，{{difficulty}}）",
+    "playerRandom": "随机",
+    "playerAIPlayer": "AI 玩家",
+    "playerShort": "玩家{{number}}"
+  },
+  "status": {
+    "loading": "游戏状态...",
+    "pausedAI": "{{player}} 已暂停...",
+    "placingAI": "{{player}} 正在游戏 - 正在将棋子放到棋盘上...",
+    "placingUser": "{{player}} 正在游戏 - 将选中的棋子放到棋盘上...",
+    "placeUserYou": "你正在游戏 - 将选中的棋子放到棋盘上...",
+    "gameDrawn": "平局 - 没有获胜连线",
+    "gameWon": "{{player}} 获胜 - 获胜连线已高亮",
+    "selectingAI": "{{player}} 正在游戏 - 正在为 {{opponent}} 选择棋子...",
+    "selectUser": "{{player}} 正在游戏 - 为 {{opponent}} 选择一个棋子...",
+    "selectUserYou": "你正在游戏 - 为 {{opponent}} 选择一个棋子..."
+  },
+  "piece": {
+    "inPlay": "当前棋子",
+    "none": "未选择",
+    "traits": "棋子特征",
+    "black": "黑色",
+    "red": "红色",
+    "big": "大",
+    "small": "小",
+    "round": "圆形",
+    "square": "方形",
+    "solid": "实心",
+    "hollow": "空心"
+  },
+  "board": {
+    "binary": "二进制棋盘",
+    "piecesPlaced": "已放置棋子",
+    "cellEmpty": "格子 {{cell}}：空",
+    "cellPiece": "格子 {{cell}}：{{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D 渲染不可用。",
+    "webglHeading": "WebGL 无法启动。",
+    "webglMsg": "游戏需要在浏览器中启用 WebGL。"
+  },
+  "metrics": {
+    "hoverRiskPreview": "将鼠标悬停在可选棋子上以预览其选择风险",
+    "hoveredRiskOne": "悬停棋子的风险：{{risk}} 个立即获胜位置",
+    "hoveredRiskMany": "悬停棋子的风险：{{risk}} 个立即获胜位置",
+    "immediateWins": "立即获胜位置",
+    "latestRisk": "最新选择风险",
+    "riskOneAI": "AI 所选棋子的风险：{{risk}} 个立即获胜位置",
+    "riskManyAI": "AI 所选棋子的风险：{{risk}} 个立即获胜位置",
+    "riskTurnedOff": "选择风险已关闭",
+    "riskUnavailableAI": "AI 对 AI 模式下无法使用选择风险",
+    "selectionRisk": "选择风险",
+    "turnRiskOff": "关闭选择风险",
+    "turnRiskOn": "开启选择风险"
+  },
+  "metadata": {
+    "description": "使用 Three.js 和带 alpha-beta 剪枝的 Minimax 人工智能算法 Negamax 版本构建的交互式 3D Quarto 棋盘游戏界面。支持用户对用户、用户对 AI 和 AI 对 AI，并提供简单、中等和困难三种 AI 难度。",
+    "ogDescription": "交互式 3D Quarto 棋盘游戏。支持用户对用户、用户对 AI 和 AI 对 AI，并提供简单、中等和困难三种 AI 难度。"
+  }
+}

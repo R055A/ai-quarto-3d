@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Yfirfærð endurbót á",
+    "newGame": "Nýr leikur"
+  },
+  "common": {
+    "on": "KVEIKT",
+    "off": "SLÖKKT"
+  },
+  "a11y": {
+    "utilityActions": "Tenglar forrits og tungumál",
+    "viewSource": "Skoða frumkóða á GitHub",
+    "gameControls": "Leikstýringar",
+    "gameBoard": "3D leikborð",
+    "gameInfo": "Leikupplýsingar"
+  },
+  "controls": {
+    "diffAI": "Erfiðleikastig gervigreindar",
+    "diffPlayerOneAI": "L1 erfiðleiki",
+    "diffPlayerTwoAI": "L2 erfiðleiki",
+    "startingPlayer": "Byrjandi leikmaður",
+    "gameMode": "Leikhamur",
+    "pauseAI": "Setja gervigreind í hlé",
+    "resumeAI": "Halda gervigreind áfram",
+    "undo": "Afturkalla",
+    "redo": "Endurtaka"
+  },
+  "diff": {
+    "easy": "Auðvelt",
+    "medium": "Miðlungs",
+    "hard": "Erfitt"
+  },
+  "mode": {
+    "userVsUser": "Leikmaður gegn leikmanni",
+    "userVsAI": "Leikmaður gegn gervigreind",
+    "onlyAI": "Gervigreind gegn gervigreind"
+  },
+  "player": {
+    "playerYou": "Þú",
+    "playerOne": "Leikmaður eitt",
+    "playerTwo": "Leikmaður tvö",
+    "playerAI": "Gervigreind ({{difficulty}})",
+    "playerNumberedAI": "Gervigreind (L{{number}}, {{difficulty}})",
+    "playerRandom": "Slembið",
+    "playerAIPlayer": "Gervigreindarleikmaður",
+    "playerShort": "L{{number}}"
+  },
+  "status": {
+    "loading": "Staða leiks...",
+    "pausedAI": "{{player}} er í hléi...",
+    "placingAI": "{{player}} spilar - setur kubbinn á borðið...",
+    "placingUser": "{{player}} spilar - Settu valda kubbinn á borðið...",
+    "placeUserYou": "Þú spilar - Settu valda kubbinn á borðið...",
+    "gameDrawn": "Jafntefli - engin vinningslína",
+    "gameWon": "{{player}} vinnur - vinningslína auðkennd",
+    "selectingAI": "{{player}} spilar - velur kubb fyrir {{opponent}}...",
+    "selectUser": "{{player}} spilar - Veldu kubb fyrir {{opponent}}...",
+    "selectUserYou": "Þú spilar - Veldu kubb fyrir {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Kubbur í leik",
+    "none": "Ekkert valið",
+    "traits": "Eiginleikar kubbs",
+    "black": "svartur",
+    "red": "rauður",
+    "big": "stór",
+    "small": "lítill",
+    "round": "kringlóttur",
+    "square": "ferkantaður",
+    "solid": "heill",
+    "hollow": "holur"
+  },
+  "board": {
+    "binary": "Tvíundarborð",
+    "piecesPlaced": "Settir kubbar",
+    "cellEmpty": "Reitur {{cell}}: tómur",
+    "cellPiece": "Reitur {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D myndgerð er ekki tiltæk.",
+    "webglHeading": "WebGL gat ekki ræst.",
+    "webglMsg": "Leikurinn krefst þess að WebGL sé virkt í vafranum."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Færðu bendilinn yfir valanlegan kubb til að forskoða valáhættu",
+    "hoveredRiskOne": "Áhætta kubbs undir bendli: {{risk}} tafarlaus vinningsstaðsetning",
+    "hoveredRiskMany": "Áhætta kubbs undir bendli: {{risk}} tafarlausar vinningsstaðsetningar",
+    "immediateWins": "Tafarlausar vinningsstaðsetningar",
+    "latestRisk": "Nýjasta valáhætta",
+    "riskOneAI": "Áhætta kubbs valins af gervigreind: {{risk}} tafarlaus vinningsstaðsetning",
+    "riskManyAI": "Áhætta kubbs valins af gervigreind: {{risk}} tafarlausar vinningsstaðsetningar",
+    "riskTurnedOff": "Slökkt er á valáhættu",
+    "riskUnavailableAI": "Valáhætta er ekki tiltæk í gervigreind gegn gervigreind ham",
+    "selectionRisk": "Valáhætta",
+    "turnRiskOff": "Slökkva á valáhættu",
+    "turnRiskOn": "Kveikja á valáhættu"
+  },
+  "metadata": {
+    "description": "Gagnvirkt 3D viðmót fyrir Quarto borðspilið með Three.js og Negamax-útgáfu Minimax-gervigreindarreikniritsins með alfa-beta klippingu. Spilaðu leikmann gegn leikmanni, leikmann gegn gervigreind og gervigreind gegn gervigreind með auðveldu, miðlungs eða erfiðu stigi.",
+    "ogDescription": "Gagnvirkt 3D Quarto borðspil. Spilaðu leikmann gegn leikmanni, leikmann gegn gervigreind og gervigreind gegn gervigreind með auðveldu, miðlungs eða erfiðu stigi."
+  }
+}

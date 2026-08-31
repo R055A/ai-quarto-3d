@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Feabhsúchán portáilte ar",
+    "newGame": "Cluiche nua"
+  },
+  "common": {
+    "on": "AR",
+    "off": "AS"
+  },
+  "a11y": {
+    "utilityActions": "Naisc feidhmchláir agus teanga",
+    "viewSource": "Féach ar an gcód foinse ar GitHub",
+    "gameControls": "Rialuithe cluiche",
+    "gameBoard": "Clár cluiche 3T",
+    "gameInfo": "Eolas cluiche"
+  },
+  "controls": {
+    "diffAI": "Deacracht IS",
+    "diffPlayerOneAI": "Deacracht I1",
+    "diffPlayerTwoAI": "Deacracht I2",
+    "startingPlayer": "Imreoir tosaigh",
+    "gameMode": "Mód cluiche",
+    "pauseAI": "Cuir IS ar sos",
+    "resumeAI": "Lean IS ar aghaidh",
+    "undo": "Cealaigh",
+    "redo": "Athdhéan"
+  },
+  "diff": {
+    "easy": "Éasca",
+    "medium": "Meánach",
+    "hard": "Deacair"
+  },
+  "mode": {
+    "userVsUser": "Úsáideoir in aghaidh úsáideora",
+    "userVsAI": "Úsáideoir in aghaidh IS",
+    "onlyAI": "IS in aghaidh IS"
+  },
+  "player": {
+    "playerYou": "Tusa",
+    "playerOne": "Imreoir a hAon",
+    "playerTwo": "Imreoir a Dó",
+    "playerAI": "IS ({{difficulty}})",
+    "playerNumberedAI": "IS (I{{number}}, {{difficulty}})",
+    "playerRandom": "Randamach",
+    "playerAIPlayer": "Imreoir IS",
+    "playerShort": "I{{number}}"
+  },
+  "status": {
+    "loading": "Stádas an chluiche...",
+    "pausedAI": "Tá {{player}} ar sos...",
+    "placingAI": "Tá {{player}} ag imirt - ag cur an phíosa ar an gclár...",
+    "placingUser": "Tá {{player}} ag imirt - Cuir an píosa roghnaithe ar an gclár...",
+    "placeUserYou": "Tá tú ag imirt - Cuir an píosa roghnaithe ar an gclár...",
+    "gameDrawn": "Cluiche cothrom - gan líne bhuaiteach",
+    "gameWon": "Bhuaigh {{player}} - tá an líne bhuaiteach aibhsithe",
+    "selectingAI": "Tá {{player}} ag imirt - ag roghnú píosa do {{opponent}}...",
+    "selectUser": "Tá {{player}} ag imirt - Roghnaigh píosa do {{opponent}}...",
+    "selectUserYou": "Tá tú ag imirt - Roghnaigh píosa do {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Píosa i mbun imeartha",
+    "none": "Níl aon cheann roghnaithe",
+    "traits": "Tréithe píosa",
+    "black": "dubh",
+    "red": "dearg",
+    "big": "mór",
+    "small": "beag",
+    "round": "cruinn",
+    "square": "cearnach",
+    "solid": "soladach",
+    "hollow": "log"
+  },
+  "board": {
+    "binary": "Clár dénártha",
+    "piecesPlaced": "Píosaí curtha",
+    "cellEmpty": "Cill {{cell}}: folamh",
+    "cellPiece": "Cill {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Níl rindreáil 3T ar fáil.",
+    "webglHeading": "Níorbh fhéidir WebGL a thosú.",
+    "webglMsg": "Caithfidh WebGL a bheith cumasaithe sa bhrabhsálaí don chluiche."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Cuir an cúrsóir thar phíosa inroghnaithe chun riosca a roghnaithe a réamhamharc",
+    "hoveredRiskOne": "Riosca an phíosa faoin gcúrsóir: {{risk}} socrú buaiteach láithreach",
+    "hoveredRiskMany": "Riosca an phíosa faoin gcúrsóir: {{risk}} socrúchán buaiteach láithreach",
+    "immediateWins": "Socrúcháin bhuaiteacha láithreacha",
+    "latestRisk": "An riosca roghnaithe is déanaí",
+    "riskOneAI": "Riosca píosa roghnaithe ag IS: {{risk}} socrú buaiteach láithreach",
+    "riskManyAI": "Riosca píosa roghnaithe ag IS: {{risk}} socrúchán buaiteach láithreach",
+    "riskTurnedOff": "Tá riosca roghnaithe múchta",
+    "riskUnavailableAI": "Níl riosca roghnaithe ar fáil i mód IS in aghaidh IS",
+    "selectionRisk": "Riosca roghnaithe",
+    "turnRiskOff": "Múch riosca roghnaithe",
+    "turnRiskOn": "Cuir riosca roghnaithe ar siúl"
+  },
+  "metadata": {
+    "description": "Comhéadan idirghníomhach 3T don chluiche boird Quarto ag úsáid Three.js agus leagan Negamax den algartam intleachta saorga Minimax le bearradh alfa-béite. Imir úsáideoir in aghaidh úsáideora, úsáideoir in aghaidh IS agus IS in aghaidh IS, le deacracht éasca, mheánach agus dheacair.",
+    "ogDescription": "Cluiche boird idirghníomhach Quarto 3T. Imir úsáideoir in aghaidh úsáideora, úsáideoir in aghaidh IS agus IS in aghaidh IS, le deacracht éasca, mheánach agus dheacair."
+  }
+}

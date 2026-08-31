@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "KI-Quarto 3D",
+    "eyebrow": "’n Oorgedrade verbetering van",
+    "newGame": "Nuwe speletjie"
+  },
+  "common": {
+    "on": "AAN",
+    "off": "AF"
+  },
+  "a11y": {
+    "utilityActions": "Toepassingskakels en taal",
+    "viewSource": "Bekyk bronkode op GitHub",
+    "gameControls": "Speletjiekontroles",
+    "gameBoard": "3D-speelbord",
+    "gameInfo": "Speletjie-inligting"
+  },
+  "controls": {
+    "diffAI": "KI-moeilikheidsgraad",
+    "diffPlayerOneAI": "P1-moeilikheidsgraad",
+    "diffPlayerTwoAI": "P2-moeilikheidsgraad",
+    "startingPlayer": "Beginspeler",
+    "gameMode": "Speletjiemodus",
+    "pauseAI": "Onderbreek KI",
+    "resumeAI": "Hervat KI",
+    "undo": "Ontdoen",
+    "redo": "Herdoen"
+  },
+  "diff": {
+    "easy": "Maklik",
+    "medium": "Medium",
+    "hard": "Moeilik"
+  },
+  "mode": {
+    "userVsUser": "Gebruiker teen gebruiker",
+    "userVsAI": "Gebruiker teen KI",
+    "onlyAI": "KI teen KI"
+  },
+  "player": {
+    "playerYou": "Jy",
+    "playerOne": "Speler Een",
+    "playerTwo": "Speler Twee",
+    "playerAI": "KI ({{difficulty}})",
+    "playerNumberedAI": "KI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Ewekansig",
+    "playerAIPlayer": "KI-speler",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Speletjiestatus...",
+    "pausedAI": "{{player}} is onderbreek...",
+    "placingAI": "{{player}} speel - plaas ’n stuk op die bord...",
+    "placingUser": "{{player}} speel - Plaas die gekose stuk op die bord...",
+    "placeUserYou": "Jy speel - Plaas die gekose stuk op die bord...",
+    "gameDrawn": "Speletjie gelykop - geen wenlyn nie",
+    "gameWon": "{{player}} wen - wenlyn is uitgelig",
+    "selectingAI": "{{player}} speel - kies ’n stuk vir {{opponent}}...",
+    "selectUser": "{{player}} speel - Kies ’n stuk vir {{opponent}}...",
+    "selectUserYou": "Jy speel - Kies ’n stuk vir {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Stuk in spel",
+    "none": "Geen stuk gekies nie",
+    "traits": "Stukeienskappe",
+    "black": "swart",
+    "red": "rooi",
+    "big": "groot",
+    "small": "klein",
+    "round": "rond",
+    "square": "vierkantig",
+    "solid": "solied",
+    "hollow": "hol"
+  },
+  "board": {
+    "binary": "Binêre bord",
+    "piecesPlaced": "Geplaaste stukke",
+    "cellEmpty": "Sel {{cell}}: leeg",
+    "cellPiece": "Sel {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-weergawe is nie beskikbaar nie.",
+    "webglHeading": "WebGL kon nie begin nie.",
+    "webglMsg": "Die speletjie vereis dat WebGL in die blaaier geaktiveer is."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Beweeg oor ’n kiesbare stuk om sy keuserisiko te voorskou",
+    "hoveredRiskOne": "Risiko van stuk onder die wyser: {{risk}} onmiddellike wenplasing",
+    "hoveredRiskMany": "Risiko van stuk onder die wyser: {{risk}} onmiddellike wenplasings",
+    "immediateWins": "Onmiddellike wenplasings",
+    "latestRisk": "Jongste keuserisiko",
+    "riskOneAI": "Risiko van KI-gekose stuk: {{risk}} onmiddellike wenplasing",
+    "riskManyAI": "Risiko van KI-gekose stuk: {{risk}} onmiddellike wenplasings",
+    "riskTurnedOff": "Keuserisiko is afgeskakel",
+    "riskUnavailableAI": "Keuserisiko is nie beskikbaar in KI-teen-KI-modus nie",
+    "selectionRisk": "Keuserisiko",
+    "turnRiskOff": "Skakel keuserisiko af",
+    "turnRiskOn": "Skakel keuserisiko aan"
+  },
+  "metadata": {
+    "description": "Interaktiewe 3D Quarto-bordspeletjie-koppelvlak wat Three.js en die Negamax-weergawe van die Minimax-kunsmatige-intelligensie-algoritme met alfa-beta-snoei gebruik. Speel gebruiker teen gebruiker, gebruiker teen KI en KI teen KI, met maklike, medium en moeilike KI-moeilikheidsgrade.",
+    "ogDescription": "Interaktiewe 3D Quarto-bordspeletjie. Speel gebruiker teen gebruiker, gebruiker teen KI en KI teen KI, met maklike, medium en moeilike KI-moeilikheidsgrade."
+  }
+}

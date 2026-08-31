@@ -121,6 +121,8 @@ export class GameScene {
   };
   private hovered: InteractiveRef | null = null;
   private mobileLayout: boolean = false;
+  private isSized: boolean = false;
+  private readonly resizeObs: ResizeObserver;
 
   constructor(
     canvas: HTMLCanvasElement,
@@ -182,6 +184,10 @@ export class GameScene {
     this.createEnvironment();
     this.createBoard(tileTexture);
     this.createPieces();
+
+    const resizeTarget: HTMLElement = canvas.parentElement ?? canvas;
+    this.resizeObs = new ResizeObserver(this.resize);
+    this.resizeObs.observe(resizeTarget);
     this.resize();
 
     canvas.addEventListener("pointermove", this.onPointerMove);
@@ -202,7 +208,6 @@ export class GameScene {
     this.scene.fog = new Fog(0x11161e, 18, 28);
 
     this.dirLight.castShadow = true;
-    this.dirLight.position.set(-10.5, 8.8, 10.2);
     this.dirLight.shadow.mapSize.set(2048, 2048);
     this.dirLight.shadow.camera.left = -12;
     this.dirLight.shadow.camera.right = 12;
@@ -357,9 +362,9 @@ export class GameScene {
       } else if (this.state.pendingPiece === piece) {
         this.setPieceTarget(
           view,
-          this.mobileLayout ? 0 : 5.25,
+          this.mobileLayout ? 2.95 : 5.25,
           BASE_Y,
-          this.mobileLayout ? 5.55 : 0,
+          this.mobileLayout ? 2.0 : 0,
           WIN_SCALE,
         );
       } else if (remaining.has(piece)) {
@@ -480,28 +485,38 @@ export class GameScene {
   };
 
   private readonly resize: () => void = (): void => {
-    const width: number = Math.max(1, this.renderer.domElement.clientWidth);
-    const height: number = Math.max(1, this.renderer.domElement.clientHeight);
+    const canvas: HTMLCanvasElement = this.renderer.domElement;
+    const resizeTarget: HTMLElement = canvas.parentElement ?? canvas;
+    const width: number = Math.max(1, resizeTarget.clientWidth);
+    const height: number = Math.max(1, resizeTarget.clientHeight);
+    const aspect: number = width / height;
+    const nxtMobileLayout: boolean = aspect < MOBILE_ASPECT;
+    const isLayoutChange: boolean = !this.isSized || nxtMobileLayout !== this.mobileLayout;
 
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.setSize(width, height, false);
-    this.camera.aspect = width / height;
-    this.mobileLayout = this.camera.aspect < MOBILE_ASPECT;
+    this.camera.aspect = aspect;
+    this.mobileLayout = nxtMobileLayout;
 
-    if (this.mobileLayout) {
-      this.camera.position.set(0, 13.8, 13.9);
-      this.controls.target.set(0, BASE_Y, 1.4);
-    } else {
-      this.camera.position.set(4.2, 10.4, 13.2);
-      this.controls.target.set(0.95, BASE_Y + 0.1, 0);
+    if (isLayoutChange) {
+      if (this.mobileLayout) {
+        this.camera.position.set(0, 13.8, 13.9);
+        this.controls.target.set(0, BASE_Y, 1.4);
+      } else {
+        this.camera.position.set(4.2, 10.4, 13.2);
+        this.controls.target.set(0.95, BASE_Y + 0.1, 0);
+      }
+      this.layoutObjects();
     }
 
+    this.isSized = true;
     this.camera.updateProjectionMatrix();
     this.controls.update();
-    this.layoutObjects();
   };
 
   private readonly animate: () => void = (): void => {
     this.controls.update();
+    this.dirLight.position.copy(this.camera.position);
     for (const view of this.pieces.values()) {
       if (!view.group.visible) continue;
 

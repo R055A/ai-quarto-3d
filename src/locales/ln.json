@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Bobongisi oyo epɔti uta na",
+    "newGame": "Lisano ya sika"
+  },
+  "common": {
+    "on": "FUNGOLA",
+    "off": "KANGA"
+  },
+  "a11y": {
+    "utilityActions": "Ba lien ya application mpe lokota",
+    "viewSource": "Tala source na GitHub",
+    "gameControls": "Ba contrôle ya lisano",
+    "gameBoard": "Etanda ya lisano 3D",
+    "gameInfo": "Sango ya lisano"
+  },
+  "controls": {
+    "diffAI": "Mokakatano ya AI",
+    "diffPlayerOneAI": "Mokakatano P1",
+    "diffPlayerTwoAI": "Mokakatano P2",
+    "startingPlayer": "Mosani oyo abandi",
+    "gameMode": "Mode ya lisano",
+    "pauseAI": "Pausa AI",
+    "resumeAI": "Koba AI",
+    "undo": "Zongisa",
+    "redo": "Sala lisusu"
+  },
+  "diff": {
+    "easy": "Pɛtɛɛ",
+    "medium": "Katakata",
+    "hard": "Makasi"
+  },
+  "mode": {
+    "userVsUser": "Mosali na mosali",
+    "userVsAI": "Mosali na AI",
+    "onlyAI": "AI na AI"
+  },
+  "player": {
+    "playerYou": "Yo",
+    "playerOne": "Mosani Moko",
+    "playerTwo": "Mosani Mibale",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Na mbalakaka",
+    "playerAIPlayer": "Mosani AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Ezaleli ya lisano...",
+    "pausedAI": "{{player}} azali na pause...",
+    "placingAI": "{{player}} azali kosakana - azali kotia eteni na etanda...",
+    "placingUser": "{{player}} azali kosakana - Tia eteni oyo oponi na etanda...",
+    "placeUserYou": "Yo ozali kosakana - Tia eteni oyo oponi na etanda...",
+    "gameDrawn": "Lisano ekokani - ligne ya kolonga ezali te",
+    "gameWon": "{{player}} alongi - ligne ya kolonga emonisami",
+    "selectingAI": "{{player}} azali kosakana - azali kopona eteni mpo na {{opponent}}...",
+    "selectUser": "{{player}} azali kosakana - Pona eteni mpo na {{opponent}}...",
+    "selectUserYou": "Yo ozali kosakana - Pona eteni mpo na {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Eteni na lisano",
+    "none": "Eloko moko te eponami",
+    "traits": "Bizaleli ya eteni",
+    "black": "moindo",
+    "red": "motane",
+    "big": "monene",
+    "small": "moke",
+    "round": "libungutulu",
+    "square": "carré",
+    "solid": "makasi",
+    "hollow": "mpamba"
+  },
+  "board": {
+    "binary": "Etanda binaire",
+    "piecesPlaced": "Biteni oyo etiami",
+    "cellEmpty": "Cellule {{cell}}: mpamba",
+    "cellPiece": "Cellule {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Rendu 3D ezali te.",
+    "webglHeading": "WebGL ekokaki kobanda te.",
+    "webglMsg": "Lisano esengi WebGL efungwama na navigateur."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Tia curseur likolo ya eteni oyo ekoki koponama mpo na komona risque ya kopona",
+    "hoveredRiskOne": "Risque ya eteni oyo elakisami: {{risk}} esika ya kolonga mbala moko",
+    "hoveredRiskMany": "Risque ya eteni oyo elakisami: {{risk}} bisika ya kolonga mbala moko",
+    "immediateWins": "Bisika ya kolonga mbala moko",
+    "latestRisk": "Risque ya kopona ya sika",
+    "riskOneAI": "Risque ya eteni oyo AI eponi: {{risk}} esika ya kolonga mbala moko",
+    "riskManyAI": "Risque ya eteni oyo AI eponi: {{risk}} bisika ya kolonga mbala moko",
+    "riskTurnedOff": "Risque ya kopona ekangami",
+    "riskUnavailableAI": "Risque ya kopona ezali te na mode AI na AI",
+    "selectionRisk": "Risque ya kopona",
+    "turnRiskOff": "Kanga risque ya kopona",
+    "turnRiskOn": "Fungola risque ya kopona"
+  },
+  "metadata": {
+    "description": "Interface ya lisano ya etanda Quarto 3D oyo esalaka interaction, na Three.js mpe version Negamax ya algorithme ya intelligence artificielle Minimax na alpha-beta pruning. Sakana mosali na mosali, mosali na AI mpe AI na AI, na AI ya pɛtɛɛ, katakata mpe makasi.",
+    "ogDescription": "Lisano ya etanda Quarto 3D oyo esalaka interaction. Sakana mosali na mosali, mosali na AI mpe AI na AI, na AI ya pɛtɛɛ, katakata mpe makasi."
+  }
+}

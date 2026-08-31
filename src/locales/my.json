@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "မှ ပြောင်းရွှေ့တိုးတက်ထားသော ဗားရှင်း",
+    "newGame": "ဂိမ်းအသစ်"
+  },
+  "common": {
+    "on": "ဖွင့်",
+    "off": "ပိတ်"
+  },
+  "a11y": {
+    "utilityActions": "အပလီကေးရှင်း လင့်ခ်များနှင့် ဘာသာစကား",
+    "viewSource": "GitHub တွင် source ကိုကြည့်ရန်",
+    "gameControls": "ဂိမ်းထိန်းချုပ်မှုများ",
+    "gameBoard": "3D ဂိမ်းဘုတ်",
+    "gameInfo": "ဂိမ်းအချက်အလက်"
+  },
+  "controls": {
+    "diffAI": "AI အခက်အခဲ",
+    "diffPlayerOneAI": "P1 အခက်အခဲ",
+    "diffPlayerTwoAI": "P2 အခက်အခဲ",
+    "startingPlayer": "စတင်ကစားသူ",
+    "gameMode": "ဂိမ်းမုဒ်",
+    "pauseAI": "AI ကိုခဏရပ်ရန်",
+    "resumeAI": "AI ကိုဆက်ရန်",
+    "undo": "နောက်ပြန်",
+    "redo": "ပြန်လုပ်ရန်"
+  },
+  "diff": {
+    "easy": "လွယ်",
+    "medium": "အလယ်အလတ်",
+    "hard": "ခက်"
+  },
+  "mode": {
+    "userVsUser": "အသုံးပြုသူ vs အသုံးပြုသူ",
+    "userVsAI": "အသုံးပြုသူ vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "သင်",
+    "playerOne": "ကစားသူ တစ်",
+    "playerTwo": "ကစားသူ နှစ်",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "ကျပန်း",
+    "playerAIPlayer": "AI ကစားသူ",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "ဂိမ်းအခြေအနေ...",
+    "pausedAI": "{{player}} ခဏရပ်ထားသည်...",
+    "placingAI": "{{player}} ကစားနေသည် - အပိုင်းကို ဘုတ်ပေါ်တင်နေသည်...",
+    "placingUser": "{{player}} ကစားနေသည် - ရွေးထားသော အပိုင်းကို ဘုတ်ပေါ်တင်ပါ...",
+    "placeUserYou": "သင်ကစားနေသည် - ရွေးထားသော အပိုင်းကို ဘုတ်ပေါ်တင်ပါ...",
+    "gameDrawn": "သရေ - အနိုင်ရလိုင်းမရှိ",
+    "gameWon": "{{player}} အနိုင်ရသည် - အနိုင်ရလိုင်းကို မီးမောင်းထိုးထားသည်",
+    "selectingAI": "{{player}} ကစားနေသည် - {{opponent}} အတွက် အပိုင်းတစ်ခု ရွေးနေသည်...",
+    "selectUser": "{{player}} ကစားနေသည် - {{opponent}} အတွက် အပိုင်းတစ်ခု ရွေးပါ...",
+    "selectUserYou": "သင်ကစားနေသည် - {{opponent}} အတွက် အပိုင်းတစ်ခု ရွေးပါ..."
+  },
+  "piece": {
+    "inPlay": "ကစားနေသော အပိုင်း",
+    "none": "မရွေးထားပါ",
+    "traits": "အပိုင်း၏ လက္ခဏာများ",
+    "black": "အနက်",
+    "red": "အနီ",
+    "big": "အကြီး",
+    "small": "အသေး",
+    "round": "အဝိုင်း",
+    "square": "စတုရန်း",
+    "solid": "အပြည့်",
+    "hollow": "အခေါင်း"
+  },
+  "board": {
+    "binary": "ဘိုင်နရီဘုတ်",
+    "piecesPlaced": "တင်ထားသော အပိုင်းများ",
+    "cellEmpty": "ကွက် {{cell}}: ဗလာ",
+    "cellPiece": "ကွက် {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D rendering မရနိုင်ပါ။",
+    "webglHeading": "WebGL ကို စတင်၍မရပါ။",
+    "webglMsg": "ဂိမ်းအတွက် browser တွင် WebGL ကို ဖွင့်ထားရန် လိုအပ်သည်။"
+  },
+  "metrics": {
+    "hoverRiskPreview": "ရွေးချယ်မှုအန္တရာယ်ကို ကြည့်ရန် ရွေးနိုင်သော အပိုင်းပေါ် mouse တင်ပါ",
+    "hoveredRiskOne": "ညွှန်းထားသော အပိုင်း၏ အန္တရာယ်: {{risk}} ချက်ချင်းအနိုင်ရနေရာ",
+    "hoveredRiskMany": "ညွှန်းထားသော အပိုင်း၏ အန္တရာယ်: {{risk}} ချက်ချင်းအနိုင်ရနေရာများ",
+    "immediateWins": "ချက်ချင်းအနိုင်ရနေရာများ",
+    "latestRisk": "နောက်ဆုံးရွေးချယ်မှုအန္တရာယ်",
+    "riskOneAI": "AI ရွေးထားသော အပိုင်း၏ အန္တရာယ်: {{risk}} ချက်ချင်းအနိုင်ရနေရာ",
+    "riskManyAI": "AI ရွေးထားသော အပိုင်း၏ အန္တရာယ်: {{risk}} ချက်ချင်းအနိုင်ရနေရာများ",
+    "riskTurnedOff": "ရွေးချယ်မှုအန္တရာယ် ပိတ်ထားသည်",
+    "riskUnavailableAI": "AI vs AI မုဒ်တွင် ရွေးချယ်မှုအန္တရာယ် မရနိုင်ပါ",
+    "selectionRisk": "ရွေးချယ်မှုအန္တရာယ်",
+    "turnRiskOff": "ရွေးချယ်မှုအန္တရာယ် ပိတ်ရန်",
+    "turnRiskOn": "ရွေးချယ်မှုအန္တရာယ် ဖွင့်ရန်"
+  },
+  "metadata": {
+    "description": "Three.js နှင့် alpha-beta pruning ပါသော Minimax အတုဉာဏ်ရည် algorithm ၏ Negamax ဗားရှင်းကို အသုံးပြုသည့် အပြန်အလှန် 3D Quarto ဘုတ်ဂိမ်း UI။ လွယ်၊ အလယ်အလတ်နှင့် ခက်သော AI အဆင့်များဖြင့် အသုံးပြုသူ vs အသုံးပြုသူ၊ အသုံးပြုသူ vs AI နှင့် AI vs AI ကစားပါ။",
+    "ogDescription": "အပြန်အလှန် 3D Quarto ဘုတ်ဂိမ်း။ လွယ်၊ အလယ်အလတ်နှင့် ခက်သော AI အဆင့်များဖြင့် အသုံးပြုသူ vs အသုံးပြုသူ၊ အသုံးပြုသူ vs AI နှင့် AI vs AI ကစားပါ။"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Un miglioramento portato di",
+    "newGame": "Nuova partita"
+  },
+  "common": {
+    "on": "ON",
+    "off": "OFF"
+  },
+  "a11y": {
+    "utilityActions": "Collegamenti dell’applicazione e lingua",
+    "viewSource": "Visualizza il sorgente su GitHub",
+    "gameControls": "Comandi di gioco",
+    "gameBoard": "Tabellone di gioco 3D",
+    "gameInfo": "Informazioni sulla partita"
+  },
+  "controls": {
+    "diffAI": "Difficoltà IA",
+    "diffPlayerOneAI": "Difficoltà G1",
+    "diffPlayerTwoAI": "Difficoltà G2",
+    "startingPlayer": "Giocatore iniziale",
+    "gameMode": "Modalità di gioco",
+    "pauseAI": "Metti in pausa IA",
+    "resumeAI": "Riprendi IA",
+    "undo": "Annulla",
+    "redo": "Ripeti"
+  },
+  "diff": {
+    "easy": "Facile",
+    "medium": "Media",
+    "hard": "Difficile"
+  },
+  "mode": {
+    "userVsUser": "Utente contro utente",
+    "userVsAI": "Utente contro IA",
+    "onlyAI": "IA contro IA"
+  },
+  "player": {
+    "playerYou": "Tu",
+    "playerOne": "Giocatore Uno",
+    "playerTwo": "Giocatore Due",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (G{{number}}, {{difficulty}})",
+    "playerRandom": "Casuale",
+    "playerAIPlayer": "Giocatore IA",
+    "playerShort": "G{{number}}"
+  },
+  "status": {
+    "loading": "Stato della partita...",
+    "pausedAI": "{{player}} è in pausa...",
+    "placingAI": "{{player}} sta giocando - sta posizionando il pezzo sul tabellone...",
+    "placingUser": "{{player}} sta giocando - Posiziona il pezzo selezionato sul tabellone...",
+    "placeUserYou": "Stai giocando - Posiziona il pezzo selezionato sul tabellone...",
+    "gameDrawn": "Partita patta - nessuna linea vincente",
+    "gameWon": "{{player}} vince - linea vincente evidenziata",
+    "selectingAI": "{{player}} sta giocando - sta scegliendo un pezzo per {{opponent}}...",
+    "selectUser": "{{player}} sta giocando - Seleziona un pezzo per {{opponent}}...",
+    "selectUserYou": "Stai giocando - Seleziona un pezzo per {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pezzo in gioco",
+    "none": "Nessuno selezionato",
+    "traits": "Caratteristiche del pezzo",
+    "black": "nero",
+    "red": "rosso",
+    "big": "grande",
+    "small": "piccolo",
+    "round": "rotondo",
+    "square": "quadrato",
+    "solid": "pieno",
+    "hollow": "cavo"
+  },
+  "board": {
+    "binary": "Tabellone binario",
+    "piecesPlaced": "Pezzi posizionati",
+    "cellEmpty": "Cella {{cell}}: vuota",
+    "cellPiece": "Cella {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Il rendering 3D non è disponibile.",
+    "webglHeading": "Impossibile avviare WebGL.",
+    "webglMsg": "Il gioco richiede che WebGL sia abilitato nel browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Passa il mouse su un pezzo selezionabile per visualizzarne il rischio di selezione",
+    "hoveredRiskOne": "Rischio del pezzo sotto il cursore: {{risk}} posizionamento vincente immediato",
+    "hoveredRiskMany": "Rischio del pezzo sotto il cursore: {{risk}} posizionamenti vincenti immediati",
+    "immediateWins": "Posizionamenti vincenti immediati",
+    "latestRisk": "Ultimo rischio di selezione",
+    "riskOneAI": "Rischio del pezzo selezionato dall’IA: {{risk}} posizionamento vincente immediato",
+    "riskManyAI": "Rischio del pezzo selezionato dall’IA: {{risk}} posizionamenti vincenti immediati",
+    "riskTurnedOff": "Il rischio di selezione è disattivato",
+    "riskUnavailableAI": "Il rischio di selezione non è disponibile in modalità IA contro IA",
+    "selectionRisk": "Rischio di selezione",
+    "turnRiskOff": "Disattiva rischio di selezione",
+    "turnRiskOn": "Attiva rischio di selezione"
+  },
+  "metadata": {
+    "description": "Interfaccia interattiva del gioco da tavolo Quarto in 3D che usa Three.js e la versione Negamax dell’algoritmo di intelligenza artificiale Minimax con potatura alfa-beta. Gioca utente contro utente, utente contro IA e IA contro IA, con difficoltà IA facile, media e difficile.",
+    "ogDescription": "Gioco da tavolo Quarto interattivo in 3D. Gioca utente contro utente, utente contro IA e IA contro IA, con difficoltà IA facile, media e difficile."
+  }
+}

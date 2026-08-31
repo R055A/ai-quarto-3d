@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Uboreshaji uliohamishwa wa",
+    "newGame": "Mchezo mpya"
+  },
+  "common": {
+    "on": "WASHA",
+    "off": "ZIMA"
+  },
+  "a11y": {
+    "utilityActions": "Viungo vya programu na lugha",
+    "viewSource": "Tazama msimbo chanzo kwenye GitHub",
+    "gameControls": "Vidhibiti vya mchezo",
+    "gameBoard": "Ubao wa mchezo wa 3D",
+    "gameInfo": "Taarifa za mchezo"
+  },
+  "controls": {
+    "diffAI": "Ugumu wa AI",
+    "diffPlayerOneAI": "Ugumu wa M1",
+    "diffPlayerTwoAI": "Ugumu wa M2",
+    "startingPlayer": "Mchezaji anayeanza",
+    "gameMode": "Hali ya mchezo",
+    "pauseAI": "Sitisha AI",
+    "resumeAI": "Endelea na AI",
+    "undo": "Tendua",
+    "redo": "Rudia"
+  },
+  "diff": {
+    "easy": "Rahisi",
+    "medium": "Wastani",
+    "hard": "Ngumu"
+  },
+  "mode": {
+    "userVsUser": "Mtumiaji dhidi ya mtumiaji",
+    "userVsAI": "Mtumiaji dhidi ya AI",
+    "onlyAI": "AI dhidi ya AI"
+  },
+  "player": {
+    "playerYou": "Wewe",
+    "playerOne": "Mchezaji wa Kwanza",
+    "playerTwo": "Mchezaji wa Pili",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (M{{number}}, {{difficulty}})",
+    "playerRandom": "Nasibu",
+    "playerAIPlayer": "Mchezaji wa AI",
+    "playerShort": "M{{number}}"
+  },
+  "status": {
+    "loading": "Hali ya mchezo...",
+    "pausedAI": "{{player}} amesitishwa...",
+    "placingAI": "{{player}} anacheza - anaweka kipande ubaoni...",
+    "placingUser": "{{player}} anacheza - Weka kipande kilichochaguliwa ubaoni...",
+    "placeUserYou": "Unacheza - Weka kipande kilichochaguliwa ubaoni...",
+    "gameDrawn": "Mchezo sare - hakuna mstari wa ushindi",
+    "gameWon": "{{player}} ameshinda - mstari wa ushindi umeangaziwa",
+    "selectingAI": "{{player}} anacheza - anachagua kipande kwa {{opponent}}...",
+    "selectUser": "{{player}} anacheza - Chagua kipande kwa {{opponent}}...",
+    "selectUserYou": "Unacheza - Chagua kipande kwa {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Kipande kinachochezwa",
+    "none": "Hakuna kilichochaguliwa",
+    "traits": "Sifa za kipande",
+    "black": "nyeusi",
+    "red": "nyekundu",
+    "big": "kikubwa",
+    "small": "kidogo",
+    "round": "mviringo",
+    "square": "mraba",
+    "solid": "imara",
+    "hollow": "chenye tundu"
+  },
+  "board": {
+    "binary": "Ubao wa jozi",
+    "piecesPlaced": "Vipande vilivyowekwa",
+    "cellEmpty": "Seli {{cell}}: tupu",
+    "cellPiece": "Seli {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Uonyeshaji wa 3D haupatikani.",
+    "webglHeading": "WebGL haikuweza kuanza.",
+    "webglMsg": "Mchezo unahitaji WebGL iwe imewashwa kwenye kivinjari."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Elekeza kipanya juu ya kipande kinachoweza kuchaguliwa ili kuona hatari ya uchaguzi",
+    "hoveredRiskOne": "Hatari ya kipande kilichoelekezwa: {{risk}} nafasi ya ushindi ya mara moja",
+    "hoveredRiskMany": "Hatari ya kipande kilichoelekezwa: {{risk}} nafasi za ushindi za mara moja",
+    "immediateWins": "Nafasi za ushindi za mara moja",
+    "latestRisk": "Hatari ya uchaguzi ya hivi karibuni",
+    "riskOneAI": "Hatari ya kipande kilichochaguliwa na AI: {{risk}} nafasi ya ushindi ya mara moja",
+    "riskManyAI": "Hatari ya kipande kilichochaguliwa na AI: {{risk}} nafasi za ushindi za mara moja",
+    "riskTurnedOff": "Hatari ya uchaguzi imezimwa",
+    "riskUnavailableAI": "Hatari ya uchaguzi haipatikani katika hali ya AI dhidi ya AI",
+    "selectionRisk": "Hatari ya uchaguzi",
+    "turnRiskOff": "Zima hatari ya uchaguzi",
+    "turnRiskOn": "Washa hatari ya uchaguzi"
+  },
+  "metadata": {
+    "description": "Kiolesura shirikishi cha mchezo wa ubao wa Quarto wa 3D kinachotumia Three.js na toleo la Negamax la algoriti ya akili bandia ya Minimax yenye upogoaji wa alpha-beta. Cheza mtumiaji dhidi ya mtumiaji, mtumiaji dhidi ya AI na AI dhidi ya AI kwa viwango rahisi, vya wastani na vigumu vya AI.",
+    "ogDescription": "Mchezo shirikishi wa ubao wa Quarto wa 3D. Cheza mtumiaji dhidi ya mtumiaji, mtumiaji dhidi ya AI na AI dhidi ya AI kwa viwango rahisi, vya wastani na vigumu vya AI."
+  }
+}

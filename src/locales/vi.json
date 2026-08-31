@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Bản cải tiến được chuyển thể từ",
+    "newGame": "Ván mới"
+  },
+  "common": {
+    "on": "BẬT",
+    "off": "TẮT"
+  },
+  "a11y": {
+    "utilityActions": "Liên kết ứng dụng và ngôn ngữ",
+    "viewSource": "Xem mã nguồn trên GitHub",
+    "gameControls": "Điều khiển trò chơi",
+    "gameBoard": "Bàn chơi 3D",
+    "gameInfo": "Thông tin trò chơi"
+  },
+  "controls": {
+    "diffAI": "Độ khó AI",
+    "diffPlayerOneAI": "Độ khó P1",
+    "diffPlayerTwoAI": "Độ khó P2",
+    "startingPlayer": "Người chơi bắt đầu",
+    "gameMode": "Chế độ chơi",
+    "pauseAI": "Tạm dừng AI",
+    "resumeAI": "Tiếp tục AI",
+    "undo": "Hoàn tác",
+    "redo": "Làm lại"
+  },
+  "diff": {
+    "easy": "Dễ",
+    "medium": "Trung bình",
+    "hard": "Khó"
+  },
+  "mode": {
+    "userVsUser": "Người dùng đấu người dùng",
+    "userVsAI": "Người dùng đấu AI",
+    "onlyAI": "AI đấu AI"
+  },
+  "player": {
+    "playerYou": "Bạn",
+    "playerOne": "Người chơi Một",
+    "playerTwo": "Người chơi Hai",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Ngẫu nhiên",
+    "playerAIPlayer": "Người chơi AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Trạng thái trò chơi...",
+    "pausedAI": "{{player}} đang tạm dừng...",
+    "placingAI": "{{player}} đang chơi - đặt quân lên bàn...",
+    "placingUser": "{{player}} đang chơi - Đặt quân đã chọn lên bàn...",
+    "placeUserYou": "Bạn đang chơi - Đặt quân đã chọn lên bàn...",
+    "gameDrawn": "Hòa - không có đường thắng",
+    "gameWon": "{{player}} thắng - đường thắng được tô sáng",
+    "selectingAI": "{{player}} đang chơi - chọn một quân cho {{opponent}}...",
+    "selectUser": "{{player}} đang chơi - Chọn một quân cho {{opponent}}...",
+    "selectUserYou": "Bạn đang chơi - Chọn một quân cho {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Quân đang chơi",
+    "none": "Chưa chọn quân nào",
+    "traits": "Thuộc tính quân",
+    "black": "đen",
+    "red": "đỏ",
+    "big": "lớn",
+    "small": "nhỏ",
+    "round": "tròn",
+    "square": "vuông",
+    "solid": "đặc",
+    "hollow": "rỗng"
+  },
+  "board": {
+    "binary": "Bàn nhị phân",
+    "piecesPlaced": "Các quân đã đặt",
+    "cellEmpty": "Ô {{cell}}: trống",
+    "cellPiece": "Ô {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Không thể hiển thị 3D.",
+    "webglHeading": "Không thể khởi động WebGL.",
+    "webglMsg": "Trò chơi yêu cầu WebGL được bật trong trình duyệt."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Di chuột lên một quân có thể chọn để xem trước rủi ro lựa chọn",
+    "hoveredRiskOne": "Rủi ro của quân đang trỏ: {{risk}} vị trí thắng ngay",
+    "hoveredRiskMany": "Rủi ro của quân đang trỏ: {{risk}} vị trí thắng ngay",
+    "immediateWins": "Các vị trí thắng ngay",
+    "latestRisk": "Rủi ro lựa chọn mới nhất",
+    "riskOneAI": "Rủi ro của quân do AI chọn: {{risk}} vị trí thắng ngay",
+    "riskManyAI": "Rủi ro của quân do AI chọn: {{risk}} vị trí thắng ngay",
+    "riskTurnedOff": "Rủi ro lựa chọn đang tắt",
+    "riskUnavailableAI": "Rủi ro lựa chọn không khả dụng ở chế độ AI đấu AI",
+    "selectionRisk": "Rủi ro lựa chọn",
+    "turnRiskOff": "Tắt rủi ro lựa chọn",
+    "turnRiskOn": "Bật rủi ro lựa chọn"
+  },
+  "metadata": {
+    "description": "Giao diện trò chơi bàn Quarto 3D tương tác sử dụng Three.js và phiên bản Negamax của thuật toán trí tuệ nhân tạo Minimax với cắt tỉa alpha-beta. Chơi người dùng đấu người dùng, người dùng đấu AI và AI đấu AI với các mức AI dễ, trung bình và khó.",
+    "ogDescription": "Trò chơi bàn Quarto 3D tương tác. Chơi người dùng đấu người dùng, người dùng đấu AI và AI đấu AI với các mức AI dễ, trung bình và khó."
+  }
+}

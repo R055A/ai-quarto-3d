@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Një përmirësim i portuar i",
+    "newGame": "Lojë e re"
+  },
+  "common": {
+    "on": "AKTIV",
+    "off": "JOAKTIV"
+  },
+  "a11y": {
+    "utilityActions": "Lidhjet e aplikacionit dhe gjuha",
+    "viewSource": "Shiko kodin burimor në GitHub",
+    "gameControls": "Kontrollet e lojës",
+    "gameBoard": "Tabela 3D e lojës",
+    "gameInfo": "Informacioni i lojës"
+  },
+  "controls": {
+    "diffAI": "Vështirësia e IA-së",
+    "diffPlayerOneAI": "Vështirësia L1",
+    "diffPlayerTwoAI": "Vështirësia L2",
+    "startingPlayer": "Lojtari fillestar",
+    "gameMode": "Mënyra e lojës",
+    "pauseAI": "Ndalo IA-në",
+    "resumeAI": "Vazhdo IA-në",
+    "undo": "Zhbëj",
+    "redo": "Ribëj"
+  },
+  "diff": {
+    "easy": "Lehtë",
+    "medium": "Mesatare",
+    "hard": "Vështirë"
+  },
+  "mode": {
+    "userVsUser": "Përdorues kundër përdoruesit",
+    "userVsAI": "Përdorues kundër IA-së",
+    "onlyAI": "IA kundër IA-së"
+  },
+  "player": {
+    "playerYou": "Ti",
+    "playerOne": "Lojtari Një",
+    "playerTwo": "Lojtari Dy",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (L{{number}}, {{difficulty}})",
+    "playerRandom": "Rastësisht",
+    "playerAIPlayer": "Lojtar IA",
+    "playerShort": "L{{number}}"
+  },
+  "status": {
+    "loading": "Gjendja e lojës...",
+    "pausedAI": "{{player}} është në pauzë...",
+    "placingAI": "{{player}} po luan - po vendos gurin në tabelë...",
+    "placingUser": "{{player}} po luan - Vendos gurin e zgjedhur në tabelë...",
+    "placeUserYou": "Ti po luan - Vendos gurin e zgjedhur në tabelë...",
+    "gameDrawn": "Barazim - asnjë vijë fituese",
+    "gameWon": "{{player}} fiton - vija fituese u theksua",
+    "selectingAI": "{{player}} po luan - po zgjedh një gur për {{opponent}}...",
+    "selectUser": "{{player}} po luan - Zgjidh një gur për {{opponent}}...",
+    "selectUserYou": "Ti po luan - Zgjidh një gur për {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Guri në lojë",
+    "none": "Asnjë i zgjedhur",
+    "traits": "Tiparet e gurit",
+    "black": "i zi",
+    "red": "i kuq",
+    "big": "i madh",
+    "small": "i vogël",
+    "round": "i rrumbullakët",
+    "square": "katror",
+    "solid": "i plotë",
+    "hollow": "i zbrazët"
+  },
+  "board": {
+    "binary": "Tabela binare",
+    "piecesPlaced": "Gurët e vendosur",
+    "cellEmpty": "Qeliza {{cell}}: bosh",
+    "cellPiece": "Qeliza {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Renderimi 3D nuk është i disponueshëm.",
+    "webglHeading": "WebGL nuk mundi të nisej.",
+    "webglMsg": "Loja kërkon që WebGL të jetë aktivizuar në shfletues."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Kalo mbi një gur të zgjedhshëm për të parë rrezikun e zgjedhjes",
+    "hoveredRiskOne": "Rreziku i gurit nën kursor: {{risk}} vendosje fituese e menjëhershme",
+    "hoveredRiskMany": "Rreziku i gurit nën kursor: {{risk}} vendosje fituese të menjëhershme",
+    "immediateWins": "Vendosje fituese të menjëhershme",
+    "latestRisk": "Rreziku më i fundit i zgjedhjes",
+    "riskOneAI": "Rreziku i gurit të zgjedhur nga IA: {{risk}} vendosje fituese e menjëhershme",
+    "riskManyAI": "Rreziku i gurit të zgjedhur nga IA: {{risk}} vendosje fituese të menjëhershme",
+    "riskTurnedOff": "Rreziku i zgjedhjes është çaktivizuar",
+    "riskUnavailableAI": "Rreziku i zgjedhjes nuk është i disponueshëm në mënyrën IA kundër IA-së",
+    "selectionRisk": "Rreziku i zgjedhjes",
+    "turnRiskOff": "Çaktivizo rrezikun e zgjedhjes",
+    "turnRiskOn": "Aktivizo rrezikun e zgjedhjes"
+  },
+  "metadata": {
+    "description": "Ndërfaqe interaktive 3D e lojës së tavolinës Quarto duke përdorur Three.js dhe versionin Negamax të algoritmit të inteligjencës artificiale Minimax me krasitje alfa-beta. Luaj përdorues kundër përdoruesit, përdorues kundër IA-së dhe IA kundër IA-së, me vështirësi të lehtë, mesatare dhe të vështirë.",
+    "ogDescription": "Lojë interaktive 3D e tavolinës Quarto. Luaj përdorues kundër përdoruesit, përdorues kundër IA-së dhe IA kundër IA-së, me vështirësi të lehtë, mesatare dhe të vështirë."
+  }
+}

@@ -39,14 +39,3 @@ export function pieceStr(piece: PieceId): string {
   const { isDark, isBig, isRound, isSolid } = getPieceTraits(piece);
   return `${bit(isDark)}${bit(isBig)}${bit(isRound)}${bit(!isSolid)}`;
 }
-
-export function describePiece(piece: PieceId): string {
-  const { isDark, isBig, isRound, isSolid } = getPieceTraits(piece);
-
-  return [
-    isDark ? "black" : "red",
-    isBig ? "big" : "small",
-    isRound ? "round" : "square",
-    isSolid ? "solid" : "hollow",
-  ].join(", ");
-}

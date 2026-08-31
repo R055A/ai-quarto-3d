@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Titjib portat ta’",
+    "newGame": "Logħba ġdida"
+  },
+  "common": {
+    "on": "MIXGĦUL",
+    "off": "MITFI"
+  },
+  "a11y": {
+    "utilityActions": "Links tal-applikazzjoni u lingwa",
+    "viewSource": "Ara l-kodiċi sors fuq GitHub",
+    "gameControls": "Kontrolli tal-logħba",
+    "gameBoard": "Bord tal-logħba 3D",
+    "gameInfo": "Informazzjoni tal-logħba"
+  },
+  "controls": {
+    "diffAI": "Diffikultà tal-AI",
+    "diffPlayerOneAI": "Diffikultà P1",
+    "diffPlayerTwoAI": "Diffikultà P2",
+    "startingPlayer": "Plejer li jibda",
+    "gameMode": "Modalità tal-logħba",
+    "pauseAI": "Waqqaf l-AI",
+    "resumeAI": "Kompli l-AI",
+    "undo": "Ħassar",
+    "redo": "Erġa’ agħmel"
+  },
+  "diff": {
+    "easy": "Faċli",
+    "medium": "Medju",
+    "hard": "Diffiċli"
+  },
+  "mode": {
+    "userVsUser": "Utent kontra utent",
+    "userVsAI": "Utent kontra AI",
+    "onlyAI": "AI kontra AI"
+  },
+  "player": {
+    "playerYou": "Int",
+    "playerOne": "Plejer Wieħed",
+    "playerTwo": "Plejer Tnejn",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Każwali",
+    "playerAIPlayer": "Plejer AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Status tal-logħba...",
+    "pausedAI": "{{player}} jinsab waqaf...",
+    "placingAI": "{{player}} qed jilgħab - ipoġġi l-biċċa fuq il-bord...",
+    "placingUser": "{{player}} qed jilgħab - Poġġi l-biċċa magħżula fuq il-bord...",
+    "placeUserYou": "Int qed tilgħab - Poġġi l-biċċa magħżula fuq il-bord...",
+    "gameDrawn": "Logħba ndaqs - ebda linja rebbieħa",
+    "gameWon": "{{player}} jirbaħ - il-linja rebbieħa enfasizzata",
+    "selectingAI": "{{player}} qed jilgħab - jagħżel biċċa għal {{opponent}}...",
+    "selectUser": "{{player}} qed jilgħab - Agħżel biċċa għal {{opponent}}...",
+    "selectUserYou": "Int qed tilgħab - Agħżel biċċa għal {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Biċċa fil-logħba",
+    "none": "Xejn magħżul",
+    "traits": "Karatteristiċi tal-biċċa",
+    "black": "sewda",
+    "red": "ħamra",
+    "big": "kbira",
+    "small": "żgħira",
+    "round": "tonda",
+    "square": "kwadra",
+    "solid": "solida",
+    "hollow": "vojta"
+  },
+  "board": {
+    "binary": "Bord binarju",
+    "piecesPlaced": "Biċċiet imqiegħda",
+    "cellEmpty": "Ċella {{cell}}: vojta",
+    "cellPiece": "Ċella {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Ir-rendering 3D mhux disponibbli.",
+    "webglHeading": "WebGL ma setax jibda.",
+    "webglMsg": "Il-logħba teħtieġ li WebGL ikun attivat fil-browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Għaddi l-cursor fuq biċċa li tista’ tintgħażel biex tara r-riskju tal-għażla",
+    "hoveredRiskOne": "Riskju tal-biċċa taħt il-cursor: {{risk}} tqegħid rebbieħ immedjat",
+    "hoveredRiskMany": "Riskju tal-biċċa taħt il-cursor: {{risk}} tqegħid rebbieħ immedjat",
+    "immediateWins": "Tqegħid rebbieħ immedjat",
+    "latestRisk": "L-aħħar riskju tal-għażla",
+    "riskOneAI": "Riskju tal-biċċa magħżula mill-AI: {{risk}} tqegħid rebbieħ immedjat",
+    "riskManyAI": "Riskju tal-biċċa magħżula mill-AI: {{risk}} tqegħid rebbieħ immedjat",
+    "riskTurnedOff": "Ir-riskju tal-għażla huwa mitfi",
+    "riskUnavailableAI": "Ir-riskju tal-għażla mhux disponibbli fil-modalità AI kontra AI",
+    "selectionRisk": "Riskju tal-għażla",
+    "turnRiskOff": "Itfi r-riskju tal-għażla",
+    "turnRiskOn": "Ixgħel ir-riskju tal-għażla"
+  },
+  "metadata": {
+    "description": "Interfaċċa interattiva 3D tal-logħba tal-bord Quarto li tuża Three.js u l-verżjoni Negamax tal-algoritmu ta’ intelliġenza artifiċjali Minimax b’qtugħ alfa-beta. Ilgħab utent kontra utent, utent kontra AI u AI kontra AI, b’AI faċli, medja u diffiċli.",
+    "ogDescription": "Logħba interattiva 3D tal-bord Quarto. Ilgħab utent kontra utent, utent kontra AI u AI kontra AI, b’AI faċli, medja u diffiċli."
+  }
+}

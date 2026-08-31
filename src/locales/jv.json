@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Panyempurnaan sing dipindhah saka",
+    "newGame": "Dolanan anyar"
+  },
+  "common": {
+    "on": "URIP",
+    "off": "MATI"
+  },
+  "a11y": {
+    "utilityActions": "Pranala aplikasi lan basa",
+    "viewSource": "Deleng sumber ing GitHub",
+    "gameControls": "Kontrol dolanan",
+    "gameBoard": "Papan dolanan 3D",
+    "gameInfo": "Informasi dolanan"
+  },
+  "controls": {
+    "diffAI": "Kangelan AI",
+    "diffPlayerOneAI": "Kangelan P1",
+    "diffPlayerTwoAI": "Kangelan P2",
+    "startingPlayer": "Pemain wiwitan",
+    "gameMode": "Mode dolanan",
+    "pauseAI": "Ngaso AI",
+    "resumeAI": "Terusake AI",
+    "undo": "Batalake",
+    "redo": "Baleni"
+  },
+  "diff": {
+    "easy": "Gampang",
+    "medium": "Sedheng",
+    "hard": "Angel"
+  },
+  "mode": {
+    "userVsUser": "Panganggo lawan panganggo",
+    "userVsAI": "Panganggo lawan AI",
+    "onlyAI": "AI lawan AI"
+  },
+  "player": {
+    "playerYou": "Sampeyan",
+    "playerOne": "Pemain Siji",
+    "playerTwo": "Pemain Loro",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Acak",
+    "playerAIPlayer": "Pemain AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Status dolanan...",
+    "pausedAI": "{{player}} lagi ngaso...",
+    "placingAI": "{{player}} lagi dolanan - nyelehake bidak ing papan...",
+    "placingUser": "{{player}} lagi dolanan - Selehake bidak sing dipilih ing papan...",
+    "placeUserYou": "Sampeyan lagi dolanan - Selehake bidak sing dipilih ing papan...",
+    "gameDrawn": "Dolanan seri - ora ana garis menang",
+    "gameWon": "{{player}} menang - garis menang disorot",
+    "selectingAI": "{{player}} lagi dolanan - milih bidak kanggo {{opponent}}...",
+    "selectUser": "{{player}} lagi dolanan - Pilih bidak kanggo {{opponent}}...",
+    "selectUserYou": "Sampeyan lagi dolanan - Pilih bidak kanggo {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Bidak sing lagi dimainake",
+    "none": "Ora ana sing dipilih",
+    "traits": "Ciri bidak",
+    "black": "ireng",
+    "red": "abang",
+    "big": "gedhe",
+    "small": "cilik",
+    "round": "bunder",
+    "square": "kothak",
+    "solid": "padhet",
+    "hollow": "bolong"
+  },
+  "board": {
+    "binary": "Papan biner",
+    "piecesPlaced": "Bidak sing wis diselehake",
+    "cellEmpty": "Sel {{cell}}: kosong",
+    "cellPiece": "Sel {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Rendering 3D ora kasedhiya.",
+    "webglHeading": "WebGL ora bisa diwiwiti.",
+    "webglMsg": "Dolanan mbutuhake WebGL diaktifake ing browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Arahake kursor ing bidak sing bisa dipilih kanggo ndeleng risiko pilihan",
+    "hoveredRiskOne": "Risiko bidak sing dituduhake: {{risk}} posisi menang langsung",
+    "hoveredRiskMany": "Risiko bidak sing dituduhake: {{risk}} posisi menang langsung",
+    "immediateWins": "Posisi menang langsung",
+    "latestRisk": "Risiko pilihan paling anyar",
+    "riskOneAI": "Risiko bidak sing dipilih AI: {{risk}} posisi menang langsung",
+    "riskManyAI": "Risiko bidak sing dipilih AI: {{risk}} posisi menang langsung",
+    "riskTurnedOff": "Risiko pilihan dipateni",
+    "riskUnavailableAI": "Risiko pilihan ora kasedhiya ing mode AI lawan AI",
+    "selectionRisk": "Risiko pilihan",
+    "turnRiskOff": "Pateni risiko pilihan",
+    "turnRiskOn": "Uripake risiko pilihan"
+  },
+  "metadata": {
+    "description": "Antarmuka dolanan papan Quarto 3D interaktif nggunakake Three.js lan versi Negamax saka algoritma kecerdasan buatan Minimax kanthi pruning alpha-beta. Dolan panganggo lawan panganggo, panganggo lawan AI, lan AI lawan AI kanthi AI gampang, sedheng lan angel.",
+    "ogDescription": "Dolanan papan Quarto 3D interaktif. Dolan panganggo lawan panganggo, panganggo lawan AI, lan AI lawan AI kanthi AI gampang, sedheng lan angel."
+  }
+}

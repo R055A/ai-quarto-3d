@@ -95,6 +95,16 @@ export function isWinCellPlacement(board: readonly Cell[], cell: number, piece: 
   );
 }
 
+export function sumWinCells(board: readonly Cell[], piece: PieceId): number {
+  let sum: number = 0;
+  for (let cell: number = 0; cell < board.length; cell += 1) {
+    if (board[cell] === null && isWinCellPlacement(board, cell, piece)) {
+      sum += 1;
+    }
+  }
+  return sum;
+}
+
 export function getEmptyCells(board: readonly Cell[]): number[] {
   const cells: number[] = [];
   for (let cell: number = 0; cell < board.length; cell += 1) {

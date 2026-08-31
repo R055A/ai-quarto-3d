@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "UI-Quarto 3D",
+    "eyebrow": "Preneseno poboljšanje projekta",
+    "newGame": "Nova igra"
+  },
+  "common": {
+    "on": "UKLJ",
+    "off": "ISKLJ"
+  },
+  "a11y": {
+    "utilityActions": "Veze aplikacije i jezik",
+    "viewSource": "Pogledaj izvorni kod na GitHubu",
+    "gameControls": "Kontrole igre",
+    "gameBoard": "3D ploča za igru",
+    "gameInfo": "Informacije o igri"
+  },
+  "controls": {
+    "diffAI": "Težina AI-ja",
+    "diffPlayerOneAI": "Težina I1",
+    "diffPlayerTwoAI": "Težina I2",
+    "startingPlayer": "Početni igrač",
+    "gameMode": "Način igre",
+    "pauseAI": "Pauziraj AI",
+    "resumeAI": "Nastavi AI",
+    "undo": "Poništi",
+    "redo": "Ponovi"
+  },
+  "diff": {
+    "easy": "Lako",
+    "medium": "Srednje",
+    "hard": "Teško"
+  },
+  "mode": {
+    "userVsUser": "Igrač protiv igrača",
+    "userVsAI": "Igrač protiv AI-ja",
+    "onlyAI": "AI protiv AI-ja"
+  },
+  "player": {
+    "playerYou": "Ti",
+    "playerOne": "Igrač jedan",
+    "playerTwo": "Igrač dva",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (I{{number}}, {{difficulty}})",
+    "playerRandom": "Nasumično",
+    "playerAIPlayer": "AI igrač",
+    "playerShort": "I{{number}}"
+  },
+  "status": {
+    "loading": "Status igre...",
+    "pausedAI": "{{player}} je pauziran...",
+    "placingAI": "{{player}} igra - postavlja figuru na ploču...",
+    "placingUser": "{{player}} igra - Postavi odabranu figuru na ploču...",
+    "placeUserYou": "Ti igraš - Postavi odabranu figuru na ploču...",
+    "gameDrawn": "Neriješeno - nema pobjedničke linije",
+    "gameWon": "{{player}} pobjeđuje - pobjednička linija je istaknuta",
+    "selectingAI": "{{player}} igra - bira figuru za {{opponent}}...",
+    "selectUser": "{{player}} igra - Izaberi figuru za {{opponent}}...",
+    "selectUserYou": "Ti igraš - Izaberi figuru za {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Figura u igri",
+    "none": "Ništa nije odabrano",
+    "traits": "Osobine figure",
+    "black": "crna",
+    "red": "crvena",
+    "big": "velika",
+    "small": "mala",
+    "round": "okrugla",
+    "square": "kvadratna",
+    "solid": "puna",
+    "hollow": "šuplja"
+  },
+  "board": {
+    "binary": "Binarna ploča",
+    "piecesPlaced": "Postavljene figure",
+    "cellEmpty": "Polje {{cell}}: prazno",
+    "cellPiece": "Polje {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D prikaz nije dostupan.",
+    "webglHeading": "WebGL se nije mogao pokrenuti.",
+    "webglMsg": "Igra zahtijeva omogućen WebGL u pregledniku."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Pređi pokazivačem preko figure koja se može izabrati za pregled rizika izbora",
+    "hoveredRiskOne": "Rizik označene figure: {{risk}} trenutno pobjedničko postavljanje",
+    "hoveredRiskMany": "Rizik označene figure: {{risk}} trenutnih pobjedničkih postavljanja",
+    "immediateWins": "Trenutna pobjednička postavljanja",
+    "latestRisk": "Najnoviji rizik izbora",
+    "riskOneAI": "Rizik figure koju je izabrao AI: {{risk}} trenutno pobjedničko postavljanje",
+    "riskManyAI": "Rizik figure koju je izabrao AI: {{risk}} trenutnih pobjedničkih postavljanja",
+    "riskTurnedOff": "Rizik izbora je isključen",
+    "riskUnavailableAI": "Rizik izbora nije dostupan u načinu AI protiv AI-ja",
+    "selectionRisk": "Rizik izbora",
+    "turnRiskOff": "Isključi rizik izbora",
+    "turnRiskOn": "Uključi rizik izbora"
+  },
+  "metadata": {
+    "description": "Interaktivno 3D sučelje društvene igre Quarto koje koristi Three.js i Negamax verziju Minimax algoritma umjetne inteligencije s alfa-beta rezanjem. Igraj igrač protiv igrača, igrač protiv AI-ja i AI protiv AI-ja s lakom, srednjom i teškom AI razinom.",
+    "ogDescription": "Interaktivna 3D društvena igra Quarto. Igraj igrač protiv igrača, igrač protiv AI-ja i AI protiv AI-ja s lakom, srednjom i teškom AI razinom."
+  }
+}

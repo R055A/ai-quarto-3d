@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "He whakapainga kua kawea mai i",
+    "newGame": "Kēmu hōu"
+  },
+  "common": {
+    "on": "KĀ",
+    "off": "WETO"
+  },
+  "a11y": {
+    "utilityActions": "Ngā hononga taupānga me te reo",
+    "viewSource": "Tirohia te waehere pūtake ki GitHub",
+    "gameControls": "Ngā mana kēmu",
+    "gameBoard": "Papa kēmu Ahu-3",
+    "gameInfo": "Mōhiohio kēmu"
+  },
+  "controls": {
+    "diffAI": "Taumata uaua AI",
+    "diffPlayerOneAI": "Taumata uaua P1",
+    "diffPlayerTwoAI": "Taumata uaua P2",
+    "startingPlayer": "Kaitākaro tīmata",
+    "gameMode": "Aratau kēmu",
+    "pauseAI": "Whakatārewatia te AI",
+    "resumeAI": "Haere tonu te AI",
+    "undo": "Wete",
+    "redo": "Mahi anō"
+  },
+  "diff": {
+    "easy": "Māmā",
+    "medium": "Waenga",
+    "hard": "Uaua"
+  },
+  "mode": {
+    "userVsUser": "Kaiwhakamahi ki te kaiwhakamahi",
+    "userVsAI": "Kaiwhakamahi ki te AI",
+    "onlyAI": "AI ki AI"
+  },
+  "player": {
+    "playerYou": "Koe",
+    "playerOne": "Kaitākaro Tuatahi",
+    "playerTwo": "Kaitākaro Tuarua",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Matapōkere",
+    "playerAIPlayer": "Kaitākaro AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Tūnga kēmu...",
+    "pausedAI": "Kua whakatārewatia a {{player}}...",
+    "placingAI": "Kei te tākaro a {{player}} - e whakatakoto ana i te wāhanga ki te papa...",
+    "placingUser": "Kei te tākaro a {{player}} - Whakatakotoria te wāhanga kua tīpakohia ki te papa...",
+    "placeUserYou": "Kei te tākaro koe - Whakatakotoria te wāhanga kua tīpakohia ki te papa...",
+    "gameDrawn": "Kua taurite te kēmu - kāore he rārangi toa",
+    "gameWon": "Kua toa a {{player}} - kua miramirahia te rārangi toa",
+    "selectingAI": "Kei te tākaro a {{player}} - e tīpako ana i tētahi wāhanga mā {{opponent}}...",
+    "selectUser": "Kei te tākaro a {{player}} - Tīpakohia tētahi wāhanga mā {{opponent}}...",
+    "selectUserYou": "Kei te tākaro koe - Tīpakohia tētahi wāhanga mā {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Wāhanga e tākaro ana",
+    "none": "Kāore anō kia tīpakohia",
+    "traits": "Ngā āhuatanga o te wāhanga",
+    "black": "pango",
+    "red": "whero",
+    "big": "nui",
+    "small": "iti",
+    "round": "porowhita",
+    "square": "tapawhā",
+    "solid": "mārō",
+    "hollow": "kōhao"
+  },
+  "board": {
+    "binary": "Papa tāhūrua",
+    "piecesPlaced": "Ngā wāhanga kua whakatakotoria",
+    "cellEmpty": "Pūtau {{cell}}: wātea",
+    "cellPiece": "Pūtau {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Kāore te tāhuahua Ahu-3 i te wātea.",
+    "webglHeading": "Kāore i taea te tīmata a WebGL.",
+    "webglMsg": "Me whakahohe a WebGL ki te pūtirotiro kia rere ai te kēmu."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Whakaparo ki runga i tētahi wāhanga ka taea te tīpako kia kite i tōna mōrea tīpakonga",
+    "hoveredRiskOne": "Mōrea o te wāhanga kua whakaparoa: {{risk}} whakatakotoranga toa tonu",
+    "hoveredRiskMany": "Mōrea o te wāhanga kua whakaparoa: {{risk}} ngā whakatakotoranga toa tonu",
+    "immediateWins": "Ngā whakatakotoranga toa tonu",
+    "latestRisk": "Mōrea tīpakonga hou rawa",
+    "riskOneAI": "Mōrea o te wāhanga i tīpakohia e te AI: {{risk}} whakatakotoranga toa tonu",
+    "riskManyAI": "Mōrea o te wāhanga i tīpakohia e te AI: {{risk}} ngā whakatakotoranga toa tonu",
+    "riskTurnedOff": "Kua whakawetohia te mōrea tīpakonga",
+    "riskUnavailableAI": "Kāore te mōrea tīpakonga i te wātea i te aratau AI ki AI",
+    "selectionRisk": "Mōrea tīpakonga",
+    "turnRiskOff": "Whakawetohia te mōrea tīpakonga",
+    "turnRiskOn": "Whakakāngia te mōrea tīpakonga"
+  },
+  "metadata": {
+    "description": "He atanga pāhekoheko mō te kēmu papa Quarto Ahu-3 e whakamahi ana i a Three.js me te putanga Negamax o te hātepe atamai horihori Minimax me te tapahi alpha-beta. Tākaro kaiwhakamahi ki te kaiwhakamahi, kaiwhakamahi ki te AI, me te AI ki AI, me ngā taumata uaua māmā, waenga, uaua hoki.",
+    "ogDescription": "He kēmu papa Quarto Ahu-3 pāhekoheko. Tākaro kaiwhakamahi ki te kaiwhakamahi, kaiwhakamahi ki te AI, me te AI ki AI, me ngā taumata uaua māmā, waenga, uaua hoki."
+  }
+}

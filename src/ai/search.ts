@@ -4,6 +4,7 @@ import {
   getEmptyCells,
   isBoardFull,
   isWinCellPlacement,
+  sumWinCells,
 } from "../game/rules";
 import type { Cell, Difficulty, MoveAI, PieceId } from "../game/types";
 
@@ -118,16 +119,6 @@ function assertNode(context: SearchContext): void {
   }
 }
 
-function countWinCells(board: readonly Cell[], piece: PieceId): number {
-  let count: number = 0;
-  for (let cell: number = 0; cell < board.length; cell += 1) {
-    if (board[cell] === null && isWinCellPlacement(board, cell, piece)) {
-      count += 1;
-    }
-  }
-  return count;
-}
-
 function orderCells(board: readonly Cell[], piece: PieceId): number[] {
   return getEmptyCells(board)
     .map((cell: number): OrderedCell => {
@@ -151,7 +142,7 @@ function orderPieces(board: readonly Cell[], remainingPieces: readonly PieceId[]
     .map(
       (piece: number): OrderedPiece => ({
         piece,
-        danger: countWinCells(board, piece),
+        danger: sumWinCells(board, piece),
       }),
     )
     .sort((a: OrderedPiece, b: OrderedPiece): number => a.danger - b.danger || a.piece - b.piece)
@@ -384,7 +375,7 @@ function easyMove(
     let highestDanger: number = -1;
 
     for (const candidate of remainingPieces) {
-      const danger: number = countWinCells(boardAfter, candidate);
+      const danger: number = sumWinCells(boardAfter, candidate);
 
       if (
         danger > highestDanger ||

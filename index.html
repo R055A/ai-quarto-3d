@@ -4,35 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
-          name="description"
-          content="Interactive 3D Quarto board game UI using Three.js and the Negamax version of the Minimax artificial
-          intelligence algorithm with alpha-beta pruning. Play user vs user, user vs AI, and AI vs AI, with easy,
-          medium and hard AI difficulties. A port of the Python UU-game 'game engine' component completed as part of an
-          Agile software engineering project at Uppsala University; from CLI to static Web using typescript and vite."
+    name="description"
+    content="Interactive 3D Quarto board game UI using Three.js and the Negamax version of the Minimax artificial intelligence algorithm with alpha-beta pruning. Play user vs user, user vs AI, and AI vs AI, with easy, medium and hard AI difficulties."
+    data-i18n-content="metadata.description"
   />
   <meta name="theme-color" content="#11151d" />
   <meta name="robots" content="index, follow" />
-  <link
-          rel="canonical"
-          href="https://r055a.github.io/ai-quatro-3d/"
-  />
+  <link rel="canonical" href="https://r055a.github.io/ai-quatro-3d/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="AI-Quarto 3D" />
+  <meta property="og:title" content="AI-Quarto 3D" data-i18n-content="app.title" />
   <meta
-          property="og:description"
-          content="Interactive 3D Quarto board game. Play user vs user, user vs AI, and AI vs AI, with easy, medium and hard AI difficulties."
+    property="og:description"
+    content="Interactive 3D Quarto board game. Play user vs user, user vs AI, and AI vs AI, with easy, medium and hard AI difficulties."
+    data-i18n-content="metadata.ogDescription"
   />
-  <meta
-          property="og:url"
-          content="https://r055a.github.io/ai-quatro-3d/"
-  />
-  <meta
-          property="og:image"
-          content="https://r055a.github.io/ai-quatro-3d/social-preview.png"
-  />
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-96EN6VBJXM"></script>
+  <meta property="og:url" content="https://r055a.github.io/ai-quatro-3d/" />
+  <meta property="og:image" content="https://r055a.github.io/ai-quatro-3d/social-preview.png" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-96EN6VBJXM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(...args) {
@@ -52,199 +40,9 @@
   <title data-i18n="app.title">AI-Quarto 3D</title>
 </head>
 <body>
-<div id="app">
-  <header class="topbar">
-    <div>
-      <p class="eyebrow" data-i18n="app.eyebrow">A ported enhancement of Uni-Git-Projects/UU-Game (game engine)</p>
-      <h1 data-i18n="app.title">AI-Quarto 3D</h1>
-    </div>
+  <div id="app"></div>
 
-    <div class="controls">
-      <label id="diff-wrap">
-        <span data-i18n="controls.diffAI">AI difficulty</span>
-        <select id="diff">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" selected data-i18n="diff.medium">Medium</option>
-          <option value="hard" data-i18n="diff.hard">Hard</option>
-        </select>
-      </label>
-      <label id="diff-p-one-wrap" hidden>
-        <span data-i18n="controls.diffPlayerOneAI">AI-P1 difficulty</span>
-        <select id="diff-p-one">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" data-i18n="diff.medium">Medium</option>
-          <option value="hard" selected data-i18n="diff.hard">Hard</option>
-        </select>
-      </label>
-      <label id="diff-p-two-wrap" hidden>
-        <span data-i18n="controls.diffPlayerTwoAI">AI-P2 difficulty</span>
-        <select id="diff-p-two">
-          <option value="easy" data-i18n="diff.easy">Easy</option>
-          <option value="medium" data-i18n="diff.medium">Medium</option>
-          <option value="hard" selected data-i18n="diff.hard">Hard</option>
-        </select>
-      </label>
-      <label>
-        <span data-i18n="controls.startingPlayer">Starting player</span>
-        <select id="starter">
-          <option value="random" selected data-i18n="player.playerRandom">Random</option>
-          <option value="p-one" data-i18n="player.playerOne">Player 1</option>
-          <option value="p-two" data-i18n="player.playerTwo">Player 2</option>
-        </select>
-      </label>
-      <label>
-        <span data-i18n="controls.gameMode">Mode</span>
-        <select id="game-mode">
-          <option value="human-human" data-i18n="mode.userVsUser">User vs user</option>
-          <option value="human-ai" selected data-i18n="mode.userVsAI">User vs AI</option>
-          <option value="ai-ai" data-i18n="mode.onlyAI">AI vs AI</option>
-        </select>
-      </label>
-      <button id="new-game" class="primary" type="button" data-i18n="app.newGame">New game</button>
-      <div class="util-controls">
-        <label class="control-lang">
-          <svg
-                  class="control-lang-icon"
-                  viewBox="0 0 24 24"
-                  width="18"
-                  height="18"
-                  aria-hidden="true"
-          >
-            <circle cx="12" cy="12" r="9"></circle>
-            <path d="M3 12h18"></path>
-            <path d="M12 3c2.5 2.5 3.8 5.5 3.8 9S14.5 18.5 12 21"></path>
-            <path d="M12 3c-2.5 2.5-3.8 5.5-3.8 9s1.3 6.5 3.8 9"></path>
-          </svg>
-          <select id="language" aria-label="Language">
-            <option value="en" title="English">EN</option>
-          </select>
-        </label>
-        <a
-                class="github-link"
-                href="https://github.com/r055a/ai-quarto-3d"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View source on GitHub"
-                title="View source on GitHub"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.2-1.3-1.5-1.3-1.5-1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1.1 1.8 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.5 1.2a12 12 0 0 1 6.4 0A4.8 4.8 0 0 1 18.7 5c.6 1.6.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1 .8 2v3c0 .3.2.7.8.6A11.3 11.3 0 0 0 12 .7Z"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </header>
 
-  <main class="game-card">
-    <section class="scene-wrap">
-      <div class="hist-controls">
-        <button
-                id="undo"
-                class="hist-button"
-                type="button"
-                aria-label="Undo"
-                title="Undo"
-                disabled
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M9 7 4 12l5 5"></path>
-            <path d="M5 12h8a6 6 0 0 1 6 6"></path>
-          </svg>
-        </button>
-        <button
-                id="redo"
-                class="hist-button"
-                type="button"
-                aria-label="Redo"
-                title="Redo"
-                disabled
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m15 7 5 5-5 5"></path>
-            <path d="M19 12h-8a6 6 0 0 0-6 6"></path>
-          </svg>
-        </button>
-      </div>
-      <canvas id="game-canvas"></canvas>
-      <div id="thinking" class="thinking" hidden>
-        <span></span><span></span><span></span>
-        <strong id="thinking-label" data-i18n="status.thinkingAI">AI is playing</strong>
-        <button
-                id="ai-pause-toggle"
-                class="thinking-toggle"
-                type="button"
-                aria-label="Pause AI"
-                title="Pause AI"
-        >
-          <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M8 6v12M16 6v12"></path>
-          </svg>
-          <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m9 6 9 6-9 6Z"></path>
-          </svg>
-        </button>
-      </div>
-    </section>
-
-    <aside class="side-panel" aria-live="polite">
-      <div>
-        <p id="turn-badge" class="turn-badge"></p>
-        <h2 id="status" data-i18n="status.statusInitial">Gameplay status</h2>
-        <p id="detail" class="detail"></p>
-      </div>
-
-      <div class="received-card">
-        <span data-i18n="piece.inPlay">Piece in play</span>
-        <strong id="piece-name" data-i18n="piece.none">None selected</strong>
-        <code id="piece-str">----</code>
-      </div>
-
-      <div class="legend">
-        <h3 data-i18n="piece.traits">Piece traits</h3>
-        <div><code>1</code><span data-i18n="piece.black">Black</span><span data-i18n="piece.big">Big</span><span data-i18n="piece.round">Round</span><span data-i18n="piece.solid">Solid</span></div>
-        <div><code>0</code><span data-i18n="piece.red">Red</span><span data-i18n="piece.small">Small</span><span data-i18n="piece.square">Square</span><span data-i18n="piece.hollow">Hollow</span></div>
-      </div>
-
-      <div class="bin-board-card">
-        <div class="bin-board-heading">
-          <h3 data-i18n="board.binary">Binary board</h3>
-          <span data-i18n="board.piecesPlaced">Placed pieces</span>
-        </div>
-        <div class="bin-board-wrap">
-          <div id="bin-board" class="bin-board">
-            <code data-binary-cell="0"></code>
-            <code data-binary-cell="1"></code>
-            <code data-binary-cell="2"></code>
-            <code data-binary-cell="3"></code>
-            <code data-binary-cell="4"></code>
-            <code data-binary-cell="5"></code>
-            <code data-binary-cell="6"></code>
-            <code data-binary-cell="7"></code>
-            <code data-binary-cell="8"></code>
-            <code data-binary-cell="9"></code>
-            <code data-binary-cell="10"></code>
-            <code data-binary-cell="11"></code>
-            <code data-binary-cell="12"></code>
-            <code data-binary-cell="13"></code>
-            <code data-binary-cell="14"></code>
-            <code data-binary-cell="15"></code>
-          </div>
-          <svg
-                  id="bin-win-overlay"
-                  class="bin-win-overlay"
-                  viewBox="0 0 4 4"
-                  aria-hidden="true"
-                  hidden
-          >
-          </svg>
-        </div>
-      </div>
-
-    </aside>
-  </main>
-
-  <footer></footer>
-</div>
-<script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>

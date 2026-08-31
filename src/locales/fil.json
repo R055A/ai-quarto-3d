@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Isang na-port na pagpapahusay ng",
+    "newGame": "Bagong laro"
+  },
+  "common": {
+    "on": "ON",
+    "off": "OFF"
+  },
+  "a11y": {
+    "utilityActions": "Mga link ng application at wika",
+    "viewSource": "Tingnan ang source sa GitHub",
+    "gameControls": "Mga kontrol ng laro",
+    "gameBoard": "3D game board",
+    "gameInfo": "Impormasyon ng laro"
+  },
+  "controls": {
+    "diffAI": "Hirap ng AI",
+    "diffPlayerOneAI": "Hirap ng P1",
+    "diffPlayerTwoAI": "Hirap ng P2",
+    "startingPlayer": "Panimulang manlalaro",
+    "gameMode": "Mode ng laro",
+    "pauseAI": "I-pause ang AI",
+    "resumeAI": "Ipagpatuloy ang AI",
+    "undo": "I-undo",
+    "redo": "I-redo"
+  },
+  "diff": {
+    "easy": "Madali",
+    "medium": "Katamtaman",
+    "hard": "Mahirap"
+  },
+  "mode": {
+    "userVsUser": "User vs user",
+    "userVsAI": "User vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "Ikaw",
+    "playerOne": "Manlalaro Isa",
+    "playerTwo": "Manlalaro Dalawa",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Random",
+    "playerAIPlayer": "AI Player",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Kalagayan ng laro...",
+    "pausedAI": "Naka-pause si {{player}}...",
+    "placingAI": "Naglalaro si {{player}} - inilalagay ang piyesa sa board...",
+    "placingUser": "Naglalaro si {{player}} - Ilagay ang napiling piyesa sa board...",
+    "placeUserYou": "Naglalaro ka - Ilagay ang napiling piyesa sa board...",
+    "gameDrawn": "Tabla ang laro - walang panalong linya",
+    "gameWon": "Panalo si {{player}} - naka-highlight ang panalong linya",
+    "selectingAI": "Naglalaro si {{player}} - pumipili ng piyesa para kay {{opponent}}...",
+    "selectUser": "Naglalaro si {{player}} - Pumili ng piyesa para kay {{opponent}}...",
+    "selectUserYou": "Naglalaro ka - Pumili ng piyesa para kay {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Piyesang nasa laro",
+    "none": "Walang napili",
+    "traits": "Mga katangian ng piyesa",
+    "black": "itim",
+    "red": "pula",
+    "big": "malaki",
+    "small": "maliit",
+    "round": "bilog",
+    "square": "parisukat",
+    "solid": "solid",
+    "hollow": "hungkag"
+  },
+  "board": {
+    "binary": "Binary board",
+    "piecesPlaced": "Mga nakalagay na piyesa",
+    "cellEmpty": "Cell {{cell}}: walang laman",
+    "cellPiece": "Cell {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Hindi available ang 3D rendering.",
+    "webglHeading": "Hindi makapagsimula ang WebGL.",
+    "webglMsg": "Kailangan ng laro na naka-enable ang WebGL sa browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "I-hover ang isang mapipiling piyesa upang makita ang panganib ng pagpili",
+    "hoveredRiskOne": "Panganib ng naka-hover na piyesa: {{risk}} agarang panalong pwesto",
+    "hoveredRiskMany": "Panganib ng naka-hover na piyesa: {{risk}} agarang panalong mga pwesto",
+    "immediateWins": "Agarang panalong mga pwesto",
+    "latestRisk": "Pinakabagong panganib ng pagpili",
+    "riskOneAI": "Panganib ng piyesang pinili ng AI: {{risk}} agarang panalong pwesto",
+    "riskManyAI": "Panganib ng piyesang pinili ng AI: {{risk}} agarang panalong mga pwesto",
+    "riskTurnedOff": "Naka-off ang panganib ng pagpili",
+    "riskUnavailableAI": "Hindi available ang panganib ng pagpili sa AI vs AI mode",
+    "selectionRisk": "Panganib ng pagpili",
+    "turnRiskOff": "I-off ang panganib ng pagpili",
+    "turnRiskOn": "I-on ang panganib ng pagpili"
+  },
+  "metadata": {
+    "description": "Interactive na 3D Quarto board game UI gamit ang Three.js at ang Negamax na bersyon ng Minimax artificial intelligence algorithm na may alpha-beta pruning. Maglaro ng user vs user, user vs AI, at AI vs AI, na may madali, katamtaman at mahirap na AI.",
+    "ogDescription": "Interactive na 3D Quarto board game. Maglaro ng user vs user, user vs AI, at AI vs AI, na may madali, katamtaman at mahirap na AI."
+  }
+}

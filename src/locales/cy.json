@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Gwelliant wedi’i borthi o",
+    "newGame": "Gêm newydd"
+  },
+  "common": {
+    "on": "YMLAEN",
+    "off": "I FFWRDD"
+  },
+  "a11y": {
+    "utilityActions": "Dolenni’r rhaglen ac iaith",
+    "viewSource": "Gweld y cod ffynhonnell ar GitHub",
+    "gameControls": "Rheolyddion gêm",
+    "gameBoard": "Bwrdd gêm 3D",
+    "gameInfo": "Gwybodaeth gêm"
+  },
+  "controls": {
+    "diffAI": "Anhawster AI",
+    "diffPlayerOneAI": "Anhawster Ch1",
+    "diffPlayerTwoAI": "Anhawster Ch2",
+    "startingPlayer": "Chwaraewr cychwynnol",
+    "gameMode": "Modd gêm",
+    "pauseAI": "Oedi AI",
+    "resumeAI": "Ailgychwyn AI",
+    "undo": "Dadwneud",
+    "redo": "Ailwneud"
+  },
+  "diff": {
+    "easy": "Hawdd",
+    "medium": "Canolig",
+    "hard": "Anodd"
+  },
+  "mode": {
+    "userVsUser": "Defnyddiwr yn erbyn defnyddiwr",
+    "userVsAI": "Defnyddiwr yn erbyn AI",
+    "onlyAI": "AI yn erbyn AI"
+  },
+  "player": {
+    "playerYou": "Chi",
+    "playerOne": "Chwaraewr Un",
+    "playerTwo": "Chwaraewr Dau",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (Ch{{number}}, {{difficulty}})",
+    "playerRandom": "Ar hap",
+    "playerAIPlayer": "Chwaraewr AI",
+    "playerShort": "Ch{{number}}"
+  },
+  "status": {
+    "loading": "Statws y gêm...",
+    "pausedAI": "Mae {{player}} wedi’i oedi...",
+    "placingAI": "Mae {{player}} yn chwarae - yn gosod y darn ar y bwrdd...",
+    "placingUser": "Mae {{player}} yn chwarae - Gosodwch y darn a ddewiswyd ar y bwrdd...",
+    "placeUserYou": "Rydych chi’n chwarae - Gosodwch y darn a ddewiswyd ar y bwrdd...",
+    "gameDrawn": "Gêm gyfartal - dim llinell fuddugol",
+    "gameWon": "{{player}} sy’n ennill - llinell fuddugol wedi’i hamlygu",
+    "selectingAI": "Mae {{player}} yn chwarae - yn dewis darn i {{opponent}}...",
+    "selectUser": "Mae {{player}} yn chwarae - Dewiswch ddarn i {{opponent}}...",
+    "selectUserYou": "Rydych chi’n chwarae - Dewiswch ddarn i {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Darn mewn chwarae",
+    "none": "Dim wedi’i ddewis",
+    "traits": "Nodweddion y darn",
+    "black": "du",
+    "red": "coch",
+    "big": "mawr",
+    "small": "bach",
+    "round": "crwn",
+    "square": "sgwâr",
+    "solid": "solet",
+    "hollow": "gwag"
+  },
+  "board": {
+    "binary": "Bwrdd deuaidd",
+    "piecesPlaced": "Darnau wedi’u gosod",
+    "cellEmpty": "Cell {{cell}}: gwag",
+    "cellPiece": "Cell {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Nid yw rendro 3D ar gael.",
+    "webglHeading": "Ni allai WebGL ddechrau.",
+    "webglMsg": "Mae angen galluogi WebGL yn y porwr ar gyfer y gêm."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Hofrwch dros ddarn y gellir ei ddewis i ragweld ei risg dewis",
+    "hoveredRiskOne": "Risg y darn dan y cyrchwr: {{risk}} lleoliad buddugol ar unwaith",
+    "hoveredRiskMany": "Risg y darn dan y cyrchwr: {{risk}} lleoliadau buddugol ar unwaith",
+    "immediateWins": "Lleoliadau buddugol ar unwaith",
+    "latestRisk": "Risg dewis diweddaraf",
+    "riskOneAI": "Risg darn a ddewiswyd gan AI: {{risk}} lleoliad buddugol ar unwaith",
+    "riskManyAI": "Risg darn a ddewiswyd gan AI: {{risk}} lleoliadau buddugol ar unwaith",
+    "riskTurnedOff": "Mae risg dewis wedi’i ddiffodd",
+    "riskUnavailableAI": "Nid yw risg dewis ar gael yn y modd AI yn erbyn AI",
+    "selectionRisk": "Risg dewis",
+    "turnRiskOff": "Diffodd risg dewis",
+    "turnRiskOn": "Troi risg dewis ymlaen"
+  },
+  "metadata": {
+    "description": "Rhyngwyneb 3D rhyngweithiol ar gyfer gêm fwrdd Quarto gan ddefnyddio Three.js a fersiwn Negamax o algorithm deallusrwydd artiffisial Minimax gyda thocio alffa-beta. Chwaraewch ddefnyddiwr yn erbyn defnyddiwr, defnyddiwr yn erbyn AI ac AI yn erbyn AI, gyda lefelau AI hawdd, canolig ac anodd.",
+    "ogDescription": "Gêm fwrdd Quarto 3D ryngweithiol. Chwaraewch ddefnyddiwr yn erbyn defnyddiwr, defnyddiwr yn erbyn AI ac AI yn erbyn AI, gyda lefelau AI hawdd, canolig ac anodd."
+  }
+}

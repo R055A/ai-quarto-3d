@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Peningkatan hasil porting dari",
+    "newGame": "Game baru"
+  },
+  "common": {
+    "on": "AKTIF",
+    "off": "NONAKTIF"
+  },
+  "a11y": {
+    "utilityActions": "Tautan aplikasi dan bahasa",
+    "viewSource": "Lihat sumber di GitHub",
+    "gameControls": "Kontrol game",
+    "gameBoard": "Papan game 3D",
+    "gameInfo": "Informasi game"
+  },
+  "controls": {
+    "diffAI": "Kesulitan AI",
+    "diffPlayerOneAI": "Kesulitan P1",
+    "diffPlayerTwoAI": "Kesulitan P2",
+    "startingPlayer": "Pemain awal",
+    "gameMode": "Mode game",
+    "pauseAI": "Jeda AI",
+    "resumeAI": "Lanjutkan AI",
+    "undo": "Urungkan",
+    "redo": "Ulangi"
+  },
+  "diff": {
+    "easy": "Mudah",
+    "medium": "Sedang",
+    "hard": "Sulit"
+  },
+  "mode": {
+    "userVsUser": "Pengguna vs pengguna",
+    "userVsAI": "Pengguna vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "Anda",
+    "playerOne": "Pemain Satu",
+    "playerTwo": "Pemain Dua",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Acak",
+    "playerAIPlayer": "Pemain AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Status permainan...",
+    "pausedAI": "{{player}} dijeda...",
+    "placingAI": "{{player}} sedang bermain - menempatkan bidak di papan...",
+    "placingUser": "{{player}} sedang bermain - Tempatkan bidak yang dipilih di papan...",
+    "placeUserYou": "Anda sedang bermain - Tempatkan bidak yang dipilih di papan...",
+    "gameDrawn": "Permainan seri - tidak ada garis kemenangan",
+    "gameWon": "{{player}} menang - garis kemenangan disorot",
+    "selectingAI": "{{player}} sedang bermain - memilih bidak untuk {{opponent}}...",
+    "selectUser": "{{player}} sedang bermain - Pilih bidak untuk {{opponent}}...",
+    "selectUserYou": "Anda sedang bermain - Pilih bidak untuk {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Bidak dalam permainan",
+    "none": "Tidak ada yang dipilih",
+    "traits": "Ciri bidak",
+    "black": "hitam",
+    "red": "merah",
+    "big": "besar",
+    "small": "kecil",
+    "round": "bulat",
+    "square": "persegi",
+    "solid": "padat",
+    "hollow": "berongga"
+  },
+  "board": {
+    "binary": "Papan biner",
+    "piecesPlaced": "Bidak yang ditempatkan",
+    "cellEmpty": "Sel {{cell}}: kosong",
+    "cellPiece": "Sel {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Rendering 3D tidak tersedia.",
+    "webglHeading": "WebGL tidak dapat dimulai.",
+    "webglMsg": "Game memerlukan WebGL diaktifkan di browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Arahkan kursor ke bidak yang dapat dipilih untuk melihat risiko pemilihannya",
+    "hoveredRiskOne": "Risiko bidak yang diarahkan: {{risk}} penempatan kemenangan langsung",
+    "hoveredRiskMany": "Risiko bidak yang diarahkan: {{risk}} penempatan kemenangan langsung",
+    "immediateWins": "Penempatan kemenangan langsung",
+    "latestRisk": "Risiko pemilihan terbaru",
+    "riskOneAI": "Risiko bidak yang dipilih AI: {{risk}} penempatan kemenangan langsung",
+    "riskManyAI": "Risiko bidak yang dipilih AI: {{risk}} penempatan kemenangan langsung",
+    "riskTurnedOff": "Risiko pemilihan dinonaktifkan",
+    "riskUnavailableAI": "Risiko pemilihan tidak tersedia dalam mode AI vs AI",
+    "selectionRisk": "Risiko pemilihan",
+    "turnRiskOff": "Nonaktifkan risiko pemilihan",
+    "turnRiskOn": "Aktifkan risiko pemilihan"
+  },
+  "metadata": {
+    "description": "Antarmuka game papan Quarto 3D interaktif menggunakan Three.js dan versi Negamax dari algoritme kecerdasan buatan Minimax dengan pemangkasan alfa-beta. Mainkan pengguna vs pengguna, pengguna vs AI, dan AI vs AI dengan tingkat AI mudah, sedang, dan sulit.",
+    "ogDescription": "Game papan Quarto 3D interaktif. Mainkan pengguna vs pengguna, pengguna vs AI, dan AI vs AI dengan tingkat AI mudah, sedang, dan sulit."
+  }
+}

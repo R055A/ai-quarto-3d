@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "এর পোর্ট করা উন্নত সংস্করণ",
+    "newGame": "নতুন গেম"
+  },
+  "common": {
+    "on": "চালু",
+    "off": "বন্ধ"
+  },
+  "a11y": {
+    "utilityActions": "অ্যাপ্লিকেশন লিংক ও ভাষা",
+    "viewSource": "GitHub-এ সোর্স দেখুন",
+    "gameControls": "গেম নিয়ন্ত্রণ",
+    "gameBoard": "3D গেম বোর্ড",
+    "gameInfo": "গেম তথ্য"
+  },
+  "controls": {
+    "diffAI": "AI কঠিনতা",
+    "diffPlayerOneAI": "P1 কঠিনতা",
+    "diffPlayerTwoAI": "P2 কঠিনতা",
+    "startingPlayer": "শুরুর খেলোয়াড়",
+    "gameMode": "গেম মোড",
+    "pauseAI": "AI বিরতি দিন",
+    "resumeAI": "AI আবার চালু করুন",
+    "undo": "পূর্বাবস্থায় ফেরান",
+    "redo": "আবার করুন"
+  },
+  "diff": {
+    "easy": "সহজ",
+    "medium": "মাঝারি",
+    "hard": "কঠিন"
+  },
+  "mode": {
+    "userVsUser": "ব্যবহারকারী বনাম ব্যবহারকারী",
+    "userVsAI": "ব্যবহারকারী বনাম AI",
+    "onlyAI": "AI বনাম AI"
+  },
+  "player": {
+    "playerYou": "আপনি",
+    "playerOne": "খেলোয়াড় এক",
+    "playerTwo": "খেলোয়াড় দুই",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "এলোমেলো",
+    "playerAIPlayer": "AI খেলোয়াড়",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "গেমের অবস্থা...",
+    "pausedAI": "{{player}} বিরতিতে আছে...",
+    "placingAI": "{{player}} খেলছে - বোর্ডে গুটি রাখছে...",
+    "placingUser": "{{player}} খেলছে - নির্বাচিত গুটিটি বোর্ডে রাখুন...",
+    "placeUserYou": "আপনি খেলছেন - নির্বাচিত গুটিটি বোর্ডে রাখুন...",
+    "gameDrawn": "গেম ড্র - কোনো বিজয়ী রেখা নেই",
+    "gameWon": "{{player}} জিতেছে - বিজয়ী রেখা হাইলাইট করা হয়েছে",
+    "selectingAI": "{{player}} খেলছে - {{opponent}}-এর জন্য একটি গুটি বেছে নিচ্ছে...",
+    "selectUser": "{{player}} খেলছে - {{opponent}}-এর জন্য একটি গুটি বেছে নিন...",
+    "selectUserYou": "আপনি খেলছেন - {{opponent}}-এর জন্য একটি গুটি বেছে নিন..."
+  },
+  "piece": {
+    "inPlay": "খেলার গুটি",
+    "none": "কিছু নির্বাচিত নয়",
+    "traits": "গুটির বৈশিষ্ট্য",
+    "black": "কালো",
+    "red": "লাল",
+    "big": "বড়",
+    "small": "ছোট",
+    "round": "গোল",
+    "square": "চৌকো",
+    "solid": "সলিড",
+    "hollow": "ফাঁপা"
+  },
+  "board": {
+    "binary": "বাইনারি বোর্ড",
+    "piecesPlaced": "রাখা গুটি",
+    "cellEmpty": "ঘর {{cell}}: খালি",
+    "cellPiece": "ঘর {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D রেন্ডারিং উপলব্ধ নয়।",
+    "webglHeading": "WebGL চালু করা যায়নি।",
+    "webglMsg": "গেমটির জন্য ব্রাউজারে WebGL সক্রিয় থাকতে হবে।"
+  },
+  "metrics": {
+    "hoverRiskPreview": "নির্বাচনের ঝুঁকি দেখতে নির্বাচনযোগ্য গুটির ওপর কার্সর রাখুন",
+    "hoveredRiskOne": "কার্সরের নিচের গুটির ঝুঁকি: {{risk}} তাৎক্ষণিক বিজয়ী অবস্থান",
+    "hoveredRiskMany": "কার্সরের নিচের গুটির ঝুঁকি: {{risk}} তাৎক্ষণিক বিজয়ী অবস্থান",
+    "immediateWins": "তাৎক্ষণিক বিজয়ী অবস্থান",
+    "latestRisk": "সর্বশেষ নির্বাচনের ঝুঁকি",
+    "riskOneAI": "AI-এর নির্বাচিত গুটির ঝুঁকি: {{risk}} তাৎক্ষণিক বিজয়ী অবস্থান",
+    "riskManyAI": "AI-এর নির্বাচিত গুটির ঝুঁকি: {{risk}} তাৎক্ষণিক বিজয়ী অবস্থান",
+    "riskTurnedOff": "নির্বাচনের ঝুঁকি বন্ধ আছে",
+    "riskUnavailableAI": "AI বনাম AI মোডে নির্বাচনের ঝুঁকি উপলব্ধ নয়",
+    "selectionRisk": "নির্বাচনের ঝুঁকি",
+    "turnRiskOff": "নির্বাচনের ঝুঁকি বন্ধ করুন",
+    "turnRiskOn": "নির্বাচনের ঝুঁকি চালু করুন"
+  },
+  "metadata": {
+    "description": "Three.js এবং আলফা-বিটা প্রুনিংসহ Minimax কৃত্রিম বুদ্ধিমত্তা অ্যালগরিদমের Negamax সংস্করণ ব্যবহার করা ইন্টারঅ্যাকটিভ 3D Quarto বোর্ড গেম ইন্টারফেস। সহজ, মাঝারি ও কঠিন AI স্তরে ব্যবহারকারী বনাম ব্যবহারকারী, ব্যবহারকারী বনাম AI এবং AI বনাম AI খেলুন।",
+    "ogDescription": "ইন্টারঅ্যাকটিভ 3D Quarto বোর্ড গেম। সহজ, মাঝারি ও কঠিন AI স্তরে ব্যবহারকারী বনাম ব্যবহারকারী, ব্যবহারকারী বনাম AI এবং AI বনাম AI খেলুন।"
+  }
+}

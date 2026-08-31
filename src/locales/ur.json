@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "اس کا پورٹ کیا گیا بہتر ورژن",
+    "newGame": "نیا کھیل"
+  },
+  "common": {
+    "on": "آن",
+    "off": "آف"
+  },
+  "a11y": {
+    "utilityActions": "ایپلیکیشن لنکس اور زبان",
+    "viewSource": "GitHub پر سورس دیکھیں",
+    "gameControls": "گیم کنٹرولز",
+    "gameBoard": "3D گیم بورڈ",
+    "gameInfo": "گیم کی معلومات"
+  },
+  "controls": {
+    "diffAI": "AI مشکل",
+    "diffPlayerOneAI": "P1 مشکل",
+    "diffPlayerTwoAI": "P2 مشکل",
+    "startingPlayer": "شروع کرنے والا کھلاڑی",
+    "gameMode": "گیم موڈ",
+    "pauseAI": "AI روکیں",
+    "resumeAI": "AI دوبارہ شروع کریں",
+    "undo": "واپس کریں",
+    "redo": "دوبارہ کریں"
+  },
+  "diff": {
+    "easy": "آسان",
+    "medium": "درمیانہ",
+    "hard": "مشکل"
+  },
+  "mode": {
+    "userVsUser": "صارف بمقابلہ صارف",
+    "userVsAI": "صارف بمقابلہ AI",
+    "onlyAI": "AI بمقابلہ AI"
+  },
+  "player": {
+    "playerYou": "آپ",
+    "playerOne": "کھلاڑی ایک",
+    "playerTwo": "کھلاڑی دو",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "بے ترتیب",
+    "playerAIPlayer": "AI کھلاڑی",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "گیم کی حالت...",
+    "pausedAI": "{{player}} رکا ہوا ہے...",
+    "placingAI": "{{player}} کھیل رہا ہے - مہرہ بورڈ پر رکھ رہا ہے...",
+    "placingUser": "{{player}} کھیل رہا ہے - منتخب مہرہ بورڈ پر رکھیں...",
+    "placeUserYou": "آپ کھیل رہے ہیں - منتخب مہرہ بورڈ پر رکھیں...",
+    "gameDrawn": "گیم برابر - کوئی جیتنے والی لائن نہیں",
+    "gameWon": "{{player}} جیت گیا - جیتنے والی لائن نمایاں ہے",
+    "selectingAI": "{{player}} کھیل رہا ہے - {{opponent}} کے لیے مہرہ منتخب کر رہا ہے...",
+    "selectUser": "{{player}} کھیل رہا ہے - {{opponent}} کے لیے مہرہ منتخب کریں...",
+    "selectUserYou": "آپ کھیل رہے ہیں - {{opponent}} کے لیے مہرہ منتخب کریں..."
+  },
+  "piece": {
+    "inPlay": "کھیل میں مہرہ",
+    "none": "کچھ منتخب نہیں",
+    "traits": "مہرے کی خصوصیات",
+    "black": "سیاہ",
+    "red": "سرخ",
+    "big": "بڑا",
+    "small": "چھوٹا",
+    "round": "گول",
+    "square": "چوکور",
+    "solid": "ٹھوس",
+    "hollow": "کھوکھلا"
+  },
+  "board": {
+    "binary": "بائنری بورڈ",
+    "piecesPlaced": "رکھے گئے مہرے",
+    "cellEmpty": "خانہ {{cell}}: خالی",
+    "cellPiece": "خانہ {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D رینڈرنگ دستیاب نہیں ہے۔",
+    "webglHeading": "WebGL شروع نہیں ہو سکا۔",
+    "webglMsg": "گیم کے لیے براؤزر میں WebGL فعال ہونا ضروری ہے۔"
+  },
+  "metrics": {
+    "hoverRiskPreview": "انتخاب کے خطرے کا پیش منظر دیکھنے کے لیے قابل انتخاب مہرے پر کرسر رکھیں",
+    "hoveredRiskOne": "کرسر کے نیچے مہرے کا خطرہ: {{risk}} فوری جیتنے والی جگہ",
+    "hoveredRiskMany": "کرسر کے نیچے مہرے کا خطرہ: {{risk}} فوری جیتنے والی جگہیں",
+    "immediateWins": "فوری جیتنے والی جگہیں",
+    "latestRisk": "تازہ ترین انتخاب کا خطرہ",
+    "riskOneAI": "AI کے منتخب مہرے کا خطرہ: {{risk}} فوری جیتنے والی جگہ",
+    "riskManyAI": "AI کے منتخب مہرے کا خطرہ: {{risk}} فوری جیتنے والی جگہیں",
+    "riskTurnedOff": "انتخاب کا خطرہ بند ہے",
+    "riskUnavailableAI": "AI بمقابلہ AI موڈ میں انتخاب کا خطرہ دستیاب نہیں",
+    "selectionRisk": "انتخاب کا خطرہ",
+    "turnRiskOff": "انتخاب کا خطرہ بند کریں",
+    "turnRiskOn": "انتخاب کا خطرہ آن کریں"
+  },
+  "metadata": {
+    "description": "Three.js اور الفا-بیٹا پروننگ والے Minimax مصنوعی ذہانت الگورتھم کے Negamax ورژن پر مبنی انٹرایکٹو 3D Quarto بورڈ گیم انٹرفیس۔ آسان، درمیانے اور مشکل AI کے ساتھ صارف بمقابلہ صارف، صارف بمقابلہ AI اور AI بمقابلہ AI کھیلیں۔",
+    "ogDescription": "انٹرایکٹو 3D Quarto بورڈ گیم۔ آسان، درمیانے اور مشکل AI کے ساتھ صارف بمقابلہ صارف، صارف بمقابلہ AI اور AI بمقابلہ AI کھیلیں۔"
+  }
+}

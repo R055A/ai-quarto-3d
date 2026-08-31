@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "ଏହାର ପୋର୍ଟ କରାଯାଇଥିବା ଉନ୍ନତ ସଂସ୍କରଣ",
+    "newGame": "ନୂଆ ଖେଳ"
+  },
+  "common": {
+    "on": "ଚାଲୁ",
+    "off": "ବନ୍ଦ"
+  },
+  "a11y": {
+    "utilityActions": "ଆପ୍ଲିକେଶନ୍ ଲିଙ୍କ ଏବଂ ଭାଷା",
+    "viewSource": "GitHub ରେ ସୋର୍ସ ଦେଖନ୍ତୁ",
+    "gameControls": "ଖେଳ ନିୟନ୍ତ୍ରଣ",
+    "gameBoard": "3D ଖେଳ ବୋର୍ଡ",
+    "gameInfo": "ଖେଳ ସୂଚନା"
+  },
+  "controls": {
+    "diffAI": "AI କଠିନତା",
+    "diffPlayerOneAI": "P1 କଠିନତା",
+    "diffPlayerTwoAI": "P2 କଠିନତା",
+    "startingPlayer": "ଆରମ୍ଭ କରୁଥିବା ଖେଳାଳି",
+    "gameMode": "ଖେଳ ମୋଡ୍",
+    "pauseAI": "AI ବିରତ କରନ୍ତୁ",
+    "resumeAI": "AI ଜାରି ରଖନ୍ତୁ",
+    "undo": "ପୂର୍ବବତ୍ କରନ୍ତୁ",
+    "redo": "ପୁଣି କରନ୍ତୁ"
+  },
+  "diff": {
+    "easy": "ସହଜ",
+    "medium": "ମଧ୍ୟମ",
+    "hard": "କଠିନ"
+  },
+  "mode": {
+    "userVsUser": "ବ୍ୟବହାରକାରୀ vs ବ୍ୟବହାରକାରୀ",
+    "userVsAI": "ବ୍ୟବହାରକାରୀ vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "ଆପଣ",
+    "playerOne": "ଖେଳାଳି ଏକ",
+    "playerTwo": "ଖେଳାଳି ଦୁଇ",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "ଯାଦୃଚ୍ଛିକ",
+    "playerAIPlayer": "AI ଖେଳାଳି",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "ଖେଳ ସ୍ଥିତି...",
+    "pausedAI": "{{player}} ବିରତ ଅଛନ୍ତି...",
+    "placingAI": "{{player}} ଖେଳୁଛନ୍ତି - ଗୋଟିକୁ ବୋର୍ଡରେ ରଖୁଛନ୍ତି...",
+    "placingUser": "{{player}} ଖେଳୁଛନ୍ତି - ବାଛିଥିବା ଗୋଟିକୁ ବୋର୍ଡରେ ରଖନ୍ତୁ...",
+    "placeUserYou": "ଆପଣ ଖେଳୁଛନ୍ତି - ବାଛିଥିବା ଗୋଟିକୁ ବୋର୍ଡରେ ରଖନ୍ତୁ...",
+    "gameDrawn": "ଖେଳ ଡ୍ର - କୌଣସି ବିଜୟୀ ରେଖା ନାହିଁ",
+    "gameWon": "{{player}} ଜିତିଲେ - ବିଜୟୀ ରେଖା ହାଇଲାଇଟ୍ ହେଲା",
+    "selectingAI": "{{player}} ଖେଳୁଛନ୍ତି - {{opponent}} ପାଇଁ ଗୋଟି ବାଛୁଛନ୍ତି...",
+    "selectUser": "{{player}} ଖେଳୁଛନ୍ତି - {{opponent}} ପାଇଁ ଗୋଟି ବାଛନ୍ତୁ...",
+    "selectUserYou": "ଆପଣ ଖେଳୁଛନ୍ତି - {{opponent}} ପାଇଁ ଗୋଟି ବାଛନ୍ତୁ..."
+  },
+  "piece": {
+    "inPlay": "ଖେଳରେ ଗୋଟି",
+    "none": "କିଛି ବାଛାଯାଇନି",
+    "traits": "ଗୋଟିର ବୈଶିଷ୍ଟ୍ୟ",
+    "black": "କଳା",
+    "red": "ଲାଲ",
+    "big": "ବଡ଼",
+    "small": "ଛୋଟ",
+    "round": "ଗୋଲ",
+    "square": "ଚତୁର୍ଭୁଜ",
+    "solid": "ଘନ",
+    "hollow": "ଫମ୍ପା"
+  },
+  "board": {
+    "binary": "ବାଇନାରି ବୋର୍ଡ",
+    "piecesPlaced": "ରଖାଯାଇଥିବା ଗୋଟି",
+    "cellEmpty": "ଘର {{cell}}: ଖାଲି",
+    "cellPiece": "ଘର {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D ରେଣ୍ଡରିଂ ଉପଲବ୍ଧ ନାହିଁ।",
+    "webglHeading": "WebGL ଆରମ୍ଭ ହୋଇପାରିଲା ନାହିଁ।",
+    "webglMsg": "ଖେଳ ପାଇଁ ବ୍ରାଉଜରରେ WebGL ସକ୍ଷମ ହେବା ଆବଶ୍ୟକ।"
+  },
+  "metrics": {
+    "hoverRiskPreview": "ବାଛିବା ଝୁମ୍ପ ଦେଖିବାକୁ ବାଛିପାରିବା ଗୋଟି ଉପରେ କର୍ସର ରଖନ୍ତୁ",
+    "hoveredRiskOne": "କର୍ସର ତଳେ ଥିବା ଗୋଟିର ଝୁମ୍ପ: {{risk}} ତୁରନ୍ତ ବିଜୟୀ ସ୍ଥାନ",
+    "hoveredRiskMany": "କର୍ସର ତଳେ ଥିବା ଗୋଟିର ଝୁମ୍ପ: {{risk}} ତୁରନ୍ତ ବିଜୟୀ ସ୍ଥାନଗୁଡ଼ିକ",
+    "immediateWins": "ତୁରନ୍ତ ବିଜୟୀ ସ୍ଥାନଗୁଡ଼ିକ",
+    "latestRisk": "ସବୁଠାରୁ ନୂଆ ବାଛିବା ଝୁମ୍ପ",
+    "riskOneAI": "AI ବାଛିଥିବା ଗୋଟିର ଝୁମ୍ପ: {{risk}} ତୁରନ୍ତ ବିଜୟୀ ସ୍ଥାନ",
+    "riskManyAI": "AI ବାଛିଥିବା ଗୋଟିର ଝୁମ୍ପ: {{risk}} ତୁରନ୍ତ ବିଜୟୀ ସ୍ଥାନଗୁଡ଼ିକ",
+    "riskTurnedOff": "ବାଛିବା ଝୁମ୍ପ ବନ୍ଦ ଅଛି",
+    "riskUnavailableAI": "AI vs AI ମୋଡରେ ବାଛିବା ଝୁମ୍ପ ଉପଲବ୍ଧ ନାହିଁ",
+    "selectionRisk": "ବାଛିବା ଝୁମ୍ପ",
+    "turnRiskOff": "ବାଛିବା ଝୁମ୍ପ ବନ୍ଦ କରନ୍ତୁ",
+    "turnRiskOn": "ବାଛିବା ଝୁମ୍ପ ଚାଲୁ କରନ୍ତୁ"
+  },
+  "metadata": {
+    "description": "Three.js ଏବଂ alpha-beta pruning ସହିତ Minimax କୃତ୍ରିମ ବୁଦ୍ଧିମତା ଆଲଗୋରିଦମର Negamax ସଂସ୍କରଣ ବ୍ୟବହାର କରୁଥିବା ଇଣ୍ଟର୍ଆକ୍ଟିଭ୍ 3D Quarto ବୋର୍ଡ ଗେମ UI। ସହଜ, ମଧ୍ୟମ ଏବଂ କଠିନ AI ସ୍ତର ସହିତ ବ୍ୟବହାରକାରୀ vs ବ୍ୟବହାରକାରୀ, ବ୍ୟବହାରକାରୀ vs AI ଏବଂ AI vs AI ଖେଳନ୍ତୁ।",
+    "ogDescription": "ଇଣ୍ଟର୍ଆକ୍ଟିଭ୍ 3D Quarto ବୋର୍ଡ ଗେମ। ସହଜ, ମଧ୍ୟମ ଏବଂ କଠିନ AI ସ୍ତର ସହିତ ବ୍ୟବହାରକାରୀ vs ବ୍ୟବହାରକାରୀ, ବ୍ୟବହାରକାରୀ vs AI ଏବଂ AI vs AI ଖେଳନ୍ତୁ।"
+  }
+}

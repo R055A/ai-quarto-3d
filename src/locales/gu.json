@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "આનું પોર્ટ કરેલું સુધારેલું સંસ્કરણ",
+    "newGame": "નવી રમત"
+  },
+  "common": {
+    "on": "ચાલુ",
+    "off": "બંધ"
+  },
+  "a11y": {
+    "utilityActions": "એપ્લિકેશન લિંક્સ અને ભાષા",
+    "viewSource": "GitHub પર સોર્સ જુઓ",
+    "gameControls": "રમત નિયંત્રણો",
+    "gameBoard": "3D રમત બોર્ડ",
+    "gameInfo": "રમત માહિતી"
+  },
+  "controls": {
+    "diffAI": "AI મુશ્કેલી",
+    "diffPlayerOneAI": "P1 મુશ્કેલી",
+    "diffPlayerTwoAI": "P2 મુશ્કેલી",
+    "startingPlayer": "શરૂઆતનો ખેલાડી",
+    "gameMode": "રમત મોડ",
+    "pauseAI": "AI થોભાવો",
+    "resumeAI": "AI ફરી શરૂ કરો",
+    "undo": "પાછું કરો",
+    "redo": "ફરી કરો"
+  },
+  "diff": {
+    "easy": "સરળ",
+    "medium": "મધ્યમ",
+    "hard": "મુશ્કેલ"
+  },
+  "mode": {
+    "userVsUser": "વપરાશકર્તા vs વપરાશકર્તા",
+    "userVsAI": "વપરાશકર્તા vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "તમે",
+    "playerOne": "ખેલાડી એક",
+    "playerTwo": "ખેલાડી બે",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "રેન્ડમ",
+    "playerAIPlayer": "AI ખેલાડી",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "રમત સ્થિતિ...",
+    "pausedAI": "{{player}} થોભાવેલો છે...",
+    "placingAI": "{{player}} રમી રહ્યો છે - ગોટી બોર્ડ પર મૂકી રહ્યો છે...",
+    "placingUser": "{{player}} રમી રહ્યો છે - પસંદ કરેલી ગોટી બોર્ડ પર મૂકો...",
+    "placeUserYou": "તમે રમી રહ્યા છો - પસંદ કરેલી ગોટી બોર્ડ પર મૂકો...",
+    "gameDrawn": "રમત ડ્રો - કોઈ વિજેતા રેખા નથી",
+    "gameWon": "{{player}} જીત્યો - વિજેતા રેખા હાઇલાઇટ થઈ",
+    "selectingAI": "{{player}} રમી રહ્યો છે - {{opponent}} માટે ગોટી પસંદ કરી રહ્યો છે...",
+    "selectUser": "{{player}} રમી રહ્યો છે - {{opponent}} માટે ગોટી પસંદ કરો...",
+    "selectUserYou": "તમે રમી રહ્યા છો - {{opponent}} માટે ગોટી પસંદ કરો..."
+  },
+  "piece": {
+    "inPlay": "રમતમાં ગોટી",
+    "none": "કંઈ પસંદ નથી",
+    "traits": "ગોટીના ગુણધર્મો",
+    "black": "કાળી",
+    "red": "લાલ",
+    "big": "મોટી",
+    "small": "નાની",
+    "round": "ગોળ",
+    "square": "ચોરસ",
+    "solid": "ઘન",
+    "hollow": "પોલી"
+  },
+  "board": {
+    "binary": "બાઇનરી બોર્ડ",
+    "piecesPlaced": "મૂકેલી ગોટીઓ",
+    "cellEmpty": "ખાનું {{cell}}: ખાલી",
+    "cellPiece": "ખાનું {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D રેન્ડરિંગ ઉપલબ્ધ નથી.",
+    "webglHeading": "WebGL શરૂ થઈ શક્યું નથી.",
+    "webglMsg": "રમત માટે બ્રાઉઝરમાં WebGL સક્ષમ હોવું જરૂરી છે."
+  },
+  "metrics": {
+    "hoverRiskPreview": "પસંદગીનું જોખમ જોવા માટે પસંદ કરી શકાય તેવી ગોટી પર કર્સર રાખો",
+    "hoveredRiskOne": "કર્સર હેઠળની ગોટીનું જોખમ: {{risk}} તાત્કાલિક વિજયી સ્થાન",
+    "hoveredRiskMany": "કર્સર હેઠળની ગોટીનું જોખમ: {{risk}} તાત્કાલિક વિજયી સ્થાનો",
+    "immediateWins": "તાત્કાલિક વિજયી સ્થાનો",
+    "latestRisk": "નવીનતમ પસંદગી જોખમ",
+    "riskOneAI": "AI દ્વારા પસંદ કરેલી ગોટીનું જોખમ: {{risk}} તાત્કાલિક વિજયી સ્થાન",
+    "riskManyAI": "AI દ્વારા પસંદ કરેલી ગોટીનું જોખમ: {{risk}} તાત્કાલિક વિજયી સ્થાનો",
+    "riskTurnedOff": "પસંદગી જોખમ બંધ છે",
+    "riskUnavailableAI": "AI vs AI મોડમાં પસંદગી જોખમ ઉપલબ્ધ નથી",
+    "selectionRisk": "પસંદગી જોખમ",
+    "turnRiskOff": "પસંદગી જોખમ બંધ કરો",
+    "turnRiskOn": "પસંદગી જોખમ ચાલુ કરો"
+  },
+  "metadata": {
+    "description": "Three.js અને alpha-beta pruning સાથેના Minimax કૃત્રિમ બુદ્ધિ અલ્ગોરિધમના Negamax સંસ્કરણનો ઉપયોગ કરતું ઇન્ટરેક્ટિવ 3D Quarto બોર્ડ ગેમ UI. સરળ, મધ્યમ અને મુશ્કેલ AI સ્તરો સાથે વપરાશકર્તા vs વપરાશકર્તા, વપરાશકર્તા vs AI અને AI vs AI રમો.",
+    "ogDescription": "ઇન્ટરેક્ટિવ 3D Quarto બોર્ડ ગેમ. સરળ, મધ્યમ અને મુશ્કેલ AI સ્તરો સાથે વપરાશકર્તા vs વપરાશકર્તા, વપરાશકર્તા vs AI અને AI vs AI રમો."
+  }
+}

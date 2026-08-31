@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Portattu parannus projektista",
+    "newGame": "Uusi peli"
+  },
+  "common": {
+    "on": "PÄÄLLÄ",
+    "off": "POIS"
+  },
+  "a11y": {
+    "utilityActions": "Sovelluksen linkit ja kieli",
+    "viewSource": "Näytä lähdekoodi GitHubissa",
+    "gameControls": "Pelin ohjaimet",
+    "gameBoard": "3D-pelilauta",
+    "gameInfo": "Pelin tiedot"
+  },
+  "controls": {
+    "diffAI": "Tekoälyn vaikeustaso",
+    "diffPlayerOneAI": "P1-vaikeustaso",
+    "diffPlayerTwoAI": "P2-vaikeustaso",
+    "startingPlayer": "Aloittava pelaaja",
+    "gameMode": "Pelitila",
+    "pauseAI": "Keskeytä tekoäly",
+    "resumeAI": "Jatka tekoälyä",
+    "undo": "Kumoa",
+    "redo": "Tee uudelleen"
+  },
+  "diff": {
+    "easy": "Helppo",
+    "medium": "Keskitaso",
+    "hard": "Vaikea"
+  },
+  "mode": {
+    "userVsUser": "Pelaaja vastaan pelaaja",
+    "userVsAI": "Pelaaja vastaan tekoäly",
+    "onlyAI": "Tekoäly vastaan tekoäly"
+  },
+  "player": {
+    "playerYou": "Sinä",
+    "playerOne": "Pelaaja yksi",
+    "playerTwo": "Pelaaja kaksi",
+    "playerAI": "Tekoäly ({{difficulty}})",
+    "playerNumberedAI": "Tekoäly (P{{number}}, {{difficulty}})",
+    "playerRandom": "Satunnainen",
+    "playerAIPlayer": "Tekoälypelaaja",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Pelin tila...",
+    "pausedAI": "{{player}} on tauolla...",
+    "placingAI": "{{player}} pelaa - asettaa nappulan laudalle...",
+    "placingUser": "{{player}} pelaa - Aseta valittu nappula laudalle...",
+    "placeUserYou": "Sinä pelaat - Aseta valittu nappula laudalle...",
+    "gameDrawn": "Tasapeli - ei voittavaa linjaa",
+    "gameWon": "{{player}} voittaa - voittava linja korostettu",
+    "selectingAI": "{{player}} pelaa - valitsee nappulan pelaajalle {{opponent}}...",
+    "selectUser": "{{player}} pelaa - Valitse nappula pelaajalle {{opponent}}...",
+    "selectUserYou": "Sinä pelaat - Valitse nappula pelaajalle {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pelissä oleva nappula",
+    "none": "Ei valintaa",
+    "traits": "Nappulan ominaisuudet",
+    "black": "musta",
+    "red": "punainen",
+    "big": "suuri",
+    "small": "pieni",
+    "round": "pyöreä",
+    "square": "neliö",
+    "solid": "umpinainen",
+    "hollow": "ontto"
+  },
+  "board": {
+    "binary": "Binäärilauta",
+    "piecesPlaced": "Asetetut nappulat",
+    "cellEmpty": "Ruutu {{cell}}: tyhjä",
+    "cellPiece": "Ruutu {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-renderöinti ei ole käytettävissä.",
+    "webglHeading": "WebGL ei käynnistynyt.",
+    "webglMsg": "Peli edellyttää, että WebGL on käytössä selaimessa."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Vie osoitin valittavan nappulan päälle nähdäksesi sen valintariskin",
+    "hoveredRiskOne": "Osoitetun nappulan riski: {{risk}} välitön voittava sijoitus",
+    "hoveredRiskMany": "Osoitetun nappulan riski: {{risk}} välitöntä voittavaa sijoitusta",
+    "immediateWins": "Välittömät voittavat sijoitukset",
+    "latestRisk": "Viimeisin valintariski",
+    "riskOneAI": "Tekoälyn valitseman nappulan riski: {{risk}} välitön voittava sijoitus",
+    "riskManyAI": "Tekoälyn valitseman nappulan riski: {{risk}} välitöntä voittavaa sijoitusta",
+    "riskTurnedOff": "Valintariski on pois käytöstä",
+    "riskUnavailableAI": "Valintariski ei ole käytettävissä tekoäly vastaan tekoäly -tilassa",
+    "selectionRisk": "Valintariski",
+    "turnRiskOff": "Poista valintariski käytöstä",
+    "turnRiskOn": "Ota valintariski käyttöön"
+  },
+  "metadata": {
+    "description": "Interaktiivinen 3D Quarto -lautapelin käyttöliittymä, joka käyttää Three.js:ää sekä Minimax-tekoälyalgoritmin Negamax-versiota alfa-beta-karsinnalla. Pelaa pelaaja vastaan pelaaja, pelaaja vastaan tekoäly tai tekoäly vastaan tekoäly helpolla, keskitasolla tai vaikealla tekoälyllä.",
+    "ogDescription": "Interaktiivinen 3D Quarto -lautapeli. Pelaa pelaaja vastaan pelaaja, pelaaja vastaan tekoäly tai tekoäly vastaan tekoäly helpolla, keskitasolla tai vaikealla tekoälyllä."
+  }
+}

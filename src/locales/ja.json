@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "以下を移植して強化",
+    "newGame": "新しいゲーム"
+  },
+  "common": {
+    "on": "オン",
+    "off": "オフ"
+  },
+  "a11y": {
+    "utilityActions": "アプリのリンクと言語",
+    "viewSource": "GitHub でソースを見る",
+    "gameControls": "ゲーム操作",
+    "gameBoard": "3D ゲームボード",
+    "gameInfo": "ゲーム情報"
+  },
+  "controls": {
+    "diffAI": "AI の難易度",
+    "diffPlayerOneAI": "P1 の難易度",
+    "diffPlayerTwoAI": "P2 の難易度",
+    "startingPlayer": "先手プレイヤー",
+    "gameMode": "ゲームモード",
+    "pauseAI": "AI を一時停止",
+    "resumeAI": "AI を再開",
+    "undo": "元に戻す",
+    "redo": "やり直す"
+  },
+  "diff": {
+    "easy": "簡単",
+    "medium": "普通",
+    "hard": "難しい"
+  },
+  "mode": {
+    "userVsUser": "ユーザー対ユーザー",
+    "userVsAI": "ユーザー対 AI",
+    "onlyAI": "AI 対 AI"
+  },
+  "player": {
+    "playerYou": "あなた",
+    "playerOne": "プレイヤー1",
+    "playerTwo": "プレイヤー2",
+    "playerAI": "AI（{{difficulty}}）",
+    "playerNumberedAI": "AI（P{{number}}、{{difficulty}}）",
+    "playerRandom": "ランダム",
+    "playerAIPlayer": "AI プレイヤー",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "ゲーム状況...",
+    "pausedAI": "{{player}} は一時停止中です...",
+    "placingAI": "{{player}} がプレイ中 - 駒をボードに配置しています...",
+    "placingUser": "{{player}} がプレイ中 - 選択した駒をボードに置いてください...",
+    "placeUserYou": "あなたの番です - 選択した駒をボードに置いてください...",
+    "gameDrawn": "引き分け - 勝利ラインなし",
+    "gameWon": "{{player}} の勝利 - 勝利ラインを強調表示",
+    "selectingAI": "{{player}} がプレイ中 - {{opponent}} 用の駒を選択しています...",
+    "selectUser": "{{player}} がプレイ中 - {{opponent}} 用の駒を選んでください...",
+    "selectUserYou": "あなたの番です - {{opponent}} 用の駒を選んでください..."
+  },
+  "piece": {
+    "inPlay": "プレイ中の駒",
+    "none": "未選択",
+    "traits": "駒の特徴",
+    "black": "黒",
+    "red": "赤",
+    "big": "大",
+    "small": "小",
+    "round": "丸",
+    "square": "四角",
+    "solid": "中実",
+    "hollow": "中空"
+  },
+  "board": {
+    "binary": "バイナリボード",
+    "piecesPlaced": "配置済みの駒",
+    "cellEmpty": "マス {{cell}}：空",
+    "cellPiece": "マス {{cell}}：{{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D レンダリングを利用できません。",
+    "webglHeading": "WebGL を開始できませんでした。",
+    "webglMsg": "このゲームにはブラウザーで WebGL を有効にする必要があります。"
+  },
+  "metrics": {
+    "hoverRiskPreview": "選択可能な駒にカーソルを合わせると選択リスクを確認できます",
+    "hoveredRiskOne": "ホバー中の駒のリスク：即時勝利配置 {{risk}} 個",
+    "hoveredRiskMany": "ホバー中の駒のリスク：即時勝利配置 {{risk}} 個",
+    "immediateWins": "即時勝利配置",
+    "latestRisk": "最新の選択リスク",
+    "riskOneAI": "AI が選んだ駒のリスク：即時勝利配置 {{risk}} 個",
+    "riskManyAI": "AI が選んだ駒のリスク：即時勝利配置 {{risk}} 個",
+    "riskTurnedOff": "選択リスクはオフです",
+    "riskUnavailableAI": "AI 対 AI モードでは選択リスクを利用できません",
+    "selectionRisk": "選択リスク",
+    "turnRiskOff": "選択リスクをオフ",
+    "turnRiskOn": "選択リスクをオン"
+  },
+  "metadata": {
+    "description": "Three.js とアルファベータ枝刈りを備えた Minimax 人工知能アルゴリズムの Negamax 版を使用する、インタラクティブな 3D Quarto ボードゲーム UI。ユーザー対ユーザー、ユーザー対 AI、AI 対 AI を、簡単・普通・難しい AI 難易度でプレイできます。",
+    "ogDescription": "インタラクティブな 3D Quarto ボードゲーム。ユーザー対ユーザー、ユーザー対 AI、AI 対 AI を、簡単・普通・難しい AI 難易度でプレイできます。"
+  }
+}

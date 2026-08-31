@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "ከዚህ የተላለፈ የተሻሻለ ስሪት",
+    "newGame": "አዲስ ጨዋታ"
+  },
+  "common": {
+    "on": "በርቷል",
+    "off": "ጠፍቷል"
+  },
+  "a11y": {
+    "utilityActions": "የመተግበሪያ አገናኞች እና ቋንቋ",
+    "viewSource": "ምንጩን በGitHub ይመልከቱ",
+    "gameControls": "የጨዋታ መቆጣጠሪያዎች",
+    "gameBoard": "3D የጨዋታ ሰሌዳ",
+    "gameInfo": "የጨዋታ መረጃ"
+  },
+  "controls": {
+    "diffAI": "የAI አስቸጋሪነት",
+    "diffPlayerOneAI": "የP1 አስቸጋሪነት",
+    "diffPlayerTwoAI": "የP2 አስቸጋሪነት",
+    "startingPlayer": "ጀማሪ ተጫዋች",
+    "gameMode": "የጨዋታ ሁነታ",
+    "pauseAI": "AI አቁም",
+    "resumeAI": "AI ቀጥል",
+    "undo": "ቀልብስ",
+    "redo": "እንደገና አድርግ"
+  },
+  "diff": {
+    "easy": "ቀላል",
+    "medium": "መካከለኛ",
+    "hard": "ከባድ"
+  },
+  "mode": {
+    "userVsUser": "ተጠቃሚ ከተጠቃሚ",
+    "userVsAI": "ተጠቃሚ ከAI",
+    "onlyAI": "AI ከAI"
+  },
+  "player": {
+    "playerYou": "እርስዎ",
+    "playerOne": "ተጫዋች አንድ",
+    "playerTwo": "ተጫዋች ሁለት",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "በዘፈቀደ",
+    "playerAIPlayer": "AI ተጫዋች",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "የጨዋታ ሁኔታ...",
+    "pausedAI": "{{player}} ቆሟል...",
+    "placingAI": "{{player}} እየተጫወተ ነው - ቁራጩን በሰሌዳው ላይ እያስቀመጠ...",
+    "placingUser": "{{player}} እየተጫወተ ነው - የተመረጠውን ቁራጭ በሰሌዳው ላይ ያስቀምጡ...",
+    "placeUserYou": "እርስዎ እየተጫወቱ ነው - የተመረጠውን ቁራጭ በሰሌዳው ላይ ያስቀምጡ...",
+    "gameDrawn": "ጨዋታው አቻ ሆነ - የማሸነፊያ መስመር የለም",
+    "gameWon": "{{player}} አሸነፈ - የማሸነፊያ መስመሩ ተደምቋል",
+    "selectingAI": "{{player}} እየተጫወተ ነው - ለ{{opponent}} ቁራጭ እየመረጠ...",
+    "selectUser": "{{player}} እየተጫወተ ነው - ለ{{opponent}} ቁራጭ ይምረጡ...",
+    "selectUserYou": "እርስዎ እየተጫወቱ ነው - ለ{{opponent}} ቁራጭ ይምረጡ..."
+  },
+  "piece": {
+    "inPlay": "በጨዋታ ላይ ያለ ቁራጭ",
+    "none": "ምንም አልተመረጠም",
+    "traits": "የቁራጩ ባህሪያት",
+    "black": "ጥቁር",
+    "red": "ቀይ",
+    "big": "ትልቅ",
+    "small": "ትንሽ",
+    "round": "ክብ",
+    "square": "ካሬ",
+    "solid": "ጠጣር",
+    "hollow": "ባዶ"
+  },
+  "board": {
+    "binary": "ሁለትዮሽ ሰሌዳ",
+    "piecesPlaced": "የተቀመጡ ቁራጮች",
+    "cellEmpty": "ሕዋስ {{cell}}: ባዶ",
+    "cellPiece": "ሕዋስ {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D ማሳያ አይገኝም።",
+    "webglHeading": "WebGL መጀመር አልቻለም።",
+    "webglMsg": "ጨዋታው WebGL በአሳሹ ውስጥ እንዲነቃ ይፈልጋል።"
+  },
+  "metrics": {
+    "hoverRiskPreview": "የምርጫ አደጋን ለማየት ጠቋሚውን በሚመረጥ ቁራጭ ላይ ያድርጉ",
+    "hoveredRiskOne": "የተጠቆመው ቁራጭ አደጋ: {{risk}} ፈጣን የማሸነፊያ ቦታ",
+    "hoveredRiskMany": "የተጠቆመው ቁራጭ አደጋ: {{risk}} ፈጣን የማሸነፊያ ቦታዎች",
+    "immediateWins": "ፈጣን የማሸነፊያ ቦታዎች",
+    "latestRisk": "የቅርብ ጊዜ የምርጫ አደጋ",
+    "riskOneAI": "በAI የተመረጠ ቁራጭ አደጋ: {{risk}} ፈጣን የማሸነፊያ ቦታ",
+    "riskManyAI": "በAI የተመረጠ ቁራጭ አደጋ: {{risk}} ፈጣን የማሸነፊያ ቦታዎች",
+    "riskTurnedOff": "የምርጫ አደጋ ጠፍቷል",
+    "riskUnavailableAI": "በAI ከAI ሁነታ የምርጫ አደጋ አይገኝም",
+    "selectionRisk": "የምርጫ አደጋ",
+    "turnRiskOff": "የምርጫ አደጋን አጥፋ",
+    "turnRiskOn": "የምርጫ አደጋን አብራ"
+  },
+  "metadata": {
+    "description": "Three.js እና የMinimax የሰው ሰራሽ ብልህነት አልጎርይዝም Negamax ስሪትን ከalpha-beta pruning ጋር የሚጠቀም ተግባራዊ 3D Quarto የሰሌዳ ጨዋታ UI። ተጠቃሚ ከተጠቃሚ፣ ተጠቃሚ ከAI እና AI ከAI በቀላል፣ መካከለኛ እና ከባድ AI ደረጃዎች ይጫወቱ።",
+    "ogDescription": "ተግባራዊ 3D Quarto የሰሌዳ ጨዋታ። ተጠቃሚ ከተጠቃሚ፣ ተጠቃሚ ከAI እና AI ከAI በቀላል፣ መካከለኛ እና ከባድ AI ደረጃዎች ይጫወቱ።"
+  }
+}

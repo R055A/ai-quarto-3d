@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "इसका पोर्ट किया गया उन्नत रूप",
+    "newGame": "नया गेम"
+  },
+  "common": {
+    "on": "चालू",
+    "off": "बंद"
+  },
+  "a11y": {
+    "utilityActions": "ऐप्लिकेशन लिंक और भाषा",
+    "viewSource": "GitHub पर स्रोत देखें",
+    "gameControls": "गेम नियंत्रण",
+    "gameBoard": "3D गेम बोर्ड",
+    "gameInfo": "गेम जानकारी"
+  },
+  "controls": {
+    "diffAI": "AI कठिनाई",
+    "diffPlayerOneAI": "P1 कठिनाई",
+    "diffPlayerTwoAI": "P2 कठिनाई",
+    "startingPlayer": "शुरू करने वाला खिलाड़ी",
+    "gameMode": "गेम मोड",
+    "pauseAI": "AI रोकें",
+    "resumeAI": "AI फिर शुरू करें",
+    "undo": "पूर्ववत करें",
+    "redo": "फिर करें"
+  },
+  "diff": {
+    "easy": "आसान",
+    "medium": "मध्यम",
+    "hard": "कठिन"
+  },
+  "mode": {
+    "userVsUser": "उपयोगकर्ता बनाम उपयोगकर्ता",
+    "userVsAI": "उपयोगकर्ता बनाम AI",
+    "onlyAI": "AI बनाम AI"
+  },
+  "player": {
+    "playerYou": "आप",
+    "playerOne": "खिलाड़ी एक",
+    "playerTwo": "खिलाड़ी दो",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "यादृच्छिक",
+    "playerAIPlayer": "AI खिलाड़ी",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "गेम की स्थिति...",
+    "pausedAI": "{{player}} रुका हुआ है...",
+    "placingAI": "{{player}} खेल रहा है - मोहरे को बोर्ड पर रख रहा है...",
+    "placingUser": "{{player}} खेल रहा है - चुने हुए मोहरे को बोर्ड पर रखें...",
+    "placeUserYou": "आप खेल रहे हैं - चुने हुए मोहरे को बोर्ड पर रखें...",
+    "gameDrawn": "गेम ड्रॉ - कोई विजयी रेखा नहीं",
+    "gameWon": "{{player}} जीत गया - विजयी रेखा हाइलाइट की गई",
+    "selectingAI": "{{player}} खेल रहा है - {{opponent}} के लिए मोहरा चुन रहा है...",
+    "selectUser": "{{player}} खेल रहा है - {{opponent}} के लिए मोहरा चुनें...",
+    "selectUserYou": "आप खेल रहे हैं - {{opponent}} के लिए मोहरा चुनें..."
+  },
+  "piece": {
+    "inPlay": "खेल में मोहरा",
+    "none": "कुछ नहीं चुना",
+    "traits": "मोहरे के गुण",
+    "black": "काला",
+    "red": "लाल",
+    "big": "बड़ा",
+    "small": "छोटा",
+    "round": "गोल",
+    "square": "चौकोर",
+    "solid": "ठोस",
+    "hollow": "खोखला"
+  },
+  "board": {
+    "binary": "बाइनरी बोर्ड",
+    "piecesPlaced": "रखे गए मोहरे",
+    "cellEmpty": "खाना {{cell}}: खाली",
+    "cellPiece": "खाना {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D रेंडरिंग उपलब्ध नहीं है।",
+    "webglHeading": "WebGL शुरू नहीं हो सका।",
+    "webglMsg": "गेम के लिए ब्राउज़र में WebGL सक्षम होना आवश्यक है।"
+  },
+  "metrics": {
+    "hoverRiskPreview": "चयन जोखिम देखने के लिए चुने जा सकने वाले मोहरे पर कर्सर रखें",
+    "hoveredRiskOne": "होवर किए गए मोहरे का जोखिम: {{risk}} तत्काल विजयी स्थान",
+    "hoveredRiskMany": "होवर किए गए मोहरे का जोखिम: {{risk}} तत्काल विजयी स्थान",
+    "immediateWins": "तत्काल विजयी स्थान",
+    "latestRisk": "नवीनतम चयन जोखिम",
+    "riskOneAI": "AI द्वारा चुने गए मोहरे का जोखिम: {{risk}} तत्काल विजयी स्थान",
+    "riskManyAI": "AI द्वारा चुने गए मोहरे का जोखिम: {{risk}} तत्काल विजयी स्थान",
+    "riskTurnedOff": "चयन जोखिम बंद है",
+    "riskUnavailableAI": "AI बनाम AI मोड में चयन जोखिम उपलब्ध नहीं है",
+    "selectionRisk": "चयन जोखिम",
+    "turnRiskOff": "चयन जोखिम बंद करें",
+    "turnRiskOn": "चयन जोखिम चालू करें"
+  },
+  "metadata": {
+    "description": "Three.js और अल्फा-बीटा प्रूनिंग वाले Minimax कृत्रिम बुद्धिमत्ता एल्गोरिदम के Negamax संस्करण का उपयोग करने वाला इंटरैक्टिव 3D Quarto बोर्ड गेम इंटरफ़ेस। आसान, मध्यम और कठिन AI स्तरों के साथ उपयोगकर्ता बनाम उपयोगकर्ता, उपयोगकर्ता बनाम AI और AI बनाम AI खेलें।",
+    "ogDescription": "इंटरैक्टिव 3D Quarto बोर्ड गेम। आसान, मध्यम और कठिन AI स्तरों के साथ उपयोगकर्ता बनाम उपयोगकर्ता, उपयोगकर्ता बनाम AI और AI बनाम AI खेलें।"
+  }
+}

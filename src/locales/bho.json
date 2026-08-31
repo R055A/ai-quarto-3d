@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "एकर पोर्ट कइल सुधरल रूप",
+    "newGame": "नया खेल"
+  },
+  "common": {
+    "on": "चालू",
+    "off": "बंद"
+  },
+  "a11y": {
+    "utilityActions": "एप्लिकेशन लिंक आ भाषा",
+    "viewSource": "GitHub पर सोर्स देखीं",
+    "gameControls": "खेल कंट्रोल",
+    "gameBoard": "3D खेल बोर्ड",
+    "gameInfo": "खेल जानकारी"
+  },
+  "controls": {
+    "diffAI": "AI कठिनाई",
+    "diffPlayerOneAI": "P1 कठिनाई",
+    "diffPlayerTwoAI": "P2 कठिनाई",
+    "startingPlayer": "शुरू करे वाला खिलाड़ी",
+    "gameMode": "खेल मोड",
+    "pauseAI": "AI रोक दीं",
+    "resumeAI": "AI फेर शुरू करीं",
+    "undo": "वापस करीं",
+    "redo": "फेर करीं"
+  },
+  "diff": {
+    "easy": "आसान",
+    "medium": "मध्यम",
+    "hard": "कठिन"
+  },
+  "mode": {
+    "userVsUser": "यूजर बनाम यूजर",
+    "userVsAI": "यूजर बनाम AI",
+    "onlyAI": "AI बनाम AI"
+  },
+  "player": {
+    "playerYou": "रउआ",
+    "playerOne": "खिलाड़ी एक",
+    "playerTwo": "खिलाड़ी दू",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "बेतरतीब",
+    "playerAIPlayer": "AI खिलाड़ी",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "खेल के स्थिति...",
+    "pausedAI": "{{player}} रुकल बा...",
+    "placingAI": "{{player}} खेलत बा - गोटी बोर्ड पर रखत बा...",
+    "placingUser": "{{player}} खेलत बा - चुनल गोटी बोर्ड पर रखीं...",
+    "placeUserYou": "रउआ खेलत बानी - चुनल गोटी बोर्ड पर रखीं...",
+    "gameDrawn": "खेल बराबरी - कवनो जीत वाला लाइन नइखे",
+    "gameWon": "{{player}} जीत गइल - जीत वाला लाइन हाइलाइट भइल",
+    "selectingAI": "{{player}} खेलत बा - {{opponent}} खातिर गोटी चुनत बा...",
+    "selectUser": "{{player}} खेलत बा - {{opponent}} खातिर गोटी चुनीं...",
+    "selectUserYou": "रउआ खेलत बानी - {{opponent}} खातिर गोटी चुनीं..."
+  },
+  "piece": {
+    "inPlay": "खेल में गोटी",
+    "none": "कुछो चुनल नइखे",
+    "traits": "गोटी के गुण",
+    "black": "करिया",
+    "red": "लाल",
+    "big": "बड़",
+    "small": "छोट",
+    "round": "गोल",
+    "square": "चौकोर",
+    "solid": "ठोस",
+    "hollow": "खोखला"
+  },
+  "board": {
+    "binary": "बाइनरी बोर्ड",
+    "piecesPlaced": "रखल गोटी",
+    "cellEmpty": "खाना {{cell}}: खाली",
+    "cellPiece": "खाना {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D रेंडरिंग उपलब्ध नइखे।",
+    "webglHeading": "WebGL शुरू ना हो सकल।",
+    "webglMsg": "खेल खातिर ब्राउजर में WebGL चालू होखे के चाहीं।"
+  },
+  "metrics": {
+    "hoverRiskPreview": "चुनाव जोखिम देखे खातिर चुनल जा सके वाली गोटी पर कर्सर रखीं",
+    "hoveredRiskOne": "कर्सर नीचे गोटी के जोखिम: {{risk}} तुरंते जीत वाला जगह",
+    "hoveredRiskMany": "कर्सर नीचे गोटी के जोखिम: {{risk}} तुरंते जीत वाला जगह",
+    "immediateWins": "तुरंते जीत वाला जगह",
+    "latestRisk": "सबसे नया चुनाव जोखिम",
+    "riskOneAI": "AI के चुनल गोटी के जोखिम: {{risk}} तुरंते जीत वाला जगह",
+    "riskManyAI": "AI के चुनल गोटी के जोखिम: {{risk}} तुरंते जीत वाला जगह",
+    "riskTurnedOff": "चुनाव जोखिम बंद बा",
+    "riskUnavailableAI": "AI बनाम AI मोड में चुनाव जोखिम उपलब्ध नइखे",
+    "selectionRisk": "चुनाव जोखिम",
+    "turnRiskOff": "चुनाव जोखिम बंद करीं",
+    "turnRiskOn": "चुनाव जोखिम चालू करीं"
+  },
+  "metadata": {
+    "description": "Three.js आ alpha-beta pruning वाला Minimax कृत्रिम बुद्धिमत्ता एल्गोरिदम के Negamax संस्करण इस्तेमाल करे वाला इंटरैक्टिव 3D Quarto बोर्ड गेम UI। आसान, मध्यम आ कठिन AI स्तर के साथ यूजर बनाम यूजर, यूजर बनाम AI आ AI बनाम AI खेलीं।",
+    "ogDescription": "इंटरैक्टिव 3D Quarto बोर्ड गेम। आसान, मध्यम आ कठिन AI स्तर के साथ यूजर बनाम यूजर, यूजर बनाम AI आ AI बनाम AI खेलीं।"
+  }
+}

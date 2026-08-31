@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "UI-Quarto 3D",
+    "eyebrow": "Portované vylepšenie projektu",
+    "newGame": "Nová hra"
+  },
+  "common": {
+    "on": "ZAP",
+    "off": "VYP"
+  },
+  "a11y": {
+    "utilityActions": "Odkazy aplikácie a jazyk",
+    "viewSource": "Zobraziť zdrojový kód na GitHube",
+    "gameControls": "Ovládanie hry",
+    "gameBoard": "3D herná doska",
+    "gameInfo": "Informácie o hre"
+  },
+  "controls": {
+    "diffAI": "Obtiažnosť AI",
+    "diffPlayerOneAI": "Obtiažnosť H1",
+    "diffPlayerTwoAI": "Obtiažnosť H2",
+    "startingPlayer": "Začínajúci hráč",
+    "gameMode": "Herný režim",
+    "pauseAI": "Pozastaviť AI",
+    "resumeAI": "Pokračovať AI",
+    "undo": "Späť",
+    "redo": "Znova"
+  },
+  "diff": {
+    "easy": "Ľahká",
+    "medium": "Stredná",
+    "hard": "Ťažká"
+  },
+  "mode": {
+    "userVsUser": "Hráč proti hráčovi",
+    "userVsAI": "Hráč proti AI",
+    "onlyAI": "AI proti AI"
+  },
+  "player": {
+    "playerYou": "Ty",
+    "playerOne": "Hráč jeden",
+    "playerTwo": "Hráč dva",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (H{{number}}, {{difficulty}})",
+    "playerRandom": "Náhodne",
+    "playerAIPlayer": "Hráč AI",
+    "playerShort": "H{{number}}"
+  },
+  "status": {
+    "loading": "Stav hry...",
+    "pausedAI": "{{player}} je pozastavený...",
+    "placingAI": "{{player}} hrá - umiestňuje figúrku na dosku...",
+    "placingUser": "{{player}} hrá - Umiestni vybranú figúrku na dosku...",
+    "placeUserYou": "Hráš - Umiestni vybranú figúrku na dosku...",
+    "gameDrawn": "Remíza - žiadna víťazná línia",
+    "gameWon": "{{player}} vyhráva - víťazná línia zvýraznená",
+    "selectingAI": "{{player}} hrá - vyberá figúrku pre {{opponent}}...",
+    "selectUser": "{{player}} hrá - Vyber figúrku pre {{opponent}}...",
+    "selectUserYou": "Hráš - Vyber figúrku pre {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Figúrka v hre",
+    "none": "Nič nevybrané",
+    "traits": "Vlastnosti figúrky",
+    "black": "čierna",
+    "red": "červená",
+    "big": "veľká",
+    "small": "malá",
+    "round": "okrúhla",
+    "square": "štvorcová",
+    "solid": "plná",
+    "hollow": "dutá"
+  },
+  "board": {
+    "binary": "Binárna doska",
+    "piecesPlaced": "Umiestnené figúrky",
+    "cellEmpty": "Pole {{cell}}: prázdne",
+    "cellPiece": "Pole {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D vykresľovanie nie je dostupné.",
+    "webglHeading": "WebGL sa nepodarilo spustiť.",
+    "webglMsg": "Hra vyžaduje povolený WebGL v prehliadači."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Prejdi nad voliteľnú figúrku a zobraz riziko jej výberu",
+    "hoveredRiskOne": "Riziko označenej figúrky: {{risk}} okamžité víťazné umiestnenie",
+    "hoveredRiskMany": "Riziko označenej figúrky: {{risk}} okamžitých víťazných umiestnení",
+    "immediateWins": "Okamžité víťazné umiestnenia",
+    "latestRisk": "Najnovšie riziko výberu",
+    "riskOneAI": "Riziko figúrky vybranej AI: {{risk}} okamžité víťazné umiestnenie",
+    "riskManyAI": "Riziko figúrky vybranej AI: {{risk}} okamžitých víťazných umiestnení",
+    "riskTurnedOff": "Riziko výberu je vypnuté",
+    "riskUnavailableAI": "Riziko výberu nie je dostupné v režime AI proti AI",
+    "selectionRisk": "Riziko výberu",
+    "turnRiskOff": "Vypnúť riziko výberu",
+    "turnRiskOn": "Zapnúť riziko výberu"
+  },
+  "metadata": {
+    "description": "Interaktívne 3D rozhranie stolovej hry Quarto využívajúce Three.js a Negamax verziu algoritmu umelej inteligencie Minimax s alfa-beta orezávaním. Hraj hráč proti hráčovi, hráč proti AI a AI proti AI s ľahkou, strednou a ťažkou AI.",
+    "ogDescription": "Interaktívna 3D stolová hra Quarto. Hraj hráč proti hráčovi, hráč proti AI a AI proti AI s ľahkou, strednou a ťažkou AI."
+  }
+}

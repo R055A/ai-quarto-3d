@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Ukuthuthukiswa okudluliselwe kusuka ku",
+    "newGame": "Umdlalo omusha"
+  },
+  "common": {
+    "on": "VULIWE",
+    "off": "VALIWE"
+  },
+  "a11y": {
+    "utilityActions": "Izixhumanisi zohlelo nolimi",
+    "viewSource": "Buka ikhodi yomthombo ku-GitHub",
+    "gameControls": "Izilawuli zomdlalo",
+    "gameBoard": "Ibhodi lomdlalo le-3D",
+    "gameInfo": "Ulwazi lomdlalo"
+  },
+  "controls": {
+    "diffAI": "Ubunzima be-AI",
+    "diffPlayerOneAI": "Ubunzima be-P1",
+    "diffPlayerTwoAI": "Ubunzima be-P2",
+    "startingPlayer": "Umdlali oqala",
+    "gameMode": "Imodi yomdlalo",
+    "pauseAI": "Misa i-AI",
+    "resumeAI": "Qhubekisa i-AI",
+    "undo": "Hlehlisa",
+    "redo": "Phinda"
+  },
+  "diff": {
+    "easy": "Kulula",
+    "medium": "Maphakathi",
+    "hard": "Kunzima"
+  },
+  "mode": {
+    "userVsUser": "Umsebenzisi vs umsebenzisi",
+    "userVsAI": "Umsebenzisi vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "Wena",
+    "playerOne": "Umdlali Wokuqala",
+    "playerTwo": "Umdlali Wesibili",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Okungahleliwe",
+    "playerAIPlayer": "Umdlali we-AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Isimo somdlalo...",
+    "pausedAI": "{{player}} umisiwe...",
+    "placingAI": "{{player}} uyadlala - ubeka ucezu ebhodini...",
+    "placingUser": "{{player}} uyadlala - Beka ucezu olukhethiwe ebhodini...",
+    "placeUserYou": "Uyadlala - Beka ucezu olukhethiwe ebhodini...",
+    "gameDrawn": "Umdlalo uphele ngokulingana - awukho umugqa wokuwina",
+    "gameWon": "{{player}} uwinile - umugqa wokuwina ugqanyisiwe",
+    "selectingAI": "{{player}} uyadlala - ukhetha ucezu luka-{{opponent}}...",
+    "selectUser": "{{player}} uyadlala - Khetha ucezu luka-{{opponent}}...",
+    "selectUserYou": "Uyadlala - Khetha ucezu luka-{{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Ucezu oludlalwayo",
+    "none": "Akukho okukhethiwe",
+    "traits": "Izici zocezu",
+    "black": "mnyama",
+    "red": "bomvu",
+    "big": "khulu",
+    "small": "ncane",
+    "round": "yindilinga",
+    "square": "isikwele",
+    "solid": "qinile",
+    "hollow": "ingenalutho ngaphakathi"
+  },
+  "board": {
+    "binary": "Ibhodi le-binary",
+    "piecesPlaced": "Izingcezu ezibekiwe",
+    "cellEmpty": "Iseli {{cell}}: alinalutho",
+    "cellPiece": "Iseli {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Ukubonisa kwe-3D akutholakali.",
+    "webglHeading": "I-WebGL ayikwazanga ukuqala.",
+    "webglMsg": "Umdlalo udinga ukuthi i-WebGL ivunyelwe kusiphequluli."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Hambisa ikhesa phezu kocezu olukhethekayo ukuze ubone kusengaphambili ubungozi bokulukhetha",
+    "hoveredRiskOne": "Ubungozi bocezu olukhethwayo: {{risk}} indawo eyodwa yokuwina ngokushesha",
+    "hoveredRiskMany": "Ubungozi bocezu olukhethwayo: {{risk}} izindawo zokuwina ngokushesha",
+    "immediateWins": "Izindawo zokuwina ngokushesha",
+    "latestRisk": "Ubungozi bokukhetha bakamuva",
+    "riskOneAI": "Ubungozi bocezu olukhethwe yi-AI: {{risk}} indawo eyodwa yokuwina ngokushesha",
+    "riskManyAI": "Ubungozi bocezu olukhethwe yi-AI: {{risk}} izindawo zokuwina ngokushesha",
+    "riskTurnedOff": "Ubungozi bokukhetha buvaliwe",
+    "riskUnavailableAI": "Ubungozi bokukhetha abutholakali kwimodi ye-AI vs AI",
+    "selectionRisk": "Ubungozi bokukhetha",
+    "turnRiskOff": "Vala ubungozi bokukhetha",
+    "turnRiskOn": "Vula ubungozi bokukhetha"
+  },
+  "metadata": {
+    "description": "Isixhumi esibonakalayo somdlalo webhodi we-Quarto we-3D esisebenzisanayo esisebenzisa i-Three.js kanye nenguqulo ye-Negamax ye-algorithm ye-Minimax yobuhlakani bokwenziwa ene-alpha-beta pruning. Dlala umsebenzisi vs umsebenzisi, umsebenzisi vs AI, kanye ne-AI vs AI, ngamazinga obunzima e-AI alula, aphakathi nanzima.",
+    "ogDescription": "Umdlalo webhodi we-Quarto we-3D osebenzisanayo. Dlala umsebenzisi vs umsebenzisi, umsebenzisi vs AI, kanye ne-AI vs AI, ngamazinga obunzima e-AI alula, aphakathi nanzima."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "TI-Quarto 3D",
+    "eyebrow": "Porditud täiendus projektile",
+    "newGame": "Uus mäng"
+  },
+  "common": {
+    "on": "SEES",
+    "off": "VÄLJAS"
+  },
+  "a11y": {
+    "utilityActions": "Rakenduse lingid ja keel",
+    "viewSource": "Vaata lähtekoodi GitHubis",
+    "gameControls": "Mängu juhtelemendid",
+    "gameBoard": "3D-mängulaud",
+    "gameInfo": "Mängu teave"
+  },
+  "controls": {
+    "diffAI": "AI raskusaste",
+    "diffPlayerOneAI": "M1 raskusaste",
+    "diffPlayerTwoAI": "M2 raskusaste",
+    "startingPlayer": "Alustav mängija",
+    "gameMode": "Mängurežiim",
+    "pauseAI": "Peata AI",
+    "resumeAI": "Jätka AI-d",
+    "undo": "Võta tagasi",
+    "redo": "Tee uuesti"
+  },
+  "diff": {
+    "easy": "Lihtne",
+    "medium": "Keskmine",
+    "hard": "Raske"
+  },
+  "mode": {
+    "userVsUser": "Mängija mängija vastu",
+    "userVsAI": "Mängija AI vastu",
+    "onlyAI": "AI AI vastu"
+  },
+  "player": {
+    "playerYou": "Sina",
+    "playerOne": "Mängija üks",
+    "playerTwo": "Mängija kaks",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (M{{number}}, {{difficulty}})",
+    "playerRandom": "Juhuslik",
+    "playerAIPlayer": "AI-mängija",
+    "playerShort": "M{{number}}"
+  },
+  "status": {
+    "loading": "Mängu olek...",
+    "pausedAI": "{{player}} on pausil...",
+    "placingAI": "{{player}} mängib - asetab nupu lauale...",
+    "placingUser": "{{player}} mängib - Aseta valitud nupp lauale...",
+    "placeUserYou": "Sina mängid - Aseta valitud nupp lauale...",
+    "gameDrawn": "Viik - võiduliini pole",
+    "gameWon": "{{player}} võidab - võiduliin on esile tõstetud",
+    "selectingAI": "{{player}} mängib - valib nupu mängijale {{opponent}}...",
+    "selectUser": "{{player}} mängib - Vali nupp mängijale {{opponent}}...",
+    "selectUserYou": "Sina mängid - Vali nupp mängijale {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Mängus olev nupp",
+    "none": "Midagi pole valitud",
+    "traits": "Nupu omadused",
+    "black": "must",
+    "red": "punane",
+    "big": "suur",
+    "small": "väike",
+    "round": "ümmargune",
+    "square": "ruudukujuline",
+    "solid": "täidetud",
+    "hollow": "õõnes"
+  },
+  "board": {
+    "binary": "Binaarlaud",
+    "piecesPlaced": "Asetatud nupud",
+    "cellEmpty": "Ruut {{cell}}: tühi",
+    "cellPiece": "Ruut {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-renderdus pole saadaval.",
+    "webglHeading": "WebGL-i ei õnnestunud käivitada.",
+    "webglMsg": "Mäng nõuab, et WebGL oleks brauseris lubatud."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Valikuriski eelvaateks vii kursor valitava nupu kohale",
+    "hoveredRiskOne": "Kursori all oleva nupu risk: {{risk}} kohene võidukas paigutus",
+    "hoveredRiskMany": "Kursori all oleva nupu risk: {{risk}} kohest võidukat paigutust",
+    "immediateWins": "Kohesed võidukad paigutused",
+    "latestRisk": "Viimane valikurisk",
+    "riskOneAI": "AI valitud nupu risk: {{risk}} kohene võidukas paigutus",
+    "riskManyAI": "AI valitud nupu risk: {{risk}} kohest võidukat paigutust",
+    "riskTurnedOff": "Valikurisk on välja lülitatud",
+    "riskUnavailableAI": "Valikurisk pole AI AI vastu režiimis saadaval",
+    "selectionRisk": "Valikurisk",
+    "turnRiskOff": "Lülita valikurisk välja",
+    "turnRiskOn": "Lülita valikurisk sisse"
+  },
+  "metadata": {
+    "description": "Interaktiivne 3D Quarto lauamängu kasutajaliides Three.js-iga ning Minimax tehisintellekti algoritmi Negamax-versiooniga koos alfa-beeta kärpimisega. Mängi mängija mängija vastu, mängija AI vastu ja AI AI vastu lihtsa, keskmise või raske AI-ga.",
+    "ogDescription": "Interaktiivne 3D Quarto lauamäng. Mängi mängija mängija vastu, mängija AI vastu ja AI AI vastu lihtsa, keskmise või raske AI-ga."
+  }
+}

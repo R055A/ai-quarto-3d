@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "ಇದರ ಪೋರ್ಟ್ ಮಾಡಿದ ಸುಧಾರಿತ ಆವೃತ್ತಿ",
+    "newGame": "ಹೊಸ ಆಟ"
+  },
+  "common": {
+    "on": "ಆನ್",
+    "off": "ಆಫ್"
+  },
+  "a11y": {
+    "utilityActions": "ಅಪ್ಲಿಕೇಶನ್ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಭಾಷೆ",
+    "viewSource": "GitHub ನಲ್ಲಿ ಮೂಲವನ್ನು ನೋಡಿ",
+    "gameControls": "ಆಟದ ನಿಯಂತ್ರಣಗಳು",
+    "gameBoard": "3D ಆಟದ ಫಲಕ",
+    "gameInfo": "ಆಟದ ಮಾಹಿತಿ"
+  },
+  "controls": {
+    "diffAI": "AI ಕಠಿಣತೆ",
+    "diffPlayerOneAI": "P1 ಕಠಿಣತೆ",
+    "diffPlayerTwoAI": "P2 ಕಠಿಣತೆ",
+    "startingPlayer": "ಆರಂಭಿಸುವ ಆಟಗಾರ",
+    "gameMode": "ಆಟದ ಮೋಡ್",
+    "pauseAI": "AI ವಿರಾಮಗೊಳಿಸಿ",
+    "resumeAI": "AI ಮುಂದುವರಿಸಿ",
+    "undo": "ರದ್ದುಮಾಡಿ",
+    "redo": "ಮತ್ತೆಮಾಡಿ"
+  },
+  "diff": {
+    "easy": "ಸುಲಭ",
+    "medium": "ಮಧ್ಯಮ",
+    "hard": "ಕಠಿಣ"
+  },
+  "mode": {
+    "userVsUser": "ಬಳಕೆದಾರ vs ಬಳಕೆದಾರ",
+    "userVsAI": "ಬಳಕೆದಾರ vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "ನೀವು",
+    "playerOne": "ಆಟಗಾರ ಒಂದು",
+    "playerTwo": "ಆಟಗಾರ ಎರಡು",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "ಯಾದೃಚ್ಛಿಕ",
+    "playerAIPlayer": "AI ಆಟಗಾರ",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "ಆಟದ ಸ್ಥಿತಿ...",
+    "pausedAI": "{{player}} ವಿರಾಮದಲ್ಲಿದ್ದಾರೆ...",
+    "placingAI": "{{player}} ಆಡುತ್ತಿದ್ದಾರೆ - ಕಾಯಿಯನ್ನು ಫಲಕದ ಮೇಲೆ ಇಡುತ್ತಿದ್ದಾರೆ...",
+    "placingUser": "{{player}} ಆಡುತ್ತಿದ್ದಾರೆ - ಆಯ್ಕೆ ಮಾಡಿದ ಕಾಯಿಯನ್ನು ಫಲಕದ ಮೇಲೆ ಇಡಿ...",
+    "placeUserYou": "ನೀವು ಆಡುತ್ತಿದ್ದೀರಿ - ಆಯ್ಕೆ ಮಾಡಿದ ಕಾಯಿಯನ್ನು ಫಲಕದ ಮೇಲೆ ಇಡಿ...",
+    "gameDrawn": "ಆಟ ಡ್ರಾ - ಗೆಲುವಿನ ಸಾಲಿಲ್ಲ",
+    "gameWon": "{{player}} ಗೆದ್ದಿದ್ದಾರೆ - ಗೆಲುವಿನ ಸಾಲು ಹೈಲೈಟ್ ಆಗಿದೆ",
+    "selectingAI": "{{player}} ಆಡುತ್ತಿದ್ದಾರೆ - {{opponent}} ಗಾಗಿ ಕಾಯಿ ಆಯ್ಕೆ ಮಾಡುತ್ತಿದ್ದಾರೆ...",
+    "selectUser": "{{player}} ಆಡುತ್ತಿದ್ದಾರೆ - {{opponent}} ಗಾಗಿ ಕಾಯಿ ಆಯ್ಕೆ ಮಾಡಿ...",
+    "selectUserYou": "ನೀವು ಆಡುತ್ತಿದ್ದೀರಿ - {{opponent}} ಗಾಗಿ ಕಾಯಿ ಆಯ್ಕೆ ಮಾಡಿ..."
+  },
+  "piece": {
+    "inPlay": "ಆಟದಲ್ಲಿರುವ ಕಾಯಿ",
+    "none": "ಏನೂ ಆಯ್ಕೆ ಆಗಿಲ್ಲ",
+    "traits": "ಕಾಯಿಯ ಲಕ್ಷಣಗಳು",
+    "black": "ಕಪ್ಪು",
+    "red": "ಕೆಂಪು",
+    "big": "ದೊಡ್ಡದು",
+    "small": "ಚಿಕ್ಕದು",
+    "round": "ದುಂಡು",
+    "square": "ಚೌಕ",
+    "solid": "ಘನ",
+    "hollow": "ಟೊಳ್ಳು"
+  },
+  "board": {
+    "binary": "ಬೈನರಿ ಫಲಕ",
+    "piecesPlaced": "ಇಟ್ಟ ಕಾಯಿಗಳು",
+    "cellEmpty": "ಚೌಕ {{cell}}: ಖಾಲಿ",
+    "cellPiece": "ಚೌಕ {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D ರೆಂಡರಿಂಗ್ ಲಭ್ಯವಿಲ್ಲ.",
+    "webglHeading": "WebGL ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+    "webglMsg": "ಆಟಕ್ಕೆ ಬ್ರೌಸರ್‌ನಲ್ಲಿ WebGL ಸಕ್ರಿಯವಾಗಿರಬೇಕು."
+  },
+  "metrics": {
+    "hoverRiskPreview": "ಆಯ್ಕೆ ಅಪಾಯವನ್ನು ನೋಡಲು ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಕಾಯಿಯ ಮೇಲೆ ಕರ್ಸರ್ ಇಡಿ",
+    "hoveredRiskOne": "ಕರ್ಸರ್ ಕೆಳಗಿನ ಕಾಯಿಯ ಅಪಾಯ: {{risk}} ತಕ್ಷಣದ ಗೆಲುವಿನ ಸ್ಥಾನ",
+    "hoveredRiskMany": "ಕರ್ಸರ್ ಕೆಳಗಿನ ಕಾಯಿಯ ಅಪಾಯ: {{risk}} ತಕ್ಷಣದ ಗೆಲುವಿನ ಸ್ಥಾನಗಳು",
+    "immediateWins": "ತಕ್ಷಣದ ಗೆಲುವಿನ ಸ್ಥಾನಗಳು",
+    "latestRisk": "ಇತ್ತೀಚಿನ ಆಯ್ಕೆ ಅಪಾಯ",
+    "riskOneAI": "AI ಆಯ್ಕೆ ಮಾಡಿದ ಕಾಯಿಯ ಅಪಾಯ: {{risk}} ತಕ್ಷಣದ ಗೆಲುವಿನ ಸ್ಥಾನ",
+    "riskManyAI": "AI ಆಯ್ಕೆ ಮಾಡಿದ ಕಾಯಿಯ ಅಪಾಯ: {{risk}} ತಕ್ಷಣದ ಗೆಲುವಿನ ಸ್ಥಾನಗಳು",
+    "riskTurnedOff": "ಆಯ್ಕೆ ಅಪಾಯ ಆಫ್ ಆಗಿದೆ",
+    "riskUnavailableAI": "AI vs AI ಮೋಡ್‌ನಲ್ಲಿ ಆಯ್ಕೆ ಅಪಾಯ ಲಭ್ಯವಿಲ್ಲ",
+    "selectionRisk": "ಆಯ್ಕೆ ಅಪಾಯ",
+    "turnRiskOff": "ಆಯ್ಕೆ ಅಪಾಯವನ್ನು ಆಫ್ ಮಾಡಿ",
+    "turnRiskOn": "ಆಯ್ಕೆ ಅಪಾಯವನ್ನು ಆನ್ ಮಾಡಿ"
+  },
+  "metadata": {
+    "description": "Three.js ಮತ್ತು alpha-beta pruning ಇರುವ Minimax ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಅಲ್ಗಾರಿದಮ್‌ನ Negamax ಆವೃತ್ತಿಯನ್ನು ಬಳಸುವ ಸಂವಾದಾತ್ಮಕ 3D Quarto ಬೋರ್ಡ್ ಗೇಮ್ UI. ಸುಲಭ, ಮಧ್ಯಮ ಮತ್ತು ಕಠಿಣ AI ಮಟ್ಟಗಳೊಂದಿಗೆ ಬಳಕೆದಾರ vs ಬಳಕೆದಾರ, ಬಳಕೆದಾರ vs AI ಮತ್ತು AI vs AI ಆಡಿ.",
+    "ogDescription": "ಸಂವಾದಾತ್ಮಕ 3D Quarto ಬೋರ್ಡ್ ಗೇಮ್. ಸುಲಭ, ಮಧ್ಯಮ ಮತ್ತು ಕಠಿಣ AI ಮಟ್ಟಗಳೊಂದಿಗೆ ಬಳಕೆದಾರ vs ಬಳಕೆದಾರ, ಬಳಕೆದಾರ vs AI ಮತ್ತು AI vs AI ಆಡಿ."
+  }
+}

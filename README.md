@@ -1,6 +1,6 @@
 # AI-Quarto 3D
 
-AI-Quarto in 3D using negamax with alpha-beta pruning and three.js UI. Not affiliated with Gigamic.
+AI-Quarto in 3D using negamax with alpha-beta pruning, a React UI, and a Three.js game scene. Not affiliated with Gigamic.
 
 Current UI design is focused on Desktop use. Experience may differ between devices. [Play game here](https://r055a.github.io/ai-quarto-3d/).
 
@@ -10,7 +10,8 @@ studies completed with distinction, including (full-stack, UI) web dev, software
 > Note: all relevant studies are completed before ChatGPT and other GenAI models have been publicly available.
 
 More specifically, the Python game engine component and CLI are ported and enhanced to an interactive 3D web UI.       
-From recollection, it was the only, if not best game engine; and all components completed, at least with all members.
+From recollection, it was the only, if not best game engine; with all components completed, at least with all members.
+
 
 <details>
 <summary>UU-Game group:
@@ -58,7 +59,7 @@ npm run preview
 npm test
 ```
 
-### Example 
+### Example
 
 ```Bash
 stdout | tests/ai-diff.test.ts > 100-match AI vs AI > hard vs hard: 100 draws
@@ -114,8 +115,8 @@ stdout | tests/ai-diff.test.ts > 100-match AI vs AI > medium vs easy: 100 medium
 
 # Contribute
 
-Before making a Pull Request for an existing\created Issue, verify the branch passes:
+Before making a Pull Request, ensure it addresses an Issue, and verify the branch passes:
 
 ```Bash
-npm run verify:all:fix
+npm run verify:fix
 ```

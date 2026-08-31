@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Une amélioration portée de",
+    "newGame": "Nouvelle partie"
+  },
+  "common": {
+    "on": "ACTIVÉ",
+    "off": "DÉSACTIVÉ"
+  },
+  "a11y": {
+    "utilityActions": "Liens de l’application et langue",
+    "viewSource": "Voir le code source sur GitHub",
+    "gameControls": "Commandes du jeu",
+    "gameBoard": "Plateau de jeu 3D",
+    "gameInfo": "Informations sur la partie"
+  },
+  "controls": {
+    "diffAI": "Difficulté de l’IA",
+    "diffPlayerOneAI": "Difficulté J1",
+    "diffPlayerTwoAI": "Difficulté J2",
+    "startingPlayer": "Joueur de départ",
+    "gameMode": "Mode de jeu",
+    "pauseAI": "Mettre l’IA en pause",
+    "resumeAI": "Reprendre l’IA",
+    "undo": "Annuler",
+    "redo": "Rétablir"
+  },
+  "diff": {
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile"
+  },
+  "mode": {
+    "userVsUser": "Joueur contre joueur",
+    "userVsAI": "Joueur contre IA",
+    "onlyAI": "IA contre IA"
+  },
+  "player": {
+    "playerYou": "Vous",
+    "playerOne": "Joueur un",
+    "playerTwo": "Joueur deux",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (J{{number}}, {{difficulty}})",
+    "playerRandom": "Aléatoire",
+    "playerAIPlayer": "Joueur IA",
+    "playerShort": "J{{number}}"
+  },
+  "status": {
+    "loading": "État de la partie...",
+    "pausedAI": "{{player}} est en pause...",
+    "placingAI": "{{player}} joue - placement de la pièce sur le plateau...",
+    "placingUser": "{{player}} joue - Placez la pièce sélectionnée sur le plateau...",
+    "placeUserYou": "Vous jouez - Placez la pièce sélectionnée sur le plateau...",
+    "gameDrawn": "Match nul - aucune ligne gagnante",
+    "gameWon": "{{player}} gagne - ligne gagnante mise en évidence",
+    "selectingAI": "{{player}} joue - sélection d’une pièce pour {{opponent}}...",
+    "selectUser": "{{player}} joue - Sélectionnez une pièce pour {{opponent}}...",
+    "selectUserYou": "Vous jouez - Sélectionnez une pièce pour {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pièce en jeu",
+    "none": "Aucune sélection",
+    "traits": "Caractéristiques de la pièce",
+    "black": "noire",
+    "red": "rouge",
+    "big": "grande",
+    "small": "petite",
+    "round": "ronde",
+    "square": "carrée",
+    "solid": "pleine",
+    "hollow": "creuse"
+  },
+  "board": {
+    "binary": "Plateau binaire",
+    "piecesPlaced": "Pièces placées",
+    "cellEmpty": "Case {{cell}} : vide",
+    "cellPiece": "Case {{cell}} : {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Le rendu 3D est indisponible.",
+    "webglHeading": "WebGL n’a pas pu démarrer.",
+    "webglMsg": "Le jeu nécessite que WebGL soit activé dans le navigateur."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Survolez une pièce sélectionnable pour prévisualiser son risque de sélection",
+    "hoveredRiskOne": "Risque de la pièce survolée : {{risk}} placement gagnant immédiat",
+    "hoveredRiskMany": "Risque de la pièce survolée : {{risk}} placements gagnants immédiats",
+    "immediateWins": "Placements gagnants immédiats",
+    "latestRisk": "Dernier risque de sélection",
+    "riskOneAI": "Risque de la pièce sélectionnée par l’IA : {{risk}} placement gagnant immédiat",
+    "riskManyAI": "Risque de la pièce sélectionnée par l’IA : {{risk}} placements gagnants immédiats",
+    "riskTurnedOff": "Le risque de sélection est désactivé",
+    "riskUnavailableAI": "Le risque de sélection est indisponible en mode IA contre IA",
+    "selectionRisk": "Risque de sélection",
+    "turnRiskOff": "Désactiver le risque de sélection",
+    "turnRiskOn": "Activer le risque de sélection"
+  },
+  "metadata": {
+    "description": "Interface interactive du jeu de plateau Quarto en 3D utilisant Three.js et la version Negamax de l’algorithme d’intelligence artificielle Minimax avec élagage alpha-bêta. Jouez joueur contre joueur, joueur contre IA et IA contre IA, avec des difficultés d’IA facile, moyenne et difficile.",
+    "ogDescription": "Jeu de plateau Quarto interactif en 3D. Jouez joueur contre joueur, joueur contre IA et IA contre IA, avec des difficultés d’IA facile, moyenne et difficile."
+  }
+}

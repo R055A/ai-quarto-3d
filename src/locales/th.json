@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "ฉบับปรับปรุงที่พอร์ตมาจาก",
+    "newGame": "เกมใหม่"
+  },
+  "common": {
+    "on": "เปิด",
+    "off": "ปิด"
+  },
+  "a11y": {
+    "utilityActions": "ลิงก์แอปพลิเคชันและภาษา",
+    "viewSource": "ดูซอร์สบน GitHub",
+    "gameControls": "ตัวควบคุมเกม",
+    "gameBoard": "กระดานเกม 3D",
+    "gameInfo": "ข้อมูลเกม"
+  },
+  "controls": {
+    "diffAI": "ความยาก AI",
+    "diffPlayerOneAI": "ความยาก P1",
+    "diffPlayerTwoAI": "ความยาก P2",
+    "startingPlayer": "ผู้เล่นเริ่มต้น",
+    "gameMode": "โหมดเกม",
+    "pauseAI": "หยุด AI ชั่วคราว",
+    "resumeAI": "ให้ AI ทำงานต่อ",
+    "undo": "เลิกทำ",
+    "redo": "ทำซ้ำ"
+  },
+  "diff": {
+    "easy": "ง่าย",
+    "medium": "ปานกลาง",
+    "hard": "ยาก"
+  },
+  "mode": {
+    "userVsUser": "ผู้ใช้กับผู้ใช้",
+    "userVsAI": "ผู้ใช้กับ AI",
+    "onlyAI": "AI กับ AI"
+  },
+  "player": {
+    "playerYou": "คุณ",
+    "playerOne": "ผู้เล่นหนึ่ง",
+    "playerTwo": "ผู้เล่นสอง",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "สุ่ม",
+    "playerAIPlayer": "ผู้เล่น AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "สถานะเกม...",
+    "pausedAI": "{{player}} หยุดชั่วคราว...",
+    "placingAI": "{{player}} กำลังเล่น - กำลังวางชิ้นบนกระดาน...",
+    "placingUser": "{{player}} กำลังเล่น - วางชิ้นที่เลือกบนกระดาน...",
+    "placeUserYou": "คุณกำลังเล่น - วางชิ้นที่เลือกบนกระดาน...",
+    "gameDrawn": "เกมเสมอ - ไม่มีแนวชนะ",
+    "gameWon": "{{player}} ชนะ - เน้นแนวชนะแล้ว",
+    "selectingAI": "{{player}} กำลังเล่น - กำลังเลือกชิ้นให้ {{opponent}}...",
+    "selectUser": "{{player}} กำลังเล่น - เลือกชิ้นให้ {{opponent}}...",
+    "selectUserYou": "คุณกำลังเล่น - เลือกชิ้นให้ {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "ชิ้นที่กำลังเล่น",
+    "none": "ยังไม่ได้เลือก",
+    "traits": "คุณลักษณะของชิ้น",
+    "black": "ดำ",
+    "red": "แดง",
+    "big": "ใหญ่",
+    "small": "เล็ก",
+    "round": "กลม",
+    "square": "สี่เหลี่ยม",
+    "solid": "ทึบ",
+    "hollow": "กลวง"
+  },
+  "board": {
+    "binary": "กระดานไบนารี",
+    "piecesPlaced": "ชิ้นที่วางแล้ว",
+    "cellEmpty": "ช่อง {{cell}}: ว่าง",
+    "cellPiece": "ช่อง {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "ไม่สามารถใช้การเรนเดอร์ 3D ได้",
+    "webglHeading": "ไม่สามารถเริ่ม WebGL ได้",
+    "webglMsg": "เกมต้องเปิดใช้งาน WebGL ในเบราว์เซอร์"
+  },
+  "metrics": {
+    "hoverRiskPreview": "วางเมาส์เหนือชิ้นที่เลือกได้เพื่อดูความเสี่ยงของการเลือก",
+    "hoveredRiskOne": "ความเสี่ยงของชิ้นที่ชี้อยู่: {{risk}} ตำแหน่งชนะทันที",
+    "hoveredRiskMany": "ความเสี่ยงของชิ้นที่ชี้อยู่: {{risk}} ตำแหน่งชนะทันที",
+    "immediateWins": "ตำแหน่งชนะทันที",
+    "latestRisk": "ความเสี่ยงการเลือกล่าสุด",
+    "riskOneAI": "ความเสี่ยงของชิ้นที่ AI เลือก: {{risk}} ตำแหน่งชนะทันที",
+    "riskManyAI": "ความเสี่ยงของชิ้นที่ AI เลือก: {{risk}} ตำแหน่งชนะทันที",
+    "riskTurnedOff": "ปิดความเสี่ยงการเลือกอยู่",
+    "riskUnavailableAI": "ความเสี่ยงการเลือกใช้ไม่ได้ในโหมด AI กับ AI",
+    "selectionRisk": "ความเสี่ยงการเลือก",
+    "turnRiskOff": "ปิดความเสี่ยงการเลือก",
+    "turnRiskOn": "เปิดความเสี่ยงการเลือก"
+  },
+  "metadata": {
+    "description": "อินเทอร์เฟซเกมกระดาน Quarto แบบ 3D โต้ตอบได้ ใช้ Three.js และเวอร์ชัน Negamax ของอัลกอริทึมปัญญาประดิษฐ์ Minimax พร้อมการตัดกิ่ง alpha-beta เล่นผู้ใช้กับผู้ใช้ ผู้ใช้กับ AI และ AI กับ AI โดยมีระดับ AI ง่าย ปานกลาง และยาก",
+    "ogDescription": "เกมกระดาน Quarto แบบ 3D โต้ตอบได้ เล่นผู้ใช้กับผู้ใช้ ผู้ใช้กับ AI และ AI กับ AI โดยมีระดับ AI ง่าย ปานกลาง และยาก"
+  }
+}

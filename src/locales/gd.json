@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Leasachadh portte de",
+    "newGame": "Geama ùr"
+  },
+  "common": {
+    "on": "AIR",
+    "off": "DHETH"
+  },
+  "a11y": {
+    "utilityActions": "Ceanglaichean na h-aplacaid agus cànan",
+    "viewSource": "Seall an còd tùsail air GitHub",
+    "gameControls": "Smachdan geama",
+    "gameBoard": "Bòrd geama 3D",
+    "gameInfo": "Fiosrachadh geama"
+  },
+  "controls": {
+    "diffAI": "Duilgheadas AI",
+    "diffPlayerOneAI": "Duilgheadas C1",
+    "diffPlayerTwoAI": "Duilgheadas C2",
+    "startingPlayer": "Cluicheadair tòiseachaidh",
+    "gameMode": "Modh geama",
+    "pauseAI": "Cuir AI na stad",
+    "resumeAI": "Lean AI air adhart",
+    "undo": "Neo-dhèan",
+    "redo": "Ath-dhèan"
+  },
+  "diff": {
+    "easy": "Furasta",
+    "medium": "Meadhanach",
+    "hard": "Doirbh"
+  },
+  "mode": {
+    "userVsUser": "Cleachdaiche an aghaidh cleachdaiche",
+    "userVsAI": "Cleachdaiche an aghaidh AI",
+    "onlyAI": "AI an aghaidh AI"
+  },
+  "player": {
+    "playerYou": "Thu",
+    "playerOne": "Cluicheadair Aon",
+    "playerTwo": "Cluicheadair Dà",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (C{{number}}, {{difficulty}})",
+    "playerRandom": "Air thuaiream",
+    "playerAIPlayer": "Cluicheadair AI",
+    "playerShort": "C{{number}}"
+  },
+  "status": {
+    "loading": "Inbhe a’ gheama...",
+    "pausedAI": "Tha {{player}} na stad...",
+    "placingAI": "Tha {{player}} a’ cluich - a’ cur a’ phìos air a’ bhòrd...",
+    "placingUser": "Tha {{player}} a’ cluich - Cuir am pìos taghte air a’ bhòrd...",
+    "placeUserYou": "Tha thu a’ cluich - Cuir am pìos taghte air a’ bhòrd...",
+    "gameDrawn": "Geama co-ionann - gun loidhne bhuannachaidh",
+    "gameWon": "Bhuannaich {{player}} - loidhne bhuannachaidh air a soilleireachadh",
+    "selectingAI": "Tha {{player}} a’ cluich - a’ taghadh pìos do {{opponent}}...",
+    "selectUser": "Tha {{player}} a’ cluich - Tagh pìos do {{opponent}}...",
+    "selectUserYou": "Tha thu a’ cluich - Tagh pìos do {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pìos ann an cluich",
+    "none": "Chan eil gin air a thaghadh",
+    "traits": "Feartan a’ phìos",
+    "black": "dubh",
+    "red": "dearg",
+    "big": "mòr",
+    "small": "beag",
+    "round": "cruinn",
+    "square": "ceàrnagach",
+    "solid": "làn",
+    "hollow": "falamh"
+  },
+  "board": {
+    "binary": "Bòrd dà-nàrtha",
+    "piecesPlaced": "Pìosan air an cur",
+    "cellEmpty": "Cealla {{cell}}: falamh",
+    "cellPiece": "Cealla {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Chan eil renderadh 3D ri fhaighinn.",
+    "webglHeading": "Cha b’ urrainn WebGL tòiseachadh.",
+    "webglMsg": "Feumaidh WebGL a bhith comasach sa bhrabhsair airson a’ gheama."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Cuir an cursair thairis air pìos a ghabhas taghadh gus cunnart an taghaidh fhaicinn",
+    "hoveredRiskOne": "Cunnart a’ phìos fon chursair: {{risk}} suidheachadh buannachaidh sa bhad",
+    "hoveredRiskMany": "Cunnart a’ phìos fon chursair: {{risk}} suidheachaidhean buannachaidh sa bhad",
+    "immediateWins": "Suidheachaidhean buannachaidh sa bhad",
+    "latestRisk": "An cunnart taghaidh as ùire",
+    "riskOneAI": "Cunnart pìos air a thaghadh le AI: {{risk}} suidheachadh buannachaidh sa bhad",
+    "riskManyAI": "Cunnart pìos air a thaghadh le AI: {{risk}} suidheachaidhean buannachaidh sa bhad",
+    "riskTurnedOff": "Tha cunnart taghaidh dheth",
+    "riskUnavailableAI": "Chan eil cunnart taghaidh ri fhaighinn ann am modh AI an aghaidh AI",
+    "selectionRisk": "Cunnart taghaidh",
+    "turnRiskOff": "Cuir cunnart taghaidh dheth",
+    "turnRiskOn": "Cuir cunnart taghaidh air"
+  },
+  "metadata": {
+    "description": "Eadar-aghaidh 3D eadar-ghnìomhach airson geama-bùird Quarto a’ cleachdadh Three.js agus dreach Negamax den algairim inntleachd fuadain Minimax le bearradh alpha-beta. Cluich cleachdaiche an aghaidh cleachdaiche, cleachdaiche an aghaidh AI agus AI an aghaidh AI, le AI furasta, meadhanach agus doirbh.",
+    "ogDescription": "Geama-bùird Quarto 3D eadar-ghnìomhach. Cluich cleachdaiche an aghaidh cleachdaiche, cleachdaiche an aghaidh AI agus AI an aghaidh AI, le AI furasta, meadhanach agus doirbh."
+  }
+}

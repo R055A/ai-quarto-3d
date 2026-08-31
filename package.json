@@ -12,24 +12,24 @@
     "lint:fix": "biome lint --write .",
     "format": "biome format --write .",
     "format:check": "biome format .",
-    "quality": "biome check .",
-    "quality:fix": "biome check --write .",
-    "verify": "npm run lint && npm run format:check && npm run quality",
-    "verify:fix": "npm run lint:fix && npm run format && npm run quality:fix",
-    "verify:all": " npm run verify && npm test && npm run build",
-    "verify:all:fix": " npm run verify:fix && npm run verify:all"
+    "verify": "biome check .",
+    "verify:fix": "biome check --write ."
   },
   "dependencies": {
     "clean": "^4.0.2",
-    "three": "^0.185.1"
+    "three": "^0.185.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.5",
-    "@types/three": "^0.185.1",
-    "sass": "^1.101.3",
+    "@biomejs/biome": "^2.5.11",
+    "@types/three": "^0.185.4",
+    "sass": "^1.103.1",
     "typescript": "^7.0.2",
-    "vite": "^8.1.5",
-    "vitest": "^4.1.10"
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5"
   },
   "allowScripts": {
     "@parcel/watcher@2.6.0": true

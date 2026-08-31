@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Ìmúdàgba tí a gbe wọle láti",
+    "newGame": "Ere tuntun"
+  },
+  "common": {
+    "on": "TAN",
+    "off": "PA"
+  },
+  "a11y": {
+    "utilityActions": "Àwọn ìjápọ̀ ohun elo àti èdè",
+    "viewSource": "Wo kóòdù orísun lórí GitHub",
+    "gameControls": "Àwọn ìṣàkóso ere",
+    "gameBoard": "Pátákó ere 3D",
+    "gameInfo": "Àlàyé ere"
+  },
+  "controls": {
+    "diffAI": "Ìṣòro AI",
+    "diffPlayerOneAI": "Ìṣòro P1",
+    "diffPlayerTwoAI": "Ìṣòro P2",
+    "startingPlayer": "Ẹlẹ́rọ̀ tó bẹ̀rẹ̀",
+    "gameMode": "Ipo ere",
+    "pauseAI": "Dá AI dúró",
+    "resumeAI": "Tẹ̀síwájú AI",
+    "undo": "Dá padà",
+    "redo": "Ṣe lẹ́ẹ̀kansi"
+  },
+  "diff": {
+    "easy": "Rọrùn",
+    "medium": "Àárín",
+    "hard": "Líle"
+  },
+  "mode": {
+    "userVsUser": "Olùlò lòdì sí olùlò",
+    "userVsAI": "Olùlò lòdì sí AI",
+    "onlyAI": "AI lòdì sí AI"
+  },
+  "player": {
+    "playerYou": "Ìwọ",
+    "playerOne": "Ẹlẹ́rọ̀ Kínní",
+    "playerTwo": "Ẹlẹ́rọ̀ Kejì",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Láìlètò",
+    "playerAIPlayer": "Ẹlẹ́rọ̀ AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Ipò ere...",
+    "pausedAI": "{{player}} wà ní ìdádúró...",
+    "placingAI": "{{player}} ń ṣeré - ń gbé ẹyọ sí pátákó...",
+    "placingUser": "{{player}} ń ṣeré - Gbé ẹyọ tí a yàn sí pátákó...",
+    "placeUserYou": "Ìwọ ń ṣeré - Gbé ẹyọ tí a yàn sí pátákó...",
+    "gameDrawn": "Ere dọ́gba - kò sí ìlà ìṣẹ́gun",
+    "gameWon": "{{player}} ṣẹ́gun - a ti ṣe ìlà ìṣẹ́gun ní kedere",
+    "selectingAI": "{{player}} ń ṣeré - ń yan ẹyọ fún {{opponent}}...",
+    "selectUser": "{{player}} ń ṣeré - Yan ẹyọ fún {{opponent}}...",
+    "selectUserYou": "Ìwọ ń ṣeré - Yan ẹyọ fún {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Ẹyọ tó wà nínú ere",
+    "none": "Kò sí ohun tí a yàn",
+    "traits": "Àwọn àbùdá ẹyọ",
+    "black": "dúdú",
+    "red": "pupa",
+    "big": "ńlá",
+    "small": "kékeré",
+    "round": "yípo",
+    "square": "onígun mẹ́rin",
+    "solid": "líle",
+    "hollow": "ṣófo"
+  },
+  "board": {
+    "binary": "Pátákó bínárì",
+    "piecesPlaced": "Àwọn ẹyọ tí a gbé",
+    "cellEmpty": "Sẹẹli {{cell}}: ṣófo",
+    "cellPiece": "Sẹẹli {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Ìfihàn 3D kò sí.",
+    "webglHeading": "WebGL kò lè bẹ̀rẹ̀.",
+    "webglMsg": "Ere náà nílò kí WebGL ṣiṣẹ́ nínú aṣàwákiri."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Gbe kọ́sọ̀ sí orí ẹyọ tí a lè yàn láti wo ewu yíyan",
+    "hoveredRiskOne": "Ewu ẹyọ tí kọ́sọ̀ wà lórí: {{risk}} ibi ìṣẹ́gun lẹ́sẹ̀kẹsẹ̀",
+    "hoveredRiskMany": "Ewu ẹyọ tí kọ́sọ̀ wà lórí: {{risk}} àwọn ibi ìṣẹ́gun lẹ́sẹ̀kẹsẹ̀",
+    "immediateWins": "Àwọn ibi ìṣẹ́gun lẹ́sẹ̀kẹsẹ̀",
+    "latestRisk": "Ewu yíyan tuntun jù",
+    "riskOneAI": "Ewu ẹyọ tí AI yàn: {{risk}} ibi ìṣẹ́gun lẹ́sẹ̀kẹsẹ̀",
+    "riskManyAI": "Ewu ẹyọ tí AI yàn: {{risk}} àwọn ibi ìṣẹ́gun lẹ́sẹ̀kẹsẹ̀",
+    "riskTurnedOff": "A ti pa ewu yíyan",
+    "riskUnavailableAI": "Ewu yíyan kò sí ní ipo AI lòdì sí AI",
+    "selectionRisk": "Ewu yíyan",
+    "turnRiskOff": "Pa ewu yíyan",
+    "turnRiskOn": "Tan ewu yíyan"
+  },
+  "metadata": {
+    "description": "Ojú-iṣẹ́ ere pátákó Quarto 3D tó ń báni ṣiṣẹ́, tó ń lo Three.js àti ẹ̀yà Negamax ti algoridimu ọgbọ́n atọwọda Minimax pẹ̀lú gígé alpha-beta. Ṣeré olùlò lòdì sí olùlò, olùlò lòdì sí AI àti AI lòdì sí AI, pẹ̀lú AI rọrùn, àárín àti líle.",
+    "ogDescription": "Ere pátákó Quarto 3D tó ń báni ṣiṣẹ́. Ṣeré olùlò lòdì sí olùlò, olùlò lòdì sí AI àti AI lòdì sí AI, pẹ̀lú AI rọrùn, àárín àti líle."
+  }
+}

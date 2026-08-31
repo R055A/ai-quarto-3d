@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "MI-Quarto 3D",
+    "eyebrow": "Pārnests uzlabojums no",
+    "newGame": "Jauna spēle"
+  },
+  "common": {
+    "on": "IESLĒGTS",
+    "off": "IZSLĒGTS"
+  },
+  "a11y": {
+    "utilityActions": "Lietotnes saites un valoda",
+    "viewSource": "Skatīt pirmkodu GitHub",
+    "gameControls": "Spēles vadība",
+    "gameBoard": "3D spēles laukums",
+    "gameInfo": "Spēles informācija"
+  },
+  "controls": {
+    "diffAI": "MI grūtība",
+    "diffPlayerOneAI": "S1 grūtība",
+    "diffPlayerTwoAI": "S2 grūtība",
+    "startingPlayer": "Sākuma spēlētājs",
+    "gameMode": "Spēles režīms",
+    "pauseAI": "Pauzēt MI",
+    "resumeAI": "Turpināt MI",
+    "undo": "Atsaukt",
+    "redo": "Atkārtot"
+  },
+  "diff": {
+    "easy": "Viegli",
+    "medium": "Vidēji",
+    "hard": "Grūti"
+  },
+  "mode": {
+    "userVsUser": "Spēlētājs pret spēlētāju",
+    "userVsAI": "Spēlētājs pret MI",
+    "onlyAI": "MI pret MI"
+  },
+  "player": {
+    "playerYou": "Tu",
+    "playerOne": "Pirmais spēlētājs",
+    "playerTwo": "Otrais spēlētājs",
+    "playerAI": "MI ({{difficulty}})",
+    "playerNumberedAI": "MI (S{{number}}, {{difficulty}})",
+    "playerRandom": "Nejauši",
+    "playerAIPlayer": "MI spēlētājs",
+    "playerShort": "S{{number}}"
+  },
+  "status": {
+    "loading": "Spēles statuss...",
+    "pausedAI": "{{player}} ir pauzēts...",
+    "placingAI": "{{player}} spēlē - novieto figūru uz laukuma...",
+    "placingUser": "{{player}} spēlē - Novieto izvēlēto figūru uz laukuma...",
+    "placeUserYou": "Tu spēlē - Novieto izvēlēto figūru uz laukuma...",
+    "gameDrawn": "Neizšķirts - nav uzvaras līnijas",
+    "gameWon": "{{player}} uzvar - uzvaras līnija izcelta",
+    "selectingAI": "{{player}} spēlē - izvēlas figūru spēlētājam {{opponent}}...",
+    "selectUser": "{{player}} spēlē - Izvēlies figūru spēlētājam {{opponent}}...",
+    "selectUserYou": "Tu spēlē - Izvēlies figūru spēlētājam {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Figūra spēlē",
+    "none": "Nekas nav izvēlēts",
+    "traits": "Figūras īpašības",
+    "black": "melna",
+    "red": "sarkana",
+    "big": "liela",
+    "small": "maza",
+    "round": "apaļa",
+    "square": "kvadrātveida",
+    "solid": "pilna",
+    "hollow": "doba"
+  },
+  "board": {
+    "binary": "Binārais laukums",
+    "piecesPlaced": "Novietotās figūras",
+    "cellEmpty": "Šūna {{cell}}: tukša",
+    "cellPiece": "Šūna {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D renderēšana nav pieejama.",
+    "webglHeading": "WebGL nevarēja palaist.",
+    "webglMsg": "Spēlei pārlūkā jābūt iespējotam WebGL."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Novieto kursoru virs izvēlamas figūras, lai priekšskatītu izvēles risku",
+    "hoveredRiskOne": "Figūras zem kursora risks: {{risk}} tūlītējs uzvarošs novietojums",
+    "hoveredRiskMany": "Figūras zem kursora risks: {{risk}} tūlītēji uzvaroši novietojumi",
+    "immediateWins": "Tūlītēji uzvaroši novietojumi",
+    "latestRisk": "Jaunākais izvēles risks",
+    "riskOneAI": "MI izvēlētās figūras risks: {{risk}} tūlītējs uzvarošs novietojums",
+    "riskManyAI": "MI izvēlētās figūras risks: {{risk}} tūlītēji uzvaroši novietojumi",
+    "riskTurnedOff": "Izvēles risks ir izslēgts",
+    "riskUnavailableAI": "Izvēles risks nav pieejams režīmā MI pret MI",
+    "selectionRisk": "Izvēles risks",
+    "turnRiskOff": "Izslēgt izvēles risku",
+    "turnRiskOn": "Ieslēgt izvēles risku"
+  },
+  "metadata": {
+    "description": "Interaktīva 3D Quarto galda spēles saskarne, izmantojot Three.js un Minimax mākslīgā intelekta algoritma Negamax versiju ar alfa-beta apgriešanu. Spēlē spēlētājs pret spēlētāju, spēlētājs pret MI un MI pret MI ar vieglu, vidēju vai grūtu MI.",
+    "ogDescription": "Interaktīva 3D Quarto galda spēle. Spēlē spēlētājs pret spēlētāju, spēlētājs pret MI un MI pret MI ar vieglu, vidēju vai grūtu MI."
+  }
+}

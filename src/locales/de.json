@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "KI-Quarto 3D",
+    "eyebrow": "Eine portierte Erweiterung von",
+    "newGame": "Neues Spiel"
+  },
+  "common": {
+    "on": "AN",
+    "off": "AUS"
+  },
+  "a11y": {
+    "utilityActions": "Anwendungslinks und Sprache",
+    "viewSource": "Quellcode auf GitHub ansehen",
+    "gameControls": "Spielsteuerung",
+    "gameBoard": "3D-Spielbrett",
+    "gameInfo": "Spielinformationen"
+  },
+  "controls": {
+    "diffAI": "KI-Schwierigkeit",
+    "diffPlayerOneAI": "P1-Schwierigkeit",
+    "diffPlayerTwoAI": "P2-Schwierigkeit",
+    "startingPlayer": "Startspieler",
+    "gameMode": "Spielmodus",
+    "pauseAI": "KI pausieren",
+    "resumeAI": "KI fortsetzen",
+    "undo": "Rückgängig",
+    "redo": "Wiederholen"
+  },
+  "diff": {
+    "easy": "Leicht",
+    "medium": "Mittel",
+    "hard": "Schwer"
+  },
+  "mode": {
+    "userVsUser": "Spieler gegen Spieler",
+    "userVsAI": "Spieler gegen KI",
+    "onlyAI": "KI gegen KI"
+  },
+  "player": {
+    "playerYou": "Du",
+    "playerOne": "Spieler Eins",
+    "playerTwo": "Spieler Zwei",
+    "playerAI": "KI ({{difficulty}})",
+    "playerNumberedAI": "KI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Zufällig",
+    "playerAIPlayer": "KI-Spieler",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Spielstatus...",
+    "pausedAI": "{{player}} ist pausiert...",
+    "placingAI": "{{player}} spielt – setzt die Figur auf das Brett...",
+    "placingUser": "{{player}} spielt – Setze die ausgewählte Figur auf das Brett...",
+    "placeUserYou": "Du spielst – Setze die ausgewählte Figur auf das Brett...",
+    "gameDrawn": "Unentschieden – keine Gewinnlinie",
+    "gameWon": "{{player}} gewinnt – Gewinnlinie hervorgehoben",
+    "selectingAI": "{{player}} spielt – wählt eine Figur für {{opponent}} aus...",
+    "selectUser": "{{player}} spielt – Wähle eine Figur für {{opponent}} aus...",
+    "selectUserYou": "Du spielst – Wähle eine Figur für {{opponent}} aus..."
+  },
+  "piece": {
+    "inPlay": "Figur im Spiel",
+    "none": "Keine ausgewählt",
+    "traits": "Figurmerkmale",
+    "black": "schwarz",
+    "red": "rot",
+    "big": "groß",
+    "small": "klein",
+    "round": "rund",
+    "square": "quadratisch",
+    "solid": "massiv",
+    "hollow": "hohl"
+  },
+  "board": {
+    "binary": "Binäres Brett",
+    "piecesPlaced": "Platzierte Figuren",
+    "cellEmpty": "Feld {{cell}}: leer",
+    "cellPiece": "Feld {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-Rendering ist nicht verfügbar.",
+    "webglHeading": "WebGL konnte nicht gestartet werden.",
+    "webglMsg": "Für das Spiel muss WebGL im Browser aktiviert sein."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Bewege den Mauszeiger über eine auswählbare Figur, um ihr Auswahlrisiko anzuzeigen",
+    "hoveredRiskOne": "Risiko der überfahrenen Figur: {{risk}} sofortige Gewinnplatzierung",
+    "hoveredRiskMany": "Risiko der überfahrenen Figur: {{risk}} sofortige Gewinnplatzierungen",
+    "immediateWins": "Sofortige Gewinnplatzierungen",
+    "latestRisk": "Letztes Auswahlrisiko",
+    "riskOneAI": "Risiko der von der KI ausgewählten Figur: {{risk}} sofortige Gewinnplatzierung",
+    "riskManyAI": "Risiko der von der KI ausgewählten Figur: {{risk}} sofortige Gewinnplatzierungen",
+    "riskTurnedOff": "Auswahlrisiko ist ausgeschaltet",
+    "riskUnavailableAI": "Auswahlrisiko ist im Modus KI gegen KI nicht verfügbar",
+    "selectionRisk": "Auswahlrisiko",
+    "turnRiskOff": "Auswahlrisiko ausschalten",
+    "turnRiskOn": "Auswahlrisiko einschalten"
+  },
+  "metadata": {
+    "description": "Interaktive 3D-Oberfläche des Brettspiels Quarto mit Three.js und der Negamax-Version des Minimax-Algorithmus für künstliche Intelligenz mit Alpha-Beta-Beschneidung. Spiele Spieler gegen Spieler, Spieler gegen KI und KI gegen KI mit leichter, mittlerer und schwerer KI-Schwierigkeit.",
+    "ogDescription": "Interaktives 3D-Brettspiel Quarto. Spiele Spieler gegen Spieler, Spieler gegen KI und KI gegen KI mit leichter, mittlerer und schwerer KI-Schwierigkeit."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "ਇਸ ਦਾ ਪੋਰਟ ਕੀਤਾ ਸੁਧਾਰਿਆ ਰੂਪ",
+    "newGame": "ਨਵੀਂ ਖੇਡ"
+  },
+  "common": {
+    "on": "ਚਾਲੂ",
+    "off": "ਬੰਦ"
+  },
+  "a11y": {
+    "utilityActions": "ਐਪਲੀਕੇਸ਼ਨ ਲਿੰਕ ਅਤੇ ਭਾਸ਼ਾ",
+    "viewSource": "GitHub ਉੱਤੇ ਸਰੋਤ ਵੇਖੋ",
+    "gameControls": "ਖੇਡ ਕੰਟਰੋਲ",
+    "gameBoard": "3D ਖੇਡ ਬੋਰਡ",
+    "gameInfo": "ਖੇਡ ਜਾਣਕਾਰੀ"
+  },
+  "controls": {
+    "diffAI": "AI ਮੁਸ਼ਕਲਤਾ",
+    "diffPlayerOneAI": "P1 ਮੁਸ਼ਕਲਤਾ",
+    "diffPlayerTwoAI": "P2 ਮੁਸ਼ਕਲਤਾ",
+    "startingPlayer": "ਸ਼ੁਰੂਆਤੀ ਖਿਡਾਰੀ",
+    "gameMode": "ਖੇਡ ਮੋਡ",
+    "pauseAI": "AI ਰੋਕੋ",
+    "resumeAI": "AI ਮੁੜ ਚਲਾਓ",
+    "undo": "ਵਾਪਸ ਕਰੋ",
+    "redo": "ਮੁੜ ਕਰੋ"
+  },
+  "diff": {
+    "easy": "ਆਸਾਨ",
+    "medium": "ਦਰਮਿਆਨਾ",
+    "hard": "ਮੁਸ਼ਕਲ"
+  },
+  "mode": {
+    "userVsUser": "ਵਰਤੋਂਕਾਰ ਬਨਾਮ ਵਰਤੋਂਕਾਰ",
+    "userVsAI": "ਵਰਤੋਂਕਾਰ ਬਨਾਮ AI",
+    "onlyAI": "AI ਬਨਾਮ AI"
+  },
+  "player": {
+    "playerYou": "ਤੁਸੀਂ",
+    "playerOne": "ਖਿਡਾਰੀ ਇੱਕ",
+    "playerTwo": "ਖਿਡਾਰੀ ਦੋ",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "ਬੇਤਰਤੀਬ",
+    "playerAIPlayer": "AI ਖਿਡਾਰੀ",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "ਖੇਡ ਸਥਿਤੀ...",
+    "pausedAI": "{{player}} ਰੁਕਿਆ ਹੋਇਆ ਹੈ...",
+    "placingAI": "{{player}} ਖੇਡ ਰਿਹਾ ਹੈ - ਮੋਹਰਾ ਬੋਰਡ ਉੱਤੇ ਰੱਖ ਰਿਹਾ ਹੈ...",
+    "placingUser": "{{player}} ਖੇਡ ਰਿਹਾ ਹੈ - ਚੁਣਿਆ ਮੋਹਰਾ ਬੋਰਡ ਉੱਤੇ ਰੱਖੋ...",
+    "placeUserYou": "ਤੁਸੀਂ ਖੇਡ ਰਹੇ ਹੋ - ਚੁਣਿਆ ਮੋਹਰਾ ਬੋਰਡ ਉੱਤੇ ਰੱਖੋ...",
+    "gameDrawn": "ਖੇਡ ਡਰਾਅ - ਕੋਈ ਜਿੱਤ ਵਾਲੀ ਲਾਈਨ ਨਹੀਂ",
+    "gameWon": "{{player}} ਜਿੱਤ ਗਿਆ - ਜਿੱਤ ਵਾਲੀ ਲਾਈਨ ਹਾਈਲਾਈਟ ਕੀਤੀ",
+    "selectingAI": "{{player}} ਖੇਡ ਰਿਹਾ ਹੈ - {{opponent}} ਲਈ ਮੋਹਰਾ ਚੁਣ ਰਿਹਾ ਹੈ...",
+    "selectUser": "{{player}} ਖੇਡ ਰਿਹਾ ਹੈ - {{opponent}} ਲਈ ਮੋਹਰਾ ਚੁਣੋ...",
+    "selectUserYou": "ਤੁਸੀਂ ਖੇਡ ਰਹੇ ਹੋ - {{opponent}} ਲਈ ਮੋਹਰਾ ਚੁਣੋ..."
+  },
+  "piece": {
+    "inPlay": "ਖੇਡ ਵਿੱਚ ਮੋਹਰਾ",
+    "none": "ਕੁਝ ਨਹੀਂ ਚੁਣਿਆ",
+    "traits": "ਮੋਹਰੇ ਦੇ ਗੁਣ",
+    "black": "ਕਾਲਾ",
+    "red": "ਲਾਲ",
+    "big": "ਵੱਡਾ",
+    "small": "ਛੋਟਾ",
+    "round": "ਗੋਲ",
+    "square": "ਚੌਰਸ",
+    "solid": "ਠੋਸ",
+    "hollow": "ਖੋਖਲਾ"
+  },
+  "board": {
+    "binary": "ਬਾਈਨਰੀ ਬੋਰਡ",
+    "piecesPlaced": "ਰੱਖੇ ਮੋਹਰੇ",
+    "cellEmpty": "ਖਾਨਾ {{cell}}: ਖਾਲੀ",
+    "cellPiece": "ਖਾਨਾ {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D ਰੈਂਡਰਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "webglHeading": "WebGL ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+    "webglMsg": "ਖੇਡ ਲਈ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ WebGL ਚਾਲੂ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ।"
+  },
+  "metrics": {
+    "hoverRiskPreview": "ਚੋਣ ਜੋਖਮ ਵੇਖਣ ਲਈ ਚੁਣੇ ਜਾ ਸਕਣ ਵਾਲੇ ਮੋਹਰੇ ਉੱਤੇ ਕਰਸਰ ਰੱਖੋ",
+    "hoveredRiskOne": "ਕਰਸਰ ਹੇਠਲੇ ਮੋਹਰੇ ਦਾ ਜੋਖਮ: {{risk}} ਤੁਰੰਤ ਜਿੱਤ ਵਾਲੀ ਥਾਂ",
+    "hoveredRiskMany": "ਕਰਸਰ ਹੇਠਲੇ ਮੋਹਰੇ ਦਾ ਜੋਖਮ: {{risk}} ਤੁਰੰਤ ਜਿੱਤ ਵਾਲੀਆਂ ਥਾਵਾਂ",
+    "immediateWins": "ਤੁਰੰਤ ਜਿੱਤ ਵਾਲੀਆਂ ਥਾਵਾਂ",
+    "latestRisk": "ਨਵਾਂ ਚੋਣ ਜੋਖਮ",
+    "riskOneAI": "AI ਵੱਲੋਂ ਚੁਣੇ ਮੋਹਰੇ ਦਾ ਜੋਖਮ: {{risk}} ਤੁਰੰਤ ਜਿੱਤ ਵਾਲੀ ਥਾਂ",
+    "riskManyAI": "AI ਵੱਲੋਂ ਚੁਣੇ ਮੋਹਰੇ ਦਾ ਜੋਖਮ: {{risk}} ਤੁਰੰਤ ਜਿੱਤ ਵਾਲੀਆਂ ਥਾਵਾਂ",
+    "riskTurnedOff": "ਚੋਣ ਜੋਖਮ ਬੰਦ ਹੈ",
+    "riskUnavailableAI": "AI ਬਨਾਮ AI ਮੋਡ ਵਿੱਚ ਚੋਣ ਜੋਖਮ ਉਪਲਬਧ ਨਹੀਂ",
+    "selectionRisk": "ਚੋਣ ਜੋਖਮ",
+    "turnRiskOff": "ਚੋਣ ਜੋਖਮ ਬੰਦ ਕਰੋ",
+    "turnRiskOn": "ਚੋਣ ਜੋਖਮ ਚਾਲੂ ਕਰੋ"
+  },
+  "metadata": {
+    "description": "Three.js ਅਤੇ alpha-beta pruning ਵਾਲੇ Minimax ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਅਲਗੋਰਿਦਮ ਦੇ Negamax ਸੰਸਕਰਣ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲਾ ਇੰਟਰਐਕਟਿਵ 3D Quarto ਬੋਰਡ ਗੇਮ UI। ਆਸਾਨ, ਦਰਮਿਆਨੇ ਅਤੇ ਮੁਸ਼ਕਲ AI ਪੱਧਰਾਂ ਨਾਲ ਵਰਤੋਂਕਾਰ ਬਨਾਮ ਵਰਤੋਂਕਾਰ, ਵਰਤੋਂਕਾਰ ਬਨਾਮ AI ਅਤੇ AI ਬਨਾਮ AI ਖੇਡੋ।",
+    "ogDescription": "ਇੰਟਰਐਕਟਿਵ 3D Quarto ਬੋਰਡ ਗੇਮ। ਆਸਾਨ, ਦਰਮਿਆਨੇ ਅਤੇ ਮੁਸ਼ਕਲ AI ਪੱਧਰਾਂ ਨਾਲ ਵਰਤੋਂਕਾਰ ਬਨਾਮ ਵਰਤੋਂਕਾਰ, ਵਰਤੋਂਕਾਰ ਬਨਾਮ AI ਅਤੇ AI ਬਨਾਮ AI ਖੇਡੋ।"
+  }
+}

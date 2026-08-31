@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Una mejora portada de",
+    "newGame": "Nuevo juego"
+  },
+  "common": {
+    "on": "ACTIVADO",
+    "off": "DESACTIVADO"
+  },
+  "a11y": {
+    "utilityActions": "Enlaces de la aplicación e idioma",
+    "viewSource": "Ver código fuente en GitHub",
+    "gameControls": "Controles del juego",
+    "gameBoard": "Tablero de juego 3D",
+    "gameInfo": "Información del juego"
+  },
+  "controls": {
+    "diffAI": "Dificultad de la IA",
+    "diffPlayerOneAI": "Dificultad P1",
+    "diffPlayerTwoAI": "Dificultad P2",
+    "startingPlayer": "Jugador inicial",
+    "gameMode": "Modo de juego",
+    "pauseAI": "Pausar IA",
+    "resumeAI": "Reanudar IA",
+    "undo": "Deshacer",
+    "redo": "Rehacer"
+  },
+  "diff": {
+    "easy": "Fácil",
+    "medium": "Media",
+    "hard": "Difícil"
+  },
+  "mode": {
+    "userVsUser": "Usuario vs usuario",
+    "userVsAI": "Usuario vs IA",
+    "onlyAI": "IA vs IA"
+  },
+  "player": {
+    "playerYou": "Tú",
+    "playerOne": "Jugador uno",
+    "playerTwo": "Jugador dos",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (P{{number}}, {{difficulty}})",
+    "playerRandom": "Aleatorio",
+    "playerAIPlayer": "Jugador IA",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Estado de la partida...",
+    "pausedAI": "{{player}} está en pausa...",
+    "placingAI": "{{player}} está jugando - colocando la pieza en el tablero...",
+    "placingUser": "{{player}} está jugando - Coloca la pieza seleccionada en el tablero...",
+    "placeUserYou": "Estás jugando - Coloca la pieza seleccionada en el tablero...",
+    "gameDrawn": "Partida empatada - no hay línea ganadora",
+    "gameWon": "{{player}} gana - línea ganadora resaltada",
+    "selectingAI": "{{player}} está jugando - seleccionando una pieza para {{opponent}}...",
+    "selectUser": "{{player}} está jugando - Selecciona una pieza para {{opponent}}...",
+    "selectUserYou": "Estás jugando - Selecciona una pieza para {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pieza en juego",
+    "none": "Ninguna seleccionada",
+    "traits": "Características de la pieza",
+    "black": "negra",
+    "red": "roja",
+    "big": "grande",
+    "small": "pequeña",
+    "round": "redonda",
+    "square": "cuadrada",
+    "solid": "maciza",
+    "hollow": "hueca"
+  },
+  "board": {
+    "binary": "Tablero binario",
+    "piecesPlaced": "Piezas colocadas",
+    "cellEmpty": "Casilla {{cell}}: vacía",
+    "cellPiece": "Casilla {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "El renderizado 3D no está disponible.",
+    "webglHeading": "WebGL no pudo iniciarse.",
+    "webglMsg": "El juego requiere que WebGL esté habilitado en el navegador."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Pasa el cursor sobre una pieza seleccionable para previsualizar su riesgo de selección",
+    "hoveredRiskOne": "Riesgo de la pieza bajo el cursor: {{risk}} colocación ganadora inmediata",
+    "hoveredRiskMany": "Riesgo de la pieza bajo el cursor: {{risk}} colocaciones ganadoras inmediatas",
+    "immediateWins": "Colocaciones ganadoras inmediatas",
+    "latestRisk": "Último riesgo de selección",
+    "riskOneAI": "Riesgo de la pieza seleccionada por la IA: {{risk}} colocación ganadora inmediata",
+    "riskManyAI": "Riesgo de la pieza seleccionada por la IA: {{risk}} colocaciones ganadoras inmediatas",
+    "riskTurnedOff": "El riesgo de selección está desactivado",
+    "riskUnavailableAI": "El riesgo de selección no está disponible en el modo IA vs IA",
+    "selectionRisk": "Riesgo de selección",
+    "turnRiskOff": "Desactivar riesgo de selección",
+    "turnRiskOn": "Activar riesgo de selección"
+  },
+  "metadata": {
+    "description": "Interfaz interactiva del juego de mesa Quarto en 3D con Three.js y la versión Negamax del algoritmo de inteligencia artificial Minimax con poda alfa-beta. Juega usuario contra usuario, usuario contra IA e IA contra IA, con dificultades de IA fácil, media y difícil.",
+    "ogDescription": "Juego de mesa Quarto interactivo en 3D. Juega usuario contra usuario, usuario contra IA e IA contra IA, con dificultades de IA fácil, media y difícil."
+  }
+}

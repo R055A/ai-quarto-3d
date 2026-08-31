@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Pangmekaran anu dipindahkeun tina",
+    "newGame": "Kaulinan anyar"
+  },
+  "common": {
+    "on": "HURUNG",
+    "off": "PAREUM"
+  },
+  "a11y": {
+    "utilityActions": "Tumbu aplikasi jeung basa",
+    "viewSource": "Tingali sumber di GitHub",
+    "gameControls": "Kadali kaulinan",
+    "gameBoard": "Papan kaulinan 3D",
+    "gameInfo": "Inpormasi kaulinan"
+  },
+  "controls": {
+    "diffAI": "Kasusah AI",
+    "diffPlayerOneAI": "Kasusah P1",
+    "diffPlayerTwoAI": "Kasusah P2",
+    "startingPlayer": "Pamaén nu ngamimitian",
+    "gameMode": "Mode kaulinan",
+    "pauseAI": "Reureuhkeun AI",
+    "resumeAI": "Teruskeun AI",
+    "undo": "Bolaykeun",
+    "redo": "Balikeun"
+  },
+  "diff": {
+    "easy": "Gampang",
+    "medium": "Sedeng",
+    "hard": "Hésé"
+  },
+  "mode": {
+    "userVsUser": "Pamaké ngalawan pamaké",
+    "userVsAI": "Pamaké ngalawan AI",
+    "onlyAI": "AI ngalawan AI"
+  },
+  "player": {
+    "playerYou": "Anjeun",
+    "playerOne": "Pamaén Hiji",
+    "playerTwo": "Pamaén Dua",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Acak",
+    "playerAIPlayer": "Pamaén AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Status kaulinan...",
+    "pausedAI": "{{player}} keur direureuhkeun...",
+    "placingAI": "{{player}} keur maén - nempatkeun buah dina papan...",
+    "placingUser": "{{player}} keur maén - Teundeun buah nu dipilih dina papan...",
+    "placeUserYou": "Anjeun keur maén - Teundeun buah nu dipilih dina papan...",
+    "gameDrawn": "Kaulinan imbang - euweuh garis meunang",
+    "gameWon": "{{player}} meunang - garis meunang disorot",
+    "selectingAI": "{{player}} keur maén - milih buah pikeun {{opponent}}...",
+    "selectUser": "{{player}} keur maén - Pilih buah pikeun {{opponent}}...",
+    "selectUserYou": "Anjeun keur maén - Pilih buah pikeun {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Buah dina kaulinan",
+    "none": "Euweuh nu dipilih",
+    "traits": "Sipat buah",
+    "black": "hideung",
+    "red": "beureum",
+    "big": "gedé",
+    "small": "leutik",
+    "round": "buleud",
+    "square": "pasagi",
+    "solid": "padet",
+    "hollow": "kerung"
+  },
+  "board": {
+    "binary": "Papan binér",
+    "piecesPlaced": "Buah nu geus diteundeun",
+    "cellEmpty": "Sél {{cell}}: kosong",
+    "cellPiece": "Sél {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Rendering 3D teu sadia.",
+    "webglHeading": "WebGL teu bisa ngamimitian.",
+    "webglMsg": "Kaulinan merlukeun WebGL diaktipkeun dina browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Arahkeun kursor ka buah nu bisa dipilih pikeun ningali résiko pilihan",
+    "hoveredRiskOne": "Résiko buah nu ditunjuk: {{risk}} posisi meunang langsung",
+    "hoveredRiskMany": "Résiko buah nu ditunjuk: {{risk}} posisi meunang langsung",
+    "immediateWins": "Posisi meunang langsung",
+    "latestRisk": "Résiko pilihan panganyarna",
+    "riskOneAI": "Résiko buah nu dipilih AI: {{risk}} posisi meunang langsung",
+    "riskManyAI": "Résiko buah nu dipilih AI: {{risk}} posisi meunang langsung",
+    "riskTurnedOff": "Résiko pilihan dipareuman",
+    "riskUnavailableAI": "Résiko pilihan teu sadia dina mode AI ngalawan AI",
+    "selectionRisk": "Résiko pilihan",
+    "turnRiskOff": "Pareuman résiko pilihan",
+    "turnRiskOn": "Hurungkeun résiko pilihan"
+  },
+  "metadata": {
+    "description": "Antarbeungeut kaulinan papan Quarto 3D interaktif maké Three.js jeung vérsi Negamax tina algoritma kecerdasan jieunan Minimax kalayan pruning alpha-beta. Maén pamaké ngalawan pamaké, pamaké ngalawan AI, jeung AI ngalawan AI kalayan AI gampang, sedeng, jeung hésé.",
+    "ogDescription": "Kaulinan papan Quarto 3D interaktif. Maén pamaké ngalawan pamaké, pamaké ngalawan AI, jeung AI ngalawan AI kalayan AI gampang, sedeng, jeung hésé."
+  }
+}

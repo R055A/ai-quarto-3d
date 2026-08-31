@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "YZ-Quarto 3D",
+    "eyebrow": "Şunun taşınmış geliştirilmiş sürümü",
+    "newGame": "Yeni oyun"
+  },
+  "common": {
+    "on": "AÇIK",
+    "off": "KAPALI"
+  },
+  "a11y": {
+    "utilityActions": "Uygulama bağlantıları ve dil",
+    "viewSource": "GitHub’da kaynak kodunu görüntüle",
+    "gameControls": "Oyun kontrolleri",
+    "gameBoard": "3B oyun tahtası",
+    "gameInfo": "Oyun bilgileri"
+  },
+  "controls": {
+    "diffAI": "YZ zorluğu",
+    "diffPlayerOneAI": "O1 zorluğu",
+    "diffPlayerTwoAI": "O2 zorluğu",
+    "startingPlayer": "Başlayan oyuncu",
+    "gameMode": "Oyun modu",
+    "pauseAI": "YZ’yi duraklat",
+    "resumeAI": "YZ’yi sürdür",
+    "undo": "Geri al",
+    "redo": "Yinele"
+  },
+  "diff": {
+    "easy": "Kolay",
+    "medium": "Orta",
+    "hard": "Zor"
+  },
+  "mode": {
+    "userVsUser": "Kullanıcıya karşı kullanıcı",
+    "userVsAI": "Kullanıcıya karşı YZ",
+    "onlyAI": "YZ’ye karşı YZ"
+  },
+  "player": {
+    "playerYou": "Sen",
+    "playerOne": "Oyuncu Bir",
+    "playerTwo": "Oyuncu İki",
+    "playerAI": "YZ ({{difficulty}})",
+    "playerNumberedAI": "YZ (O{{number}}, {{difficulty}})",
+    "playerRandom": "Rastgele",
+    "playerAIPlayer": "YZ Oyuncusu",
+    "playerShort": "O{{number}}"
+  },
+  "status": {
+    "loading": "Oyun durumu...",
+    "pausedAI": "{{player}} duraklatıldı...",
+    "placingAI": "{{player}} oynuyor - taşı tahtaya yerleştiriyor...",
+    "placingUser": "{{player}} oynuyor - Seçili taşı tahtaya yerleştirin...",
+    "placeUserYou": "Siz oynuyorsunuz - Seçili taşı tahtaya yerleştirin...",
+    "gameDrawn": "Oyun berabere - kazanan çizgi yok",
+    "gameWon": "{{player}} kazandı - kazanan çizgi vurgulandı",
+    "selectingAI": "{{player}} oynuyor - {{opponent}} için bir taş seçiyor...",
+    "selectUser": "{{player}} oynuyor - {{opponent}} için bir taş seçin...",
+    "selectUserYou": "Siz oynuyorsunuz - {{opponent}} için bir taş seçin..."
+  },
+  "piece": {
+    "inPlay": "Oyundaki taş",
+    "none": "Hiçbiri seçilmedi",
+    "traits": "Taş özellikleri",
+    "black": "siyah",
+    "red": "kırmızı",
+    "big": "büyük",
+    "small": "küçük",
+    "round": "yuvarlak",
+    "square": "kare",
+    "solid": "dolu",
+    "hollow": "oyuk"
+  },
+  "board": {
+    "binary": "İkili tahta",
+    "piecesPlaced": "Yerleştirilen taşlar",
+    "cellEmpty": "Hücre {{cell}}: boş",
+    "cellPiece": "Hücre {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3B işleme kullanılamıyor.",
+    "webglHeading": "WebGL başlatılamadı.",
+    "webglMsg": "Oyun için tarayıcıda WebGL’nin etkinleştirilmesi gerekir."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Seçim riskini önizlemek için seçilebilir bir taşın üzerine gelin",
+    "hoveredRiskOne": "Üzerine gelinen taşın riski: {{risk}} anında kazandıran yerleştirme",
+    "hoveredRiskMany": "Üzerine gelinen taşın riski: {{risk}} anında kazandıran yerleştirme",
+    "immediateWins": "Anında kazandıran yerleştirmeler",
+    "latestRisk": "Son seçim riski",
+    "riskOneAI": "YZ tarafından seçilen taşın riski: {{risk}} anında kazandıran yerleştirme",
+    "riskManyAI": "YZ tarafından seçilen taşın riski: {{risk}} anında kazandıran yerleştirme",
+    "riskTurnedOff": "Seçim riski kapalı",
+    "riskUnavailableAI": "YZ’ye karşı YZ modunda seçim riski kullanılamaz",
+    "selectionRisk": "Seçim riski",
+    "turnRiskOff": "Seçim riskini kapat",
+    "turnRiskOn": "Seçim riskini aç"
+  },
+  "metadata": {
+    "description": "Three.js ve alfa-beta budamalı Minimax yapay zekâ algoritmasının Negamax sürümünü kullanan etkileşimli 3B Quarto masa oyunu arayüzü. Kolay, orta ve zor YZ seviyeleriyle kullanıcıya karşı kullanıcı, kullanıcıya karşı YZ ve YZ’ye karşı YZ oynayın.",
+    "ogDescription": "Etkileşimli 3B Quarto masa oyunu. Kolay, orta ve zor YZ seviyeleriyle kullanıcıya karşı kullanıcı, kullanıcıya karşı YZ ve YZ’ye karşı YZ oynayın."
+  }
+}

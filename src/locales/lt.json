@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "DI-Quarto 3D",
+    "eyebrow": "Perkeltas patobulinimas iš",
+    "newGame": "Naujas žaidimas"
+  },
+  "common": {
+    "on": "ĮJUNGTA",
+    "off": "IŠJUNGTA"
+  },
+  "a11y": {
+    "utilityActions": "Programos nuorodos ir kalba",
+    "viewSource": "Peržiūrėti šaltinio kodą GitHub",
+    "gameControls": "Žaidimo valdikliai",
+    "gameBoard": "3D žaidimo lenta",
+    "gameInfo": "Žaidimo informacija"
+  },
+  "controls": {
+    "diffAI": "DI sudėtingumas",
+    "diffPlayerOneAI": "Ž1 sudėtingumas",
+    "diffPlayerTwoAI": "Ž2 sudėtingumas",
+    "startingPlayer": "Pradedantis žaidėjas",
+    "gameMode": "Žaidimo režimas",
+    "pauseAI": "Pristabdyti DI",
+    "resumeAI": "Tęsti DI",
+    "undo": "Atšaukti",
+    "redo": "Pakartoti"
+  },
+  "diff": {
+    "easy": "Lengvas",
+    "medium": "Vidutinis",
+    "hard": "Sunkus"
+  },
+  "mode": {
+    "userVsUser": "Žaidėjas prieš žaidėją",
+    "userVsAI": "Žaidėjas prieš DI",
+    "onlyAI": "DI prieš DI"
+  },
+  "player": {
+    "playerYou": "Tu",
+    "playerOne": "Pirmas žaidėjas",
+    "playerTwo": "Antras žaidėjas",
+    "playerAI": "DI ({{difficulty}})",
+    "playerNumberedAI": "DI (Ž{{number}}, {{difficulty}})",
+    "playerRandom": "Atsitiktinis",
+    "playerAIPlayer": "DI žaidėjas",
+    "playerShort": "Ž{{number}}"
+  },
+  "status": {
+    "loading": "Žaidimo būsena...",
+    "pausedAI": "{{player}} pristabdytas...",
+    "placingAI": "{{player}} žaidžia - deda figūrą ant lentos...",
+    "placingUser": "{{player}} žaidžia - Padėkite pasirinktą figūrą ant lentos...",
+    "placeUserYou": "Jūs žaidžiate - Padėkite pasirinktą figūrą ant lentos...",
+    "gameDrawn": "Lygiosios - nėra laiminčios linijos",
+    "gameWon": "{{player}} laimi - laiminti linija paryškinta",
+    "selectingAI": "{{player}} žaidžia - renka figūrą žaidėjui {{opponent}}...",
+    "selectUser": "{{player}} žaidžia - Pasirinkite figūrą žaidėjui {{opponent}}...",
+    "selectUserYou": "Jūs žaidžiate - Pasirinkite figūrą žaidėjui {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Figūra žaidime",
+    "none": "Nieko nepasirinkta",
+    "traits": "Figūros savybės",
+    "black": "juoda",
+    "red": "raudona",
+    "big": "didelė",
+    "small": "maža",
+    "round": "apvali",
+    "square": "kvadratinė",
+    "solid": "pilnavidurė",
+    "hollow": "tuščiavidurė"
+  },
+  "board": {
+    "binary": "Dvejetainė lenta",
+    "piecesPlaced": "Padėtos figūros",
+    "cellEmpty": "Langelis {{cell}}: tuščias",
+    "cellPiece": "Langelis {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D atvaizdavimas nepasiekiamas.",
+    "webglHeading": "WebGL nepavyko paleisti.",
+    "webglMsg": "Žaidimui naršyklėje turi būti įjungtas WebGL."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Užveskite žymeklį ant pasirenkamos figūros, kad peržiūrėtumėte pasirinkimo riziką",
+    "hoveredRiskOne": "Figūros po žymekliu rizika: {{risk}} tiesioginis laimintis padėjimas",
+    "hoveredRiskMany": "Figūros po žymekliu rizika: {{risk}} tiesioginiai laimintys padėjimai",
+    "immediateWins": "Tiesioginiai laimintys padėjimai",
+    "latestRisk": "Naujausia pasirinkimo rizika",
+    "riskOneAI": "DI pasirinktos figūros rizika: {{risk}} tiesioginis laimintis padėjimas",
+    "riskManyAI": "DI pasirinktos figūros rizika: {{risk}} tiesioginiai laimintys padėjimai",
+    "riskTurnedOff": "Pasirinkimo rizika išjungta",
+    "riskUnavailableAI": "Pasirinkimo rizika nepasiekiama DI prieš DI režime",
+    "selectionRisk": "Pasirinkimo rizika",
+    "turnRiskOff": "Išjungti pasirinkimo riziką",
+    "turnRiskOn": "Įjungti pasirinkimo riziką"
+  },
+  "metadata": {
+    "description": "Interaktyvi 3D Quarto stalo žaidimo sąsaja, naudojanti Three.js ir Minimax dirbtinio intelekto algoritmo Negamax versiją su alfa-beta genėjimu. Žaiskite žaidėjas prieš žaidėją, žaidėjas prieš DI ir DI prieš DI lengvu, vidutiniu arba sunkiu DI lygiu.",
+    "ogDescription": "Interaktyvus 3D Quarto stalo žaidimas. Žaiskite žaidėjas prieš žaidėją, žaidėjas prieš DI ir DI prieš DI lengvu, vidutiniu arba sunkiu DI lygiu."
+  }
+}

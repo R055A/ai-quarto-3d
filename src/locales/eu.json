@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AA-Quarto 3D",
+    "eyebrow": "Honen hobekuntza portatua:",
+    "newGame": "Joko berria"
+  },
+  "common": {
+    "on": "AKTIBATUTA",
+    "off": "DESAKTIBATUTA"
+  },
+  "a11y": {
+    "utilityActions": "Aplikazioaren estekak eta hizkuntza",
+    "viewSource": "Ikusi iturburu-kodea GitHuben",
+    "gameControls": "Joko-kontrolak",
+    "gameBoard": "3D joko-taula",
+    "gameInfo": "Jokoaren informazioa"
+  },
+  "controls": {
+    "diffAI": "IAren zailtasuna",
+    "diffPlayerOneAI": "J1 zailtasuna",
+    "diffPlayerTwoAI": "J2 zailtasuna",
+    "startingPlayer": "Hasierako jokalaria",
+    "gameMode": "Joko modua",
+    "pauseAI": "Pausatu IA",
+    "resumeAI": "Jarraitu IA",
+    "undo": "Desegin",
+    "redo": "Berregin"
+  },
+  "diff": {
+    "easy": "Erraza",
+    "medium": "Ertaina",
+    "hard": "Zaila"
+  },
+  "mode": {
+    "userVsUser": "Erabiltzailea erabiltzailearen aurka",
+    "userVsAI": "Erabiltzailea IAren aurka",
+    "onlyAI": "IA IAren aurka"
+  },
+  "player": {
+    "playerYou": "Zu",
+    "playerOne": "Lehen jokalaria",
+    "playerTwo": "Bigarren jokalaria",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (J{{number}}, {{difficulty}})",
+    "playerRandom": "Ausazkoa",
+    "playerAIPlayer": "IA jokalaria",
+    "playerShort": "J{{number}}"
+  },
+  "status": {
+    "loading": "Jokoaren egoera...",
+    "pausedAI": "{{player}} pausatuta dago...",
+    "placingAI": "{{player}} jokatzen ari da - pieza taulan jartzen...",
+    "placingUser": "{{player}} jokatzen ari da - Jarri hautatutako pieza taulan...",
+    "placeUserYou": "Zu jokatzen ari zara - Jarri hautatutako pieza taulan...",
+    "gameDrawn": "Berdinketa - ez dago garaipen-lerrorik",
+    "gameWon": "{{player}} irabazle - garaipen-lerroa nabarmenduta",
+    "selectingAI": "{{player}} jokatzen ari da - {{opponent}} jokalariarentzat pieza bat hautatzen...",
+    "selectUser": "{{player}} jokatzen ari da - Hautatu pieza bat {{opponent}} jokalariarentzat...",
+    "selectUserYou": "Zu jokatzen ari zara - Hautatu pieza bat {{opponent}} jokalariarentzat..."
+  },
+  "piece": {
+    "inPlay": "Jokoan dagoen pieza",
+    "none": "Ez da ezer hautatu",
+    "traits": "Piezaren ezaugarriak",
+    "black": "beltza",
+    "red": "gorria",
+    "big": "handia",
+    "small": "txikia",
+    "round": "biribila",
+    "square": "karratua",
+    "solid": "trinkoa",
+    "hollow": "hutsa"
+  },
+  "board": {
+    "binary": "Taula bitarra",
+    "piecesPlaced": "Jarritako piezak",
+    "cellEmpty": "{{cell}} gelaxka: hutsik",
+    "cellPiece": "{{cell}} gelaxka: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D errendatzea ez dago erabilgarri.",
+    "webglHeading": "Ezin izan da WebGL abiarazi.",
+    "webglMsg": "Jokoak WebGL arakatzailean gaituta egotea behar du."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Jarri kurtsorea hauta daitekeen pieza baten gainean hautaketa-arriskua aurreikusteko",
+    "hoveredRiskOne": "Kurtsorepeko piezaren arriskua: {{risk}} berehalako garaipen-kokapen",
+    "hoveredRiskMany": "Kurtsorepeko piezaren arriskua: {{risk}} berehalako garaipen-kokapen",
+    "immediateWins": "Berehalako garaipen-kokapenak",
+    "latestRisk": "Azken hautaketa-arriskua",
+    "riskOneAI": "IAk hautatutako piezaren arriskua: {{risk}} berehalako garaipen-kokapen",
+    "riskManyAI": "IAk hautatutako piezaren arriskua: {{risk}} berehalako garaipen-kokapen",
+    "riskTurnedOff": "Hautaketa-arriskua desaktibatuta dago",
+    "riskUnavailableAI": "Hautaketa-arriskua ez dago erabilgarri IA IAren aurka moduan",
+    "selectionRisk": "Hautaketa-arriskua",
+    "turnRiskOff": "Desaktibatu hautaketa-arriskua",
+    "turnRiskOn": "Aktibatu hautaketa-arriskua"
+  },
+  "metadata": {
+    "description": "Quarto mahai-jokoaren 3D interfaze interaktiboa, Three.js eta alfa-beta inausketa duen Minimax adimen artifizialeko algoritmoaren Negamax bertsioa erabiliz. Jokatu erabiltzailea erabiltzailearen aurka, erabiltzailea IAren aurka eta IA IAren aurka, IA erraz, ertain eta zailarekin.",
+    "ogDescription": "Quarto 3D mahai-joko interaktiboa. Jokatu erabiltzailea erabiltzailearen aurka, erabiltzailea IAren aurka eta IA IAren aurka, IA erraz, ertain eta zailarekin."
+  }
+}

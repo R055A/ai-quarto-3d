@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "KI-Quarto 3D",
+    "eyebrow": "Eng portéiert Verbesserung vun",
+    "newGame": "Neit Spill"
+  },
+  "common": {
+    "on": "UN",
+    "off": "AUS"
+  },
+  "a11y": {
+    "utilityActions": "Applikatiounslinken a Sprooch",
+    "viewSource": "Quellcode op GitHub kucken",
+    "gameControls": "Spillsteierung",
+    "gameBoard": "3D-Spillbriet",
+    "gameInfo": "Spillinformatioun"
+  },
+  "controls": {
+    "diffAI": "KI-Schwieregkeet",
+    "diffPlayerOneAI": "S1-Schwieregkeet",
+    "diffPlayerTwoAI": "S2-Schwieregkeet",
+    "startingPlayer": "Startspiller",
+    "gameMode": "Spillmodus",
+    "pauseAI": "KI pauséieren",
+    "resumeAI": "KI weiderféieren",
+    "undo": "Réckgängeg",
+    "redo": "Widderhuelen"
+  },
+  "diff": {
+    "easy": "Einfach",
+    "medium": "Mëttel",
+    "hard": "Schwéier"
+  },
+  "mode": {
+    "userVsUser": "Spiller géint Spiller",
+    "userVsAI": "Spiller géint KI",
+    "onlyAI": "KI géint KI"
+  },
+  "player": {
+    "playerYou": "Du",
+    "playerOne": "Spiller Eent",
+    "playerTwo": "Spiller Zwee",
+    "playerAI": "KI ({{difficulty}})",
+    "playerNumberedAI": "KI (S{{number}}, {{difficulty}})",
+    "playerRandom": "Zoufälleg",
+    "playerAIPlayer": "KI-Spiller",
+    "playerShort": "S{{number}}"
+  },
+  "status": {
+    "loading": "Spillstatus...",
+    "pausedAI": "{{player}} ass pauséiert...",
+    "placingAI": "{{player}} spillt - setzt d’Figur op d’Briet...",
+    "placingUser": "{{player}} spillt - Setz déi ausgewielte Figur op d’Briet...",
+    "placeUserYou": "Du spills - Setz déi ausgewielte Figur op d’Briet...",
+    "gameDrawn": "Gläichspill - keng Gewënnlinn",
+    "gameWon": "{{player}} gewënnt - Gewënnlinn ervirgehuewen",
+    "selectingAI": "{{player}} spillt - wielt eng Figur fir {{opponent}}...",
+    "selectUser": "{{player}} spillt - Wiel eng Figur fir {{opponent}}...",
+    "selectUserYou": "Du spills - Wiel eng Figur fir {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Figur am Spill",
+    "none": "Näischt ausgewielt",
+    "traits": "Eegenschafte vun der Figur",
+    "black": "schwaarz",
+    "red": "rout",
+    "big": "grouss",
+    "small": "kleng",
+    "round": "ronn",
+    "square": "véiereckeg",
+    "solid": "massiv",
+    "hollow": "huel"
+  },
+  "board": {
+    "binary": "Binärt Briet",
+    "piecesPlaced": "Gesate Figuren",
+    "cellEmpty": "Feld {{cell}}: eidel",
+    "cellPiece": "Feld {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-Rendering ass net verfügbar.",
+    "webglHeading": "WebGL konnt net starten.",
+    "webglMsg": "D’Spill erfuerdert, datt WebGL am Browser aktivéiert ass."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Fuert mat der Maus iwwer eng auswielbar Figur fir de Selektiounsrisiko ze kucken",
+    "hoveredRiskOne": "Risiko vun der Figur ënner der Maus: {{risk}} direkt gewënnend Placéierung",
+    "hoveredRiskMany": "Risiko vun der Figur ënner der Maus: {{risk}} direkt gewënnend Placéierungen",
+    "immediateWins": "Direkt gewënnend Placéierungen",
+    "latestRisk": "Leschte Selektiounsrisiko",
+    "riskOneAI": "Risiko vun der KI-ausgewielter Figur: {{risk}} direkt gewënnend Placéierung",
+    "riskManyAI": "Risiko vun der KI-ausgewielter Figur: {{risk}} direkt gewënnend Placéierungen",
+    "riskTurnedOff": "Selektiounsrisiko ass ausgeschalt",
+    "riskUnavailableAI": "Selektiounsrisiko ass am KI géint KI-Modus net verfügbar",
+    "selectionRisk": "Selektiounsrisiko",
+    "turnRiskOff": "Selektiounsrisiko ausschalten",
+    "turnRiskOn": "Selektiounsrisiko aschalten"
+  },
+  "metadata": {
+    "description": "Interaktiv 3D-Interface vum Quarto-Brietspill mat Three.js an der Negamax-Versioun vum Minimax-Algorithmus fir kënschtlech Intelligenz mat Alpha-Beta-Pruning. Spill Spiller géint Spiller, Spiller géint KI a KI géint KI mat einfacher, mëttlerer a schwéierer KI.",
+    "ogDescription": "Interaktivt 3D Quarto-Brietspill. Spill Spiller géint Spiller, Spiller géint KI a KI géint KI mat einfacher, mëttlerer a schwéierer KI."
+  }
+}

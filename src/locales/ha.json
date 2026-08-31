@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "Ingantaccen sigar da aka ɗora daga",
+    "newGame": "Sabon wasa"
+  },
+  "common": {
+    "on": "KUNNA",
+    "off": "KASHE"
+  },
+  "a11y": {
+    "utilityActions": "Hanyoyin manhaja da harshe",
+    "viewSource": "Duba lambar tushe a GitHub",
+    "gameControls": "Ikon wasa",
+    "gameBoard": "Allon wasa na 3D",
+    "gameInfo": "Bayanan wasa"
+  },
+  "controls": {
+    "diffAI": "Wahalar AI",
+    "diffPlayerOneAI": "Wahalar P1",
+    "diffPlayerTwoAI": "Wahalar P2",
+    "startingPlayer": "Ɗan wasan da zai fara",
+    "gameMode": "Yanayin wasa",
+    "pauseAI": "Dakatar da AI",
+    "resumeAI": "Ci gaba da AI",
+    "undo": "Mayar baya",
+    "redo": "Sake yi"
+  },
+  "diff": {
+    "easy": "Sauƙi",
+    "medium": "Matsakaici",
+    "hard": "Wahala"
+  },
+  "mode": {
+    "userVsUser": "Mai amfani da mai amfani",
+    "userVsAI": "Mai amfani da AI",
+    "onlyAI": "AI da AI"
+  },
+  "player": {
+    "playerYou": "Kai",
+    "playerOne": "Ɗan wasa na Ɗaya",
+    "playerTwo": "Ɗan wasa na Biyu",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Bazuwar",
+    "playerAIPlayer": "Ɗan wasan AI",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Matsayin wasa...",
+    "pausedAI": "An dakatar da {{player}}...",
+    "placingAI": "{{player}} yana wasa - yana sanya guntu a kan allo...",
+    "placingUser": "{{player}} yana wasa - Sanya guntun da aka zaɓa a kan allo...",
+    "placeUserYou": "Kana wasa - Sanya guntun da aka zaɓa a kan allo...",
+    "gameDrawn": "Wasa ya tashi kunnen doki - babu layin nasara",
+    "gameWon": "{{player}} ya yi nasara - an haskaka layin nasara",
+    "selectingAI": "{{player}} yana wasa - yana zaɓar guntu ga {{opponent}}...",
+    "selectUser": "{{player}} yana wasa - Zaɓi guntu ga {{opponent}}...",
+    "selectUserYou": "Kana wasa - Zaɓi guntu ga {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Guntu a wasa",
+    "none": "Ba a zaɓi komai ba",
+    "traits": "Siffofin guntu",
+    "black": "baƙi",
+    "red": "ja",
+    "big": "babba",
+    "small": "ƙarami",
+    "round": "zagaye",
+    "square": "murabba’i",
+    "solid": "cikakke",
+    "hollow": "mai rami"
+  },
+  "board": {
+    "binary": "Allon binary",
+    "piecesPlaced": "Guntun da aka sanya",
+    "cellEmpty": "Kwaya {{cell}}: babu komai",
+    "cellPiece": "Kwaya {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Nunawar 3D ba ta samuwa.",
+    "webglHeading": "WebGL bai iya farawa ba.",
+    "webglMsg": "Wasan yana buƙatar a kunna WebGL a burauza."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Motsa linzamin kwamfuta kan guntu da za a iya zaɓa don ganin haɗarin zaɓinsa",
+    "hoveredRiskOne": "Haɗarin guntun da aka nuna: {{risk}} wurin nasara nan take",
+    "hoveredRiskMany": "Haɗarin guntun da aka nuna: {{risk}} wuraren nasara nan take",
+    "immediateWins": "Wuraren nasara nan take",
+    "latestRisk": "Haɗarin zaɓi na baya-bayan nan",
+    "riskOneAI": "Haɗarin guntun da AI ya zaɓa: {{risk}} wurin nasara nan take",
+    "riskManyAI": "Haɗarin guntun da AI ya zaɓa: {{risk}} wuraren nasara nan take",
+    "riskTurnedOff": "An kashe haɗarin zaɓi",
+    "riskUnavailableAI": "Haɗarin zaɓi ba ya samuwa a yanayin AI da AI",
+    "selectionRisk": "Haɗarin zaɓi",
+    "turnRiskOff": "Kashe haɗarin zaɓi",
+    "turnRiskOn": "Kunna haɗarin zaɓi"
+  },
+  "metadata": {
+    "description": "Mu’amalar wasan allo Quarto na 3D mai hulɗa, tana amfani da Three.js da sigar Negamax ta tsarin basirar wucin gadi na Minimax tare da yankan alpha-beta. Yi wasa mai amfani da mai amfani, mai amfani da AI, da AI da AI, tare da matakan AI masu sauƙi, matsakaici da wahala.",
+    "ogDescription": "Wasan allo Quarto na 3D mai hulɗa. Yi wasa mai amfani da mai amfani, mai amfani da AI, da AI da AI, tare da matakan AI masu sauƙi, matsakaici da wahala."
+  }
+}

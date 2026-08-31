@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "שיפור שהוסב מתוך",
+    "newGame": "משחק חדש"
+  },
+  "common": {
+    "on": "פועל",
+    "off": "כבוי"
+  },
+  "a11y": {
+    "utilityActions": "קישורי היישום והשפה",
+    "viewSource": "הצגת קוד המקור ב-GitHub",
+    "gameControls": "פקדי המשחק",
+    "gameBoard": "לוח משחק תלת־ממדי",
+    "gameInfo": "מידע על המשחק"
+  },
+  "controls": {
+    "diffAI": "רמת קושי של הבינה המלאכותית",
+    "diffPlayerOneAI": "רמת קושי P1",
+    "diffPlayerTwoAI": "רמת קושי P2",
+    "startingPlayer": "שחקן מתחיל",
+    "gameMode": "מצב משחק",
+    "pauseAI": "השהיית הבינה המלאכותית",
+    "resumeAI": "המשך הבינה המלאכותית",
+    "undo": "ביטול",
+    "redo": "ביצוע מחדש"
+  },
+  "diff": {
+    "easy": "קל",
+    "medium": "בינוני",
+    "hard": "קשה"
+  },
+  "mode": {
+    "userVsUser": "משתמש מול משתמש",
+    "userVsAI": "משתמש מול בינה מלאכותית",
+    "onlyAI": "בינה מלאכותית מול בינה מלאכותית"
+  },
+  "player": {
+    "playerYou": "את/ה",
+    "playerOne": "שחקן ראשון",
+    "playerTwo": "שחקן שני",
+    "playerAI": "בינה מלאכותית ({{difficulty}})",
+    "playerNumberedAI": "בינה מלאכותית (P{{number}}, {{difficulty}})",
+    "playerRandom": "אקראי",
+    "playerAIPlayer": "שחקן בינה מלאכותית",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "מצב המשחק...",
+    "pausedAI": "התור של {{player}} מושהה...",
+    "placingAI": "התור של {{player}} - הצבת כלי על הלוח...",
+    "placingUser": "התור של {{player}} - יש להציב את הכלי שנבחר על הלוח...",
+    "placeUserYou": "התור שלך - יש להציב את הכלי שנבחר על הלוח...",
+    "gameDrawn": "המשחק הסתיים בתיקו - אין שורת ניצחון",
+    "gameWon": "{{player}} ניצח/ה - שורת הניצחון מודגשת",
+    "selectingAI": "התור של {{player}} - בחירת כלי עבור {{opponent}}...",
+    "selectUser": "התור של {{player}} - יש לבחור כלי עבור {{opponent}}...",
+    "selectUserYou": "התור שלך - יש לבחור כלי עבור {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "הכלי שבמשחק",
+    "none": "לא נבחר כלי",
+    "traits": "תכונות הכלי",
+    "black": "שחור",
+    "red": "אדום",
+    "big": "גדול",
+    "small": "קטן",
+    "round": "עגול",
+    "square": "מרובע",
+    "solid": "מלא",
+    "hollow": "חלול"
+  },
+  "board": {
+    "binary": "לוח בינארי",
+    "piecesPlaced": "כלים שהוצבו",
+    "cellEmpty": "תא {{cell}}: ריק",
+    "cellPiece": "תא {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "עיבוד תלת־ממדי אינו זמין.",
+    "webglHeading": "לא ניתן היה להפעיל את WebGL.",
+    "webglMsg": "המשחק דורש הפעלה של WebGL בדפדפן."
+  },
+  "metrics": {
+    "hoverRiskPreview": "יש לרחף מעל כלי שניתן לבחור כדי להציג תצוגה מקדימה של סיכון הבחירה שלו",
+    "hoveredRiskOne": "סיכון הכלי שמעליו מרחפים: {{risk}} הצבת ניצחון מיידית",
+    "hoveredRiskMany": "סיכון הכלי שמעליו מרחפים: {{risk}} הצבות ניצחון מיידיות",
+    "immediateWins": "הצבות ניצחון מיידיות",
+    "latestRisk": "סיכון הבחירה האחרון",
+    "riskOneAI": "סיכון הכלי שנבחר על ידי הבינה המלאכותית: {{risk}} הצבת ניצחון מיידית",
+    "riskManyAI": "סיכון הכלי שנבחר על ידי הבינה המלאכותית: {{risk}} הצבות ניצחון מיידיות",
+    "riskTurnedOff": "סיכון הבחירה כבוי",
+    "riskUnavailableAI": "סיכון הבחירה אינו זמין במצב בינה מלאכותית מול בינה מלאכותית",
+    "selectionRisk": "סיכון בחירה",
+    "turnRiskOff": "כיבוי סיכון הבחירה",
+    "turnRiskOn": "הפעלת סיכון הבחירה"
+  },
+  "metadata": {
+    "description": "ממשק אינטראקטיבי למשחק הלוח Quarto בתלת־ממד, המשתמש ב-Three.js ובגרסת Negamax של אלגוריתם הבינה המלאכותית Minimax עם גיזום אלפא-בטא. ניתן לשחק משתמש מול משתמש, משתמש מול בינה מלאכותית ובינה מלאכותית מול בינה מלאכותית, עם רמות קושי קלות, בינוניות וקשות.",
+    "ogDescription": "משחק לוח Quarto אינטראקטיבי בתלת־ממד. ניתן לשחק משתמש מול משתמש, משתמש מול בינה מלאכותית ובינה מלאכותית מול בינה מלאכותית, עם רמות קושי קלות, בינוניות וקשות."
+  }
+}

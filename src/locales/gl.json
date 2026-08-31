@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "Unha mellora portada de",
+    "newGame": "Nova partida"
+  },
+  "common": {
+    "on": "ACTIVADO",
+    "off": "DESACTIVADO"
+  },
+  "a11y": {
+    "utilityActions": "Ligazóns da aplicación e idioma",
+    "viewSource": "Ver o código fonte en GitHub",
+    "gameControls": "Controis do xogo",
+    "gameBoard": "Taboleiro de xogo 3D",
+    "gameInfo": "Información do xogo"
+  },
+  "controls": {
+    "diffAI": "Dificultade da IA",
+    "diffPlayerOneAI": "Dificultade X1",
+    "diffPlayerTwoAI": "Dificultade X2",
+    "startingPlayer": "Xogador inicial",
+    "gameMode": "Modo de xogo",
+    "pauseAI": "Pausar IA",
+    "resumeAI": "Retomar IA",
+    "undo": "Desfacer",
+    "redo": "Refacer"
+  },
+  "diff": {
+    "easy": "Fácil",
+    "medium": "Media",
+    "hard": "Difícil"
+  },
+  "mode": {
+    "userVsUser": "Usuario contra usuario",
+    "userVsAI": "Usuario contra IA",
+    "onlyAI": "IA contra IA"
+  },
+  "player": {
+    "playerYou": "Ti",
+    "playerOne": "Xogador un",
+    "playerTwo": "Xogador dous",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (X{{number}}, {{difficulty}})",
+    "playerRandom": "Aleatorio",
+    "playerAIPlayer": "Xogador IA",
+    "playerShort": "X{{number}}"
+  },
+  "status": {
+    "loading": "Estado da partida...",
+    "pausedAI": "{{player}} está en pausa...",
+    "placingAI": "{{player}} está xogando - colocando a peza no taboleiro...",
+    "placingUser": "{{player}} está xogando - Coloca a peza seleccionada no taboleiro...",
+    "placeUserYou": "Estás xogando - Coloca a peza seleccionada no taboleiro...",
+    "gameDrawn": "Partida empatada - sen liña gañadora",
+    "gameWon": "{{player}} gaña - liña gañadora resaltada",
+    "selectingAI": "{{player}} está xogando - seleccionando unha peza para {{opponent}}...",
+    "selectUser": "{{player}} está xogando - Selecciona unha peza para {{opponent}}...",
+    "selectUserYou": "Estás xogando - Selecciona unha peza para {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Peza en xogo",
+    "none": "Ningunha seleccionada",
+    "traits": "Características da peza",
+    "black": "negra",
+    "red": "vermella",
+    "big": "grande",
+    "small": "pequena",
+    "round": "redonda",
+    "square": "cadrada",
+    "solid": "maciza",
+    "hollow": "oca"
+  },
+  "board": {
+    "binary": "Taboleiro binario",
+    "piecesPlaced": "Pezas colocadas",
+    "cellEmpty": "Cela {{cell}}: baleira",
+    "cellPiece": "Cela {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "O renderizado 3D non está dispoñible.",
+    "webglHeading": "WebGL non puido iniciarse.",
+    "webglMsg": "O xogo require que WebGL estea activado no navegador."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Pasa o cursor sobre unha peza seleccionable para previsualizar o risco de selección",
+    "hoveredRiskOne": "Risco da peza baixo o cursor: {{risk}} colocación gañadora inmediata",
+    "hoveredRiskMany": "Risco da peza baixo o cursor: {{risk}} colocacións gañadoras inmediatas",
+    "immediateWins": "Colocacións gañadoras inmediatas",
+    "latestRisk": "Último risco de selección",
+    "riskOneAI": "Risco da peza seleccionada pola IA: {{risk}} colocación gañadora inmediata",
+    "riskManyAI": "Risco da peza seleccionada pola IA: {{risk}} colocacións gañadoras inmediatas",
+    "riskTurnedOff": "O risco de selección está desactivado",
+    "riskUnavailableAI": "O risco de selección non está dispoñible no modo IA contra IA",
+    "selectionRisk": "Risco de selección",
+    "turnRiskOff": "Desactivar risco de selección",
+    "turnRiskOn": "Activar risco de selección"
+  },
+  "metadata": {
+    "description": "Interface interactiva do xogo de mesa Quarto en 3D con Three.js e a versión Negamax do algoritmo de intelixencia artificial Minimax con poda alfa-beta. Xoga usuario contra usuario, usuario contra IA e IA contra IA, con dificultades de IA fácil, media e difícil.",
+    "ogDescription": "Xogo de mesa Quarto interactivo en 3D. Xoga usuario contra usuario, usuario contra IA e IA contra IA, con dificultades de IA fácil, media e difícil."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "MI-Quarto 3D",
+    "eyebrow": "Egy portolt továbbfejlesztése ennek:",
+    "newGame": "Új játék"
+  },
+  "common": {
+    "on": "BE",
+    "off": "KI"
+  },
+  "a11y": {
+    "utilityActions": "Alkalmazáshivatkozások és nyelv",
+    "viewSource": "Forráskód megtekintése a GitHubon",
+    "gameControls": "Játékvezérlők",
+    "gameBoard": "3D-s játéktábla",
+    "gameInfo": "Játékinformáció"
+  },
+  "controls": {
+    "diffAI": "MI nehézsége",
+    "diffPlayerOneAI": "J1 nehézsége",
+    "diffPlayerTwoAI": "J2 nehézsége",
+    "startingPlayer": "Kezdő játékos",
+    "gameMode": "Játékmód",
+    "pauseAI": "MI szüneteltetése",
+    "resumeAI": "MI folytatása",
+    "undo": "Visszavonás",
+    "redo": "Újra"
+  },
+  "diff": {
+    "easy": "Könnyű",
+    "medium": "Közepes",
+    "hard": "Nehéz"
+  },
+  "mode": {
+    "userVsUser": "Játékos játékos ellen",
+    "userVsAI": "Játékos MI ellen",
+    "onlyAI": "MI MI ellen"
+  },
+  "player": {
+    "playerYou": "Te",
+    "playerOne": "Első játékos",
+    "playerTwo": "Második játékos",
+    "playerAI": "MI ({{difficulty}})",
+    "playerNumberedAI": "MI (J{{number}}, {{difficulty}})",
+    "playerRandom": "Véletlenszerű",
+    "playerAIPlayer": "MI-játékos",
+    "playerShort": "J{{number}}"
+  },
+  "status": {
+    "loading": "Játék állapota...",
+    "pausedAI": "{{player}} szünetel...",
+    "placingAI": "{{player}} játszik - elhelyezi a bábut a táblán...",
+    "placingUser": "{{player}} játszik - Helyezd a kiválasztott bábut a táblára...",
+    "placeUserYou": "Te játszol - Helyezd a kiválasztott bábut a táblára...",
+    "gameDrawn": "Döntetlen - nincs nyerő vonal",
+    "gameWon": "{{player}} nyer - a nyerő vonal kiemelve",
+    "selectingAI": "{{player}} játszik - bábut választ {{opponent}} számára...",
+    "selectUser": "{{player}} játszik - Válassz bábut {{opponent}} számára...",
+    "selectUserYou": "Te játszol - Válassz bábut {{opponent}} számára..."
+  },
+  "piece": {
+    "inPlay": "Játékban lévő bábu",
+    "none": "Nincs kiválasztva",
+    "traits": "Bábu tulajdonságai",
+    "black": "fekete",
+    "red": "piros",
+    "big": "nagy",
+    "small": "kicsi",
+    "round": "kerek",
+    "square": "négyzetes",
+    "solid": "tömör",
+    "hollow": "üreges"
+  },
+  "board": {
+    "binary": "Bináris tábla",
+    "piecesPlaced": "Elhelyezett bábuk",
+    "cellEmpty": "{{cell}}. mező: üres",
+    "cellPiece": "{{cell}}. mező: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "A 3D-s megjelenítés nem érhető el.",
+    "webglHeading": "A WebGL nem indítható.",
+    "webglMsg": "A játékhoz engedélyezni kell a WebGL-t a böngészőben."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Vidd az egérmutatót egy választható bábu fölé a kiválasztási kockázat előnézetéhez",
+    "hoveredRiskOne": "A kijelölt bábu kockázata: {{risk}} azonnali nyerő elhelyezés",
+    "hoveredRiskMany": "A kijelölt bábu kockázata: {{risk}} azonnali nyerő elhelyezés",
+    "immediateWins": "Azonnali nyerő elhelyezések",
+    "latestRisk": "Legutóbbi kiválasztási kockázat",
+    "riskOneAI": "Az MI által választott bábu kockázata: {{risk}} azonnali nyerő elhelyezés",
+    "riskManyAI": "Az MI által választott bábu kockázata: {{risk}} azonnali nyerő elhelyezés",
+    "riskTurnedOff": "A kiválasztási kockázat ki van kapcsolva",
+    "riskUnavailableAI": "A kiválasztási kockázat MI MI ellen módban nem érhető el",
+    "selectionRisk": "Kiválasztási kockázat",
+    "turnRiskOff": "Kiválasztási kockázat kikapcsolása",
+    "turnRiskOn": "Kiválasztási kockázat bekapcsolása"
+  },
+  "metadata": {
+    "description": "Interaktív 3D-s Quarto társasjáték-felület Three.js használatával, a Minimax mesterségesintelligencia-algoritmus Negamax változatával és alfa-béta metszéssel. Játssz játékos játékos ellen, játékos MI ellen vagy MI MI ellen módban, könnyű, közepes vagy nehéz MI-vel.",
+    "ogDescription": "Interaktív 3D-s Quarto társasjáték. Játssz játékos játékos ellen, játékos MI ellen vagy MI MI ellen módban, könnyű, közepes vagy nehéz MI-vel."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "En porterad förbättring av",
+    "newGame": "Nytt spel"
+  },
+  "common": {
+    "on": "PÅ",
+    "off": "AV"
+  },
+  "a11y": {
+    "utilityActions": "Programlänkar och språk",
+    "viewSource": "Visa källkod på GitHub",
+    "gameControls": "Spelkontroller",
+    "gameBoard": "3D-spelbräde",
+    "gameInfo": "Spelinformation"
+  },
+  "controls": {
+    "diffAI": "AI-svårighetsgrad",
+    "diffPlayerOneAI": "P1-svårighetsgrad",
+    "diffPlayerTwoAI": "P2-svårighetsgrad",
+    "startingPlayer": "Startspelare",
+    "gameMode": "Spelläge",
+    "pauseAI": "Pausa AI",
+    "resumeAI": "Återuppta AI",
+    "undo": "Ångra",
+    "redo": "Gör om"
+  },
+  "diff": {
+    "easy": "Lätt",
+    "medium": "Medel",
+    "hard": "Svår"
+  },
+  "mode": {
+    "userVsUser": "Spelare mot spelare",
+    "userVsAI": "Spelare mot AI",
+    "onlyAI": "AI mot AI"
+  },
+  "player": {
+    "playerYou": "Du",
+    "playerOne": "Spelare ett",
+    "playerTwo": "Spelare två",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "Slumpmässig",
+    "playerAIPlayer": "AI-spelare",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "Spelstatus...",
+    "pausedAI": "{{player}} är pausad...",
+    "placingAI": "{{player}} spelar - placerar pjäsen på brädet...",
+    "placingUser": "{{player}} spelar - Placera den valda pjäsen på brädet...",
+    "placeUserYou": "Du spelar - Placera den valda pjäsen på brädet...",
+    "gameDrawn": "Oavgjort spel - ingen vinnande linje",
+    "gameWon": "{{player}} vinner - vinnande linje markerad",
+    "selectingAI": "{{player}} spelar - väljer en pjäs åt {{opponent}}...",
+    "selectUser": "{{player}} spelar - Välj en pjäs åt {{opponent}}...",
+    "selectUserYou": "Du spelar - Välj en pjäs åt {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pjäs i spel",
+    "none": "Ingen vald",
+    "traits": "Pjäsegenskaper",
+    "black": "svart",
+    "red": "röd",
+    "big": "stor",
+    "small": "liten",
+    "round": "rund",
+    "square": "fyrkantig",
+    "solid": "massiv",
+    "hollow": "ihålig"
+  },
+  "board": {
+    "binary": "Binärt bräde",
+    "piecesPlaced": "Placerade pjäser",
+    "cellEmpty": "Ruta {{cell}}: tom",
+    "cellPiece": "Ruta {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D-rendering är inte tillgänglig.",
+    "webglHeading": "WebGL kunde inte starta.",
+    "webglMsg": "Spelet kräver att WebGL är aktiverat i webbläsaren."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Håll pekaren över en valbar pjäs för att förhandsvisa dess urvalsrisk",
+    "hoveredRiskOne": "Risk för pekad pjäs: {{risk}} omedelbar vinnande placering",
+    "hoveredRiskMany": "Risk för pekad pjäs: {{risk}} omedelbara vinnande placeringar",
+    "immediateWins": "Omedelbara vinnande placeringar",
+    "latestRisk": "Senaste urvalsrisk",
+    "riskOneAI": "Risk för pjäs vald av AI: {{risk}} omedelbar vinnande placering",
+    "riskManyAI": "Risk för pjäs vald av AI: {{risk}} omedelbara vinnande placeringar",
+    "riskTurnedOff": "Urvalsrisk är avstängd",
+    "riskUnavailableAI": "Urvalsrisk är inte tillgänglig i läget AI mot AI",
+    "selectionRisk": "Urvalsrisk",
+    "turnRiskOff": "Stäng av urvalsrisk",
+    "turnRiskOn": "Slå på urvalsrisk"
+  },
+  "metadata": {
+    "description": "Interaktivt 3D-gränssnitt för brädspelet Quarto med Three.js och Negamax-versionen av Minimax-algoritmen för artificiell intelligens med alfa-beta-beskärning. Spela spelare mot spelare, spelare mot AI och AI mot AI, med lätt, medel och svår AI-svårighetsgrad.",
+    "ogDescription": "Interaktivt 3D-brädspel Quarto. Spela spelare mot spelare, spelare mot AI och AI mot AI, med lätt, medel och svår AI-svårighetsgrad."
+  }
+}

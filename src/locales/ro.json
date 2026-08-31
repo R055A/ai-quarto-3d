@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "IA-Quarto 3D",
+    "eyebrow": "O îmbunătățire portată a",
+    "newGame": "Joc nou"
+  },
+  "common": {
+    "on": "PORNIT",
+    "off": "OPRIT"
+  },
+  "a11y": {
+    "utilityActions": "Linkuri ale aplicației și limbă",
+    "viewSource": "Vezi sursa pe GitHub",
+    "gameControls": "Comenzi joc",
+    "gameBoard": "Tablă de joc 3D",
+    "gameInfo": "Informații joc"
+  },
+  "controls": {
+    "diffAI": "Dificultate IA",
+    "diffPlayerOneAI": "Dificultate J1",
+    "diffPlayerTwoAI": "Dificultate J2",
+    "startingPlayer": "Jucătorul care începe",
+    "gameMode": "Mod de joc",
+    "pauseAI": "Pauză IA",
+    "resumeAI": "Reia IA",
+    "undo": "Anulează",
+    "redo": "Refă"
+  },
+  "diff": {
+    "easy": "Ușor",
+    "medium": "Mediu",
+    "hard": "Greu"
+  },
+  "mode": {
+    "userVsUser": "Utilizator vs utilizator",
+    "userVsAI": "Utilizator vs IA",
+    "onlyAI": "IA vs IA"
+  },
+  "player": {
+    "playerYou": "Tu",
+    "playerOne": "Jucătorul unu",
+    "playerTwo": "Jucătorul doi",
+    "playerAI": "IA ({{difficulty}})",
+    "playerNumberedAI": "IA (J{{number}}, {{difficulty}})",
+    "playerRandom": "Aleatoriu",
+    "playerAIPlayer": "Jucător IA",
+    "playerShort": "J{{number}}"
+  },
+  "status": {
+    "loading": "Starea jocului...",
+    "pausedAI": "{{player}} este în pauză...",
+    "placingAI": "{{player}} joacă - plasează piesa pe tablă...",
+    "placingUser": "{{player}} joacă - Plasează piesa selectată pe tablă...",
+    "placeUserYou": "Tu joci - Plasează piesa selectată pe tablă...",
+    "gameDrawn": "Remiză - nicio linie câștigătoare",
+    "gameWon": "{{player}} câștigă - linia câștigătoare este evidențiată",
+    "selectingAI": "{{player}} joacă - selectează o piesă pentru {{opponent}}...",
+    "selectUser": "{{player}} joacă - Selectează o piesă pentru {{opponent}}...",
+    "selectUserYou": "Tu joci - Selectează o piesă pentru {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Piesă în joc",
+    "none": "Nimic selectat",
+    "traits": "Caracteristicile piesei",
+    "black": "neagră",
+    "red": "roșie",
+    "big": "mare",
+    "small": "mică",
+    "round": "rotundă",
+    "square": "pătrată",
+    "solid": "plină",
+    "hollow": "goală"
+  },
+  "board": {
+    "binary": "Tablă binară",
+    "piecesPlaced": "Piese plasate",
+    "cellEmpty": "Celula {{cell}}: goală",
+    "cellPiece": "Celula {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Randarea 3D nu este disponibilă.",
+    "webglHeading": "WebGL nu a putut porni.",
+    "webglMsg": "Jocul necesită activarea WebGL în browser."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Treci cursorul peste o piesă selectabilă pentru a previzualiza riscul de selecție",
+    "hoveredRiskOne": "Riscul piesei indicate: {{risk}} plasare câștigătoare imediată",
+    "hoveredRiskMany": "Riscul piesei indicate: {{risk}} plasări câștigătoare imediate",
+    "immediateWins": "Plasări câștigătoare imediate",
+    "latestRisk": "Ultimul risc de selecție",
+    "riskOneAI": "Riscul piesei selectate de IA: {{risk}} plasare câștigătoare imediată",
+    "riskManyAI": "Riscul piesei selectate de IA: {{risk}} plasări câștigătoare imediate",
+    "riskTurnedOff": "Riscul de selecție este oprit",
+    "riskUnavailableAI": "Riscul de selecție nu este disponibil în modul IA vs IA",
+    "selectionRisk": "Risc de selecție",
+    "turnRiskOff": "Oprește riscul de selecție",
+    "turnRiskOn": "Pornește riscul de selecție"
+  },
+  "metadata": {
+    "description": "Interfață interactivă 3D pentru jocul de masă Quarto, folosind Three.js și versiunea Negamax a algoritmului de inteligență artificială Minimax cu tăiere alfa-beta. Joacă utilizator contra utilizator, utilizator contra IA și IA contra IA, cu dificultăți IA ușoară, medie și grea.",
+    "ogDescription": "Joc de masă Quarto interactiv 3D. Joacă utilizator contra utilizator, utilizator contra IA și IA contra IA, cu dificultăți IA ușoară, medie și grea."
+  }
+}

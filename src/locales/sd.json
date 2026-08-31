@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "هن جو پورٽ ڪيل بهتر نسخو",
+    "newGame": "نئين راند"
+  },
+  "common": {
+    "on": "چالو",
+    "off": "بند"
+  },
+  "a11y": {
+    "utilityActions": "ايپليڪيشن لنڪس ۽ ٻولي",
+    "viewSource": "GitHub تي سورس ڏسو",
+    "gameControls": "راند جا ڪنٽرول",
+    "gameBoard": "3D راند بورڊ",
+    "gameInfo": "راند جي ڄاڻ"
+  },
+  "controls": {
+    "diffAI": "AI ڏکيائي",
+    "diffPlayerOneAI": "P1 ڏکيائي",
+    "diffPlayerTwoAI": "P2 ڏکيائي",
+    "startingPlayer": "شروع ڪندڙ رانديگر",
+    "gameMode": "راند موڊ",
+    "pauseAI": "AI روڪيو",
+    "resumeAI": "AI جاري رکو",
+    "undo": "واپس ڪريو",
+    "redo": "ٻيهر ڪريو"
+  },
+  "diff": {
+    "easy": "آسان",
+    "medium": "وچولو",
+    "hard": "ڏکيو"
+  },
+  "mode": {
+    "userVsUser": "استعمال ڪندڙ بمقابله استعمال ڪندڙ",
+    "userVsAI": "استعمال ڪندڙ بمقابله AI",
+    "onlyAI": "AI بمقابله AI"
+  },
+  "player": {
+    "playerYou": "توهان",
+    "playerOne": "رانديگر هڪ",
+    "playerTwo": "رانديگر ٻه",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "بي ترتيب",
+    "playerAIPlayer": "AI رانديگر",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "راند جي حالت...",
+    "pausedAI": "{{player}} روڪيل آهي...",
+    "placingAI": "{{player}} کيڏي رهيو آهي - مهر بورڊ تي رکي رهيو آهي...",
+    "placingUser": "{{player}} کيڏي رهيو آهي - چونڊيل مهر بورڊ تي رکو...",
+    "placeUserYou": "توهان کيڏي رهيا آهيو - چونڊيل مهر بورڊ تي رکو...",
+    "gameDrawn": "راند برابر - ڪا کٽڻ واري لائين ناهي",
+    "gameWon": "{{player}} کٽي ويو - کٽڻ واري لائين نمايان ڪئي وئي",
+    "selectingAI": "{{player}} کيڏي رهيو آهي - {{opponent}} لاءِ مهر چونڊي رهيو آهي...",
+    "selectUser": "{{player}} کيڏي رهيو آهي - {{opponent}} لاءِ مهر چونڊيو...",
+    "selectUserYou": "توهان کيڏي رهيا آهيو - {{opponent}} لاءِ مهر چونڊيو..."
+  },
+  "piece": {
+    "inPlay": "راند ۾ مهر",
+    "none": "ڪجهه به چونڊيل ناهي",
+    "traits": "مهر جون خاصيتون",
+    "black": "ڪارو",
+    "red": "ڳاڙهو",
+    "big": "وڏو",
+    "small": "ننڍو",
+    "round": "گول",
+    "square": "چورس",
+    "solid": "ٺوس",
+    "hollow": "کوکلو"
+  },
+  "board": {
+    "binary": "بائنري بورڊ",
+    "piecesPlaced": "رکيل مهرون",
+    "cellEmpty": "خانو {{cell}}: خالي",
+    "cellPiece": "خانو {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D رينڊرنگ موجود ناهي.",
+    "webglHeading": "WebGL شروع نه ٿي سگهيو.",
+    "webglMsg": "راند لاءِ برائوزر ۾ WebGL فعال هجڻ ضروري آهي."
+  },
+  "metrics": {
+    "hoverRiskPreview": "چونڊ خطري کي ڏسڻ لاءِ چونڊجي سگهندڙ مهر تي ڪرسر رکو",
+    "hoveredRiskOne": "ڪرسر هيٺ مهر جو خطرو: {{risk}} فوري کٽڻ واري جاءِ",
+    "hoveredRiskMany": "ڪرسر هيٺ مهر جو خطرو: {{risk}} فوري کٽڻ واريون جايون",
+    "immediateWins": "فوري کٽڻ واريون جايون",
+    "latestRisk": "تازو چونڊ خطرو",
+    "riskOneAI": "AI جي چونڊيل مهر جو خطرو: {{risk}} فوري کٽڻ واري جاءِ",
+    "riskManyAI": "AI جي چونڊيل مهر جو خطرو: {{risk}} فوري کٽڻ واريون جايون",
+    "riskTurnedOff": "چونڊ خطرو بند آهي",
+    "riskUnavailableAI": "AI بمقابله AI موڊ ۾ چونڊ خطرو موجود ناهي",
+    "selectionRisk": "چونڊ خطرو",
+    "turnRiskOff": "چونڊ خطرو بند ڪريو",
+    "turnRiskOn": "چونڊ خطرو چالو ڪريو"
+  },
+  "metadata": {
+    "description": "Three.js ۽ alpha-beta pruning واري Minimax مصنوعي ذهانت الگورٿم جي Negamax نسخي سان ٺهيل انٽرئڪٽو 3D Quarto بورڊ راند UI. آسان، وچولي ۽ ڏکي AI سطحن سان استعمال ڪندڙ بمقابله استعمال ڪندڙ، استعمال ڪندڙ بمقابله AI ۽ AI بمقابله AI کيڏو.",
+    "ogDescription": "انٽرئڪٽو 3D Quarto بورڊ راند. آسان، وچولي ۽ ڏکي AI سطحن سان استعمال ڪندڙ بمقابله استعمال ڪندڙ، استعمال ڪندڙ بمقابله AI ۽ AI بمقابله AI کيڏو."
+  }
+}

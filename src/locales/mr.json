@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "याचे पोर्ट केलेले सुधारित रूप",
+    "newGame": "नवीन खेळ"
+  },
+  "common": {
+    "on": "चालू",
+    "off": "बंद"
+  },
+  "a11y": {
+    "utilityActions": "ॲप्लिकेशन दुवे आणि भाषा",
+    "viewSource": "GitHub वर स्रोत पहा",
+    "gameControls": "खेळ नियंत्रण",
+    "gameBoard": "3D खेळ फलक",
+    "gameInfo": "खेळ माहिती"
+  },
+  "controls": {
+    "diffAI": "AI कठीणपणा",
+    "diffPlayerOneAI": "P1 कठीणपणा",
+    "diffPlayerTwoAI": "P2 कठीणपणा",
+    "startingPlayer": "सुरुवातीचा खेळाडू",
+    "gameMode": "खेळ पद्धत",
+    "pauseAI": "AI थांबवा",
+    "resumeAI": "AI पुन्हा सुरू करा",
+    "undo": "पूर्ववत करा",
+    "redo": "पुन्हा करा"
+  },
+  "diff": {
+    "easy": "सोपे",
+    "medium": "मध्यम",
+    "hard": "कठीण"
+  },
+  "mode": {
+    "userVsUser": "वापरकर्ता विरुद्ध वापरकर्ता",
+    "userVsAI": "वापरकर्ता विरुद्ध AI",
+    "onlyAI": "AI विरुद्ध AI"
+  },
+  "player": {
+    "playerYou": "तुम्ही",
+    "playerOne": "खेळाडू एक",
+    "playerTwo": "खेळाडू दोन",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "यादृच्छिक",
+    "playerAIPlayer": "AI खेळाडू",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "खेळ स्थिती...",
+    "pausedAI": "{{player}} थांबवलेला आहे...",
+    "placingAI": "{{player}} खेळत आहे - सोंगटी फलकावर ठेवत आहे...",
+    "placingUser": "{{player}} खेळत आहे - निवडलेली सोंगटी फलकावर ठेवा...",
+    "placeUserYou": "तुम्ही खेळत आहात - निवडलेली सोंगटी फलकावर ठेवा...",
+    "gameDrawn": "खेळ बरोबरीत - विजयी रेषा नाही",
+    "gameWon": "{{player}} जिंकला - विजयी रेषा ठळक केली",
+    "selectingAI": "{{player}} खेळत आहे - {{opponent}} साठी सोंगटी निवडत आहे...",
+    "selectUser": "{{player}} खेळत आहे - {{opponent}} साठी सोंगटी निवडा...",
+    "selectUserYou": "तुम्ही खेळत आहात - {{opponent}} साठी सोंगटी निवडा..."
+  },
+  "piece": {
+    "inPlay": "खेळातील सोंगटी",
+    "none": "काहीही निवडलेले नाही",
+    "traits": "सोंगटीचे गुणधर्म",
+    "black": "काळी",
+    "red": "लाल",
+    "big": "मोठी",
+    "small": "लहान",
+    "round": "गोल",
+    "square": "चौकोनी",
+    "solid": "घन",
+    "hollow": "पोकळ"
+  },
+  "board": {
+    "binary": "बायनरी फलक",
+    "piecesPlaced": "ठेवलेल्या सोंगट्या",
+    "cellEmpty": "घर {{cell}}: रिकामे",
+    "cellPiece": "घर {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D रेंडरिंग उपलब्ध नाही.",
+    "webglHeading": "WebGL सुरू होऊ शकले नाही.",
+    "webglMsg": "खेळासाठी ब्राउझरमध्ये WebGL सक्षम असणे आवश्यक आहे."
+  },
+  "metrics": {
+    "hoverRiskPreview": "निवड जोखीम पाहण्यासाठी निवडता येणाऱ्या सोंगटीवर कर्सर ठेवा",
+    "hoveredRiskOne": "कर्सरखालील सोंगटीची जोखीम: {{risk}} त्वरित विजयी स्थान",
+    "hoveredRiskMany": "कर्सरखालील सोंगटीची जोखीम: {{risk}} त्वरित विजयी स्थाने",
+    "immediateWins": "त्वरित विजयी स्थाने",
+    "latestRisk": "नवीनतम निवड जोखीम",
+    "riskOneAI": "AI ने निवडलेल्या सोंगटीची जोखीम: {{risk}} त्वरित विजयी स्थान",
+    "riskManyAI": "AI ने निवडलेल्या सोंगटीची जोखीम: {{risk}} त्वरित विजयी स्थाने",
+    "riskTurnedOff": "निवड जोखीम बंद आहे",
+    "riskUnavailableAI": "AI विरुद्ध AI पद्धतीत निवड जोखीम उपलब्ध नाही",
+    "selectionRisk": "निवड जोखीम",
+    "turnRiskOff": "निवड जोखीम बंद करा",
+    "turnRiskOn": "निवड जोखीम चालू करा"
+  },
+  "metadata": {
+    "description": "Three.js आणि अल्फा-बीटा प्रूनिंग असलेल्या Minimax कृत्रिम बुद्धिमत्ता अल्गोरिदमच्या Negamax आवृत्तीचा वापर करणारा इंटरॅक्टिव्ह 3D Quarto बोर्ड गेम UI. सोपे, मध्यम आणि कठीण AI स्तरांसह वापरकर्ता विरुद्ध वापरकर्ता, वापरकर्ता विरुद्ध AI आणि AI विरुद्ध AI खेळा.",
+    "ogDescription": "इंटरॅक्टिव्ह 3D Quarto बोर्ड गेम. सोपे, मध्यम आणि कठीण AI स्तरांसह वापरकर्ता विरुद्ध वापरकर्ता, वापरकर्ता विरुद्ध AI आणि AI विरुद्ध AI खेळा."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "SI-Quarto 3D",
+    "eyebrow": "Przenieszone ulepszenie projektu",
+    "newGame": "Nowa gra"
+  },
+  "common": {
+    "on": "WŁ.",
+    "off": "WYŁ."
+  },
+  "a11y": {
+    "utilityActions": "Łącza aplikacji i język",
+    "viewSource": "Zobacz kod źródłowy na GitHubie",
+    "gameControls": "Sterowanie grą",
+    "gameBoard": "Plansza gry 3D",
+    "gameInfo": "Informacje o grze"
+  },
+  "controls": {
+    "diffAI": "Poziom trudności AI",
+    "diffPlayerOneAI": "Poziom trudności G1",
+    "diffPlayerTwoAI": "Poziom trudności G2",
+    "startingPlayer": "Gracz rozpoczynający",
+    "gameMode": "Tryb gry",
+    "pauseAI": "Wstrzymaj AI",
+    "resumeAI": "Wznów AI",
+    "undo": "Cofnij",
+    "redo": "Ponów"
+  },
+  "diff": {
+    "easy": "Łatwy",
+    "medium": "Średni",
+    "hard": "Trudny"
+  },
+  "mode": {
+    "userVsUser": "Gracz kontra gracz",
+    "userVsAI": "Gracz kontra AI",
+    "onlyAI": "AI kontra AI"
+  },
+  "player": {
+    "playerYou": "Ty",
+    "playerOne": "Gracz pierwszy",
+    "playerTwo": "Gracz drugi",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (G{{number}}, {{difficulty}})",
+    "playerRandom": "Losowo",
+    "playerAIPlayer": "Gracz AI",
+    "playerShort": "G{{number}}"
+  },
+  "status": {
+    "loading": "Stan rozgrywki...",
+    "pausedAI": "{{player}} jest wstrzymany...",
+    "placingAI": "{{player}} gra — umieszcza pionek na planszy...",
+    "placingUser": "{{player}} gra — Umieść wybrany pionek na planszy...",
+    "placeUserYou": "Grasz — Umieść wybrany pionek na planszy...",
+    "gameDrawn": "Remis — brak zwycięskiej linii",
+    "gameWon": "{{player}} wygrywa — zwycięska linia podświetlona",
+    "selectingAI": "{{player}} gra — wybiera pionek dla {{opponent}}...",
+    "selectUser": "{{player}} gra — Wybierz pionek dla {{opponent}}...",
+    "selectUserYou": "Grasz — Wybierz pionek dla {{opponent}}..."
+  },
+  "piece": {
+    "inPlay": "Pionek w grze",
+    "none": "Nic nie wybrano",
+    "traits": "Cechy pionka",
+    "black": "czarny",
+    "red": "czerwony",
+    "big": "duży",
+    "small": "mały",
+    "round": "okrągły",
+    "square": "kwadratowy",
+    "solid": "pełny",
+    "hollow": "pusty"
+  },
+  "board": {
+    "binary": "Plansza binarna",
+    "piecesPlaced": "Umieszczone pionki",
+    "cellEmpty": "Pole {{cell}}: puste",
+    "cellPiece": "Pole {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "Renderowanie 3D jest niedostępne.",
+    "webglHeading": "Nie udało się uruchomić WebGL.",
+    "webglMsg": "Gra wymaga włączenia WebGL w przeglądarce."
+  },
+  "metrics": {
+    "hoverRiskPreview": "Najedź na możliwy do wybrania pionek, aby podejrzeć ryzyko jego wyboru",
+    "hoveredRiskOne": "Ryzyko wskazanego pionka: {{risk}} natychmiastowe zwycięskie umieszczenie",
+    "hoveredRiskMany": "Ryzyko wskazanego pionka: {{risk}} natychmiastowych zwycięskich umieszczeń",
+    "immediateWins": "Natychmiastowe zwycięskie umieszczenia",
+    "latestRisk": "Najnowsze ryzyko wyboru",
+    "riskOneAI": "Ryzyko pionka wybranego przez AI: {{risk}} natychmiastowe zwycięskie umieszczenie",
+    "riskManyAI": "Ryzyko pionka wybranego przez AI: {{risk}} natychmiastowych zwycięskich umieszczeń",
+    "riskTurnedOff": "Ryzyko wyboru jest wyłączone",
+    "riskUnavailableAI": "Ryzyko wyboru jest niedostępne w trybie AI kontra AI",
+    "selectionRisk": "Ryzyko wyboru",
+    "turnRiskOff": "Wyłącz ryzyko wyboru",
+    "turnRiskOn": "Włącz ryzyko wyboru"
+  },
+  "metadata": {
+    "description": "Interaktywny interfejs planszowej gry Quarto 3D wykorzystujący Three.js oraz wersję Negamax algorytmu sztucznej inteligencji Minimax z przycinaniem alfa-beta. Graj gracz kontra gracz, gracz kontra AI i AI kontra AI na łatwym, średnim lub trudnym poziomie AI.",
+    "ogDescription": "Interaktywna planszowa gra Quarto 3D. Graj gracz kontra gracz, gracz kontra AI i AI kontra AI na łatwym, średnim lub trudnym poziomie AI."
+  }
+}

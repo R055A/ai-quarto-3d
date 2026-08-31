@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "AI-Quarto 3D",
+    "eyebrow": "దీనికి పోర్ట్ చేసిన మెరుగుదల",
+    "newGame": "కొత్త ఆట"
+  },
+  "common": {
+    "on": "ఆన్",
+    "off": "ఆఫ్"
+  },
+  "a11y": {
+    "utilityActions": "అప్లికేషన్ లింకులు మరియు భాష",
+    "viewSource": "GitHubలో సోర్స్ చూడండి",
+    "gameControls": "గేమ్ నియంత్రణలు",
+    "gameBoard": "3D గేమ్ బోర్డు",
+    "gameInfo": "గేమ్ సమాచారం"
+  },
+  "controls": {
+    "diffAI": "AI కఠినత",
+    "diffPlayerOneAI": "P1 కఠినత",
+    "diffPlayerTwoAI": "P2 కఠినత",
+    "startingPlayer": "ప్రారంభ ఆటగాడు",
+    "gameMode": "గేమ్ మోడ్",
+    "pauseAI": "AIని పాజ్ చేయండి",
+    "resumeAI": "AIని కొనసాగించండి",
+    "undo": "అన్‌డూ",
+    "redo": "రీడూ"
+  },
+  "diff": {
+    "easy": "సులభం",
+    "medium": "మధ్యస్థం",
+    "hard": "కష్టం"
+  },
+  "mode": {
+    "userVsUser": "వినియోగదారు vs వినియోగదారు",
+    "userVsAI": "వినియోగదారు vs AI",
+    "onlyAI": "AI vs AI"
+  },
+  "player": {
+    "playerYou": "మీరు",
+    "playerOne": "ఆటగాడు ఒకరు",
+    "playerTwo": "ఆటగాడు ఇద్దరు",
+    "playerAI": "AI ({{difficulty}})",
+    "playerNumberedAI": "AI (P{{number}}, {{difficulty}})",
+    "playerRandom": "యాదృచ్ఛికం",
+    "playerAIPlayer": "AI ఆటగాడు",
+    "playerShort": "P{{number}}"
+  },
+  "status": {
+    "loading": "గేమ్ స్థితి...",
+    "pausedAI": "{{player}} పాజ్‌లో ఉన్నారు...",
+    "placingAI": "{{player}} ఆడుతున్నారు - పావును బోర్డుపై ఉంచుతున్నారు...",
+    "placingUser": "{{player}} ఆడుతున్నారు - ఎంచుకున్న పావును బోర్డుపై ఉంచండి...",
+    "placeUserYou": "మీరు ఆడుతున్నారు - ఎంచుకున్న పావును బోర్డుపై ఉంచండి...",
+    "gameDrawn": "గేమ్ డ్రా - గెలుపు రేఖ లేదు",
+    "gameWon": "{{player}} గెలిచారు - గెలుపు రేఖ హైలైట్ చేయబడింది",
+    "selectingAI": "{{player}} ఆడుతున్నారు - {{opponent}} కోసం పావును ఎంచుకుంటున్నారు...",
+    "selectUser": "{{player}} ఆడుతున్నారు - {{opponent}} కోసం పావును ఎంచుకోండి...",
+    "selectUserYou": "మీరు ఆడుతున్నారు - {{opponent}} కోసం పావును ఎంచుకోండి..."
+  },
+  "piece": {
+    "inPlay": "ఆటలోని పావు",
+    "none": "ఏదీ ఎంచుకోలేదు",
+    "traits": "పావు లక్షణాలు",
+    "black": "నలుపు",
+    "red": "ఎరుపు",
+    "big": "పెద్ద",
+    "small": "చిన్న",
+    "round": "గుండ్రం",
+    "square": "చతురస్రం",
+    "solid": "ఘనం",
+    "hollow": "బోలు"
+  },
+  "board": {
+    "binary": "బైనరీ బోర్డు",
+    "piecesPlaced": "ఉంచిన పావులు",
+    "cellEmpty": "గడి {{cell}}: ఖాళీ",
+    "cellPiece": "గడి {{cell}}: {{piece}}"
+  },
+  "error": {
+    "renderingStatus": "3D రెండరింగ్ అందుబాటులో లేదు.",
+    "webglHeading": "WebGL ప్రారంభం కాలేదు.",
+    "webglMsg": "గేమ్‌కు బ్రౌజర్‌లో WebGL ప్రారంభించాలి."
+  },
+  "metrics": {
+    "hoverRiskPreview": "ఎంపిక ప్రమాదాన్ని చూడటానికి ఎంచుకోగల పావుపై కర్సర్ ఉంచండి",
+    "hoveredRiskOne": "కర్సర్ కింద ఉన్న పావు ప్రమాదం: {{risk}} తక్షణ గెలుపు స్థానం",
+    "hoveredRiskMany": "కర్సర్ కింద ఉన్న పావు ప్రమాదం: {{risk}} తక్షణ గెలుపు స్థానాలు",
+    "immediateWins": "తక్షణ గెలుపు స్థానాలు",
+    "latestRisk": "తాజా ఎంపిక ప్రమాదం",
+    "riskOneAI": "AI ఎంచుకున్న పావు ప్రమాదం: {{risk}} తక్షణ గెలుపు స్థానం",
+    "riskManyAI": "AI ఎంచుకున్న పావు ప్రమాదం: {{risk}} తక్షణ గెలుపు స్థానాలు",
+    "riskTurnedOff": "ఎంపిక ప్రమాదం ఆఫ్‌లో ఉంది",
+    "riskUnavailableAI": "AI vs AI మోడ్‌లో ఎంపిక ప్రమాదం అందుబాటులో లేదు",
+    "selectionRisk": "ఎంపిక ప్రమాదం",
+    "turnRiskOff": "ఎంపిక ప్రమాదాన్ని ఆఫ్ చేయండి",
+    "turnRiskOn": "ఎంపిక ప్రమాదాన్ని ఆన్ చేయండి"
+  },
+  "metadata": {
+    "description": "Three.js మరియు ఆల్ఫా-బీటా ప్రూనింగ్‌తో Minimax కృత్రిమ మేధస్సు అల్గారిథమ్ యొక్క Negamax వెర్షన్‌ను ఉపయోగించే ఇంటరాక్టివ్ 3D Quarto బోర్డు గేమ్ UI. సులభం, మధ్యస్థం మరియు కష్టం AI స్థాయిలతో వినియోగదారు vs వినియోగదారు, వినియోగదారు vs AI మరియు AI vs AI ఆడండి.",
+    "ogDescription": "ఇంటరాక్టివ్ 3D Quarto బోర్డు గేమ్. సులభం, మధ్యస్థం మరియు కష్టం AI స్థాయిలతో వినియోగదారు vs వినియోగదారు, వినియోగదారు vs AI మరియు AI vs AI ఆడండి."
+  }
+}
