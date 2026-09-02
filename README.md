@@ -1,8 +1,6 @@
 # AI-Quarto 3D
 
-AI-Quarto in 3D using negamax with alpha-beta pruning, a React UI, and a Three.js game scene. Not affiliated with Gigamic.
-
-Current UI design is focused on Desktop use. Experience may differ between devices. [Play game here](https://r055a.github.io/ai-quarto-3d/).
+AI-Quarto in 3D using negamax with alpha-beta pruning, React UI and Three.js game scene. Not affiliated with Gigamic.
 
 A ported enhancement of past Uppsala University project: [uni-git-projects/uu-game](https://github.com/Uni-Git-Projects) (below); applying skills from more   
 studies completed with distinction, including (full-stack, UI) web dev, software eng, HCI, CG, AI/ML, and data eng, etc.
@@ -10,8 +8,8 @@ studies completed with distinction, including (full-stack, UI) web dev, software
 > Note: all relevant studies are completed before ChatGPT and other GenAI models have been publicly available.
 
 More specifically, the Python game engine component and CLI are ported and enhanced to an interactive 3D web UI.       
-From recollection, it was the only, if not best game engine; with all components completed, at least with all members.
-
+From recollection, it was the only, if not best game engine; with all components completed, at least with all members.  
+However, it wasn't the only time I overcome epic injuries to excel under eternal 24/7 harassment and wrongdoing plagues.
 
 <details>
 <summary>UU-Game group:
