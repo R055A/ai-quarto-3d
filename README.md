@@ -9,7 +9,7 @@ studies completed with distinction, including (full-stack, UI) web dev, software
 
 More specifically, the Python game engine component and CLI are ported and enhanced to an interactive 3D web UI.       
 From recollection, it was the only, if not best game engine; with all components completed, at least with all members.  
-However, it wasn't the only time I overcome epic injuries to excel under eternal 24/7 harassment and wrongdoing plagues.
+However, it wasn't the only time I overcome epic injuries to excel under eternal 24/7 harassment, wrongdoing plagues.
 
 <details>
 <summary>UU-Game group:
