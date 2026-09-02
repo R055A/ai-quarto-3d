@@ -1,6 +1,6 @@
 # AI-Quarto 3D
 
-AI-Quarto in 3D using negamax with alpha-beta pruning, React UI and Three.js game scene. Not affiliated with Gigamic.
+AI-Quarto in 3D using negamax with alpha-beta pruning, React UI and Three.js scene. Not affiliated with Gigamic.
 
 A ported enhancement of past Uppsala University project: [uni-git-projects/uu-game](https://github.com/Uni-Git-Projects) (below); applying skills from more   
 studies completed with distinction, including (full-stack, UI) web dev, software eng, HCI, CG, AI/ML, and data eng, etc.
